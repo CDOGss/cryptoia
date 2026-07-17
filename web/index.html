@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CryptoIA — tableau de bord</title>
+<style>
+  :root{--bg:#0b1020;--card:#141a2e;--fg:#e5e9f5;--mut:#9aa4bf;--acc:#3b82f6;
+        --green:#22c55e;--red:#ef4444;--amber:#f59e0b;--line:#26304d}
+  @media (prefers-color-scheme:light){
+    :root{--bg:#f6f7fb;--card:#fff;--fg:#111827;--mut:#6b7280;--acc:#2563eb;--line:#e5e7eb}}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+       background:var(--bg);color:var(--fg);line-height:1.5}
+  header{padding:24px 20px 8px}
+  h1{margin:0;font-size:1.5rem}
+  .sub{color:var(--mut);font-size:.9rem;margin-top:4px}
+  main{max-width:1000px;margin:0 auto;padding:16px 20px 60px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:16px 0}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+  .kpi .l{color:var(--mut);font-size:.8rem}
+  .kpi .v{font-size:1.5rem;font-weight:700;margin-top:4px}
+  .pos{color:var(--green)}.neg{color:var(--red)}
+  h2{font-size:1.05rem;margin:28px 0 10px}
+  table{width:100%;border-collapse:collapse;font-size:.85rem}
+  th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}
+  th{color:var(--mut);font-weight:600}
+  .tag{display:inline-block;padding:1px 8px;border-radius:99px;font-size:.75rem;font-weight:600}
+  .ta{background:rgba(34,197,94,.15);color:var(--green)}
+  .tv{background:rgba(239,68,68,.15);color:var(--red)}
+  .bar-wrap{background:var(--line);border-radius:6px;overflow:hidden;height:10px;width:100%}
+  .bar{height:100%;background:var(--acc)}
+  svg{width:100%;height:auto;background:var(--card);border:1px solid var(--line);border-radius:12px}
+  .err{color:var(--mut);padding:20px}
+  .verdict{font-weight:700}
+  .legend{display:flex;gap:16px;font-size:.8rem;color:var(--mut);margin:-4px 0 10px;flex-wrap:wrap}
+  .dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:middle}
+</style>
+</head>
+<body>
+<header>
+  <h1>🪙 CryptoIA — l'IA contre le buy & hold</h1>
+  <div class="sub">Allocation crypto quotidienne décidée par Gemini · marche à blanc, aucun argent réel</div>
+</header>
+<main id="app"><div class="err">Chargement…</div></main>
+
+<script>
+const fmt = (n,d=2)=> n==null?'—':n.toLocaleString('fr-FR',{minimumFractionDigits:d,maximumFractionDigits:d});
+const pct = n => n==null?'—':(n>=0?'+':'')+fmt(n,2)+' %';
+const sd  = n => n==null?'—':(n>=0?'+':'')+fmt(n,2)+' $';
+const cls = n => n==null?'':n>=0?'pos':'neg';
+
+async function jget(p){ const r=await fetch(p,{cache:'no-store'}); if(!r.ok) throw 0; return r.json(); }
+
+function lineChart(hist, keys, colors){
+  const W=960,H=280,P=40;
+  let allv=[]; keys.forEach(k=>hist.forEach(p=>{if(p[k]!=null)allv.push(p[k])}));
+  if(!allv.length) return '';
+  const mn=Math.min(0,...allv), mx=Math.max(0,...allv), sp=(mx-mn)||1;
+  const X=i=>P+(W-2*P)*(hist.length<2?0.5:i/(hist.length-1));
+  const Y=v=>H-P-(H-2*P)*(v-mn)/sp;
+  const path=(k)=>hist.map((p,i)=>p[k]==null?'':(i?'L':'M')+X(i).toFixed(1)+' '+Y(p[k]).toFixed(1)).filter(Boolean).join(' ');
+  let s=`<svg viewBox="0 0 ${W} ${H}">`;
+  s+=`<line x1="${P}" y1="${Y(0).toFixed(1)}" x2="${W-P}" y2="${Y(0).toFixed(1)}" stroke="var(--line)"/>`;
+  keys.forEach((k,j)=>{ s+=`<path d="${path(k)}" fill="none" stroke="${colors[j]}" stroke-width="2.2"/>`; });
+  s+=`<text x="${P}" y="16" fill="var(--mut)" font-size="11">${fmt(mx,1)}%</text>`;
+  s+=`<text x="${P}" y="${H-P+16}" fill="var(--mut)" font-size="11">${fmt(mn,1)}%</text>`;
+  s+='</svg>';
+  return s;
+}
+
+function kpi(l,v,c){return `<div class="card kpi"><div class="l">${l}</div><div class="v ${c||''}">${v}</div></div>`}
+
+async function render(){
+  let pf,hist;
+  try{ pf=await jget('../portfolio.json'); }catch(e){ document.getElementById('app').innerHTML='<div class="err">Aucune donnée : lance d\'abord le bot (portfolio.json manquant).</div>'; return; }
+  try{ hist=await jget('../history.json'); }catch(e){ hist=[]; }
+
+  const nav = pf.cash + Object.values(pf.positions||{}).reduce((s,_)=>s,0); // valorisation exacte nécessite les prix ; on utilise l'historique pour la NAV affichée
+  const dernier = hist.length ? hist[hist.length-1] : null;
+  const navAff = dernier ? dernier.nav : pf.capital_initial;
+  const perf = dernier ? dernier.perf_totale_pct : 0;
+  const perfBtc = dernier ? dernier.perf_btc_pct : null;
+  const perfPanier = dernier ? dernier.perf_panier_pct : null;
+  const alpha = perfBtc!=null ? perf - perfBtc : null;
+  const verdict = alpha==null ? '<span class="tag ta">en attente</span>'
+    : alpha>0 ? '<span class="tag ta">l\'IA bat BTC (buy & hold)</span>' : '<span class="tag tv">BTC (buy & hold) fait mieux</span>';
+
+  let h='';
+  h+='<div class="grid">';
+  h+=kpi('NAV (virtuel)', fmt(navAff)+' $');
+  h+=kpi('Performance IA', pct(perf), cls(perf));
+  h+=kpi('Buy & hold BTC', pct(perfBtc), cls(perfBtc));
+  h+=kpi('Buy & hold panier', pct(perfPanier), cls(perfPanier));
+  h+=kpi('Frais cumulés', fmt(pf.frais_cumules)+' $');
+  h+='</div>';
+
+  h+=`<div class="grid" style="grid-template-columns:1fr"><div class="card kpi"><div class="l">Verdict (${hist.length} jour(s) de recul)</div><div class="v verdict" style="font-size:1.1rem">${verdict}${alpha!=null?` <span style="font-size:.85rem;color:var(--mut);font-weight:400">(${alpha>=0?'+':''}${fmt(alpha,2)} pts d'écart)</span>`:''}</div></div></div>`;
+
+  if(hist.length){
+    h+='<h2>Performance cumulée</h2>';
+    h+='<div class="legend"><span><span class="dot" style="background:#3b82f6"></span>CryptoIA</span><span><span class="dot" style="background:#f59e0b"></span>Buy & hold BTC</span><span><span class="dot" style="background:#9ca3af"></span>Buy & hold panier</span></div>';
+    h+=lineChart(hist,['perf_totale_pct','perf_btc_pct','perf_panier_pct'],['#3b82f6','#f59e0b','#9ca3af']);
+  }
+
+  const positions = pf.positions||{};
+  const ids = Object.keys(positions);
+  if(ids.length){
+    h+='<h2>Allocation actuelle</h2><table><tr><th>Actif</th><th>Parts</th></tr>';
+    ids.forEach(id=>{h+=`<tr><td>${id}</td><td>${fmt(positions[id].parts,6)}</td></tr>`});
+    h+='</table>';
+  }
+
+  if(pf.derniere_decision){
+    const d = pf.derniere_decision;
+    h+='<h2>Dernière décision de l\'IA</h2>';
+    h+=`<div class="card"><div style="margin-bottom:8px"><span class="tag ta">${d.regime}</span></div><div style="color:var(--mut);font-size:.9rem">${d.commentaire||''}</div></div>`;
+  }
+
+  document.getElementById('app').innerHTML=h;
+}
+render();
+</script>
+</body>
+</html>

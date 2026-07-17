@@ -1,0 +1,58 @@
+name: Bot CryptoIA (marche à blanc)
+
+on:
+  schedule:
+    # Marché crypto ouvert 24/7 : un passage par jour suffit pour ce style
+    # d'allocation quotidienne (créneau + rattrapage best-effort le lendemain).
+    - cron: "5 8 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write   # pour committer l'état (portfolio.json, history.json, rapport)
+  pages: write
+  id-token: write
+
+concurrency:
+  group: cryptoia
+  cancel-in-progress: false
+
+jobs:
+  passage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+
+      - name: Passage quotidien
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python main.py
+
+      - name: Committer l'état
+        run: |
+          git config user.name "cryptoia-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add portfolio.json history.json daily_report.md performance_chart.png
+          git diff --staged --quiet || git commit -m "Passage CryptoIA $(date -u +%F)"
+          git push
+
+      - name: Déployer le dashboard (GitHub Pages)
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  pages:
+    needs: passage
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
