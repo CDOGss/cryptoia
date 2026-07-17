@@ -1,0 +1,47 @@
+{
+  "capital_initial": 1000.0,
+  "cash": 500.0,
+  "positions": {
+    "ethereum": {
+      "parts": 0.08167948501316356
+    },
+    "bitcoin": {
+      "parts": 0.003960953483577308
+    },
+    "solana": {
+      "parts": 1.3373493975903614
+    }
+  },
+  "frais_cumules": 0.5,
+  "benchmarks": {
+    "buy_hold_btc": {
+      "parts": {
+        "bitcoin": 0.01585967360791715
+      }
+    },
+    "buy_hold_panier": {
+      "parts": {
+        "bitcoin": 0.0015859673607917148,
+        "ethereum": 0.05450749750628199,
+        "solana": 1.3386880856760375,
+        "binancecoin": 0.17768301350390905,
+        "ripple": 92.33610341643583,
+        "cardano": 623.7408232131385,
+        "avalanche-2": 15.432098765432098,
+        "chainlink": 12.224938875305623,
+        "polkadot": 116.95400316009716,
+        "dogecoin": 1390.9947003101918
+      }
+    }
+  },
+  "derniere_decision": {
+    "allocations": {
+      "bitcoin": 0.25,
+      "ethereum": 0.15,
+      "solana": 0.1
+    },
+    "cash": 0.5,
+    "regime": "risk_off",
+    "commentaire": "Face à l'incertitude macroéconomique (tensions géopolitiques, retards de régulation) et à un momentum à court terme baissier, une approche défensive s'impose avec 50 % de cash. L'exposition restante se concentre sur le Bitcoin pour sa résilience, ainsi que sur Ethereum et Solana qui sont les rares à maintenir un momentum positif sur 30 jours."
+  }
+}
