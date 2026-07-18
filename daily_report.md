@@ -1,25 +1,26 @@
-# 🪙 CryptoIA — rapport du 2026-07-17
+# 🪙 CryptoIA — rapport du 2026-07-18
 
 ## Tableau de bord
-- **NAV** : 999.50 $ (-0.05 % depuis le départ)
-- **Cash** : 500.00 $ | **Frais cumulés** : 0.50 $
-- **Buy & hold BTC** : +0.00 % | **Buy & hold panier** : +0.00 %
-- **Verdict** : ❌ BTC en buy & hold fait mieux (-0.05 points d'écart)
+- **NAV** : 1,003.40 $ (+0.34 % depuis le départ)
+- **Cash** : 301.59 $ | **Frais cumulés** : 0.70 $
+- **Buy & hold BTC** : +1.38 % | **Buy & hold panier** : +0.48 %
+- **Verdict** : ❌ BTC en buy & hold fait mieux (-1.04 points d'écart)
 
 ## Allocation actuelle
-- Bitcoin (BTC) : 25.0 % (249.75 $)
-- Ethereum (ETH) : 15.0 % (149.85 $)
-- Solana (SOL) : 10.0 % (99.90 $)
-- Cash : 50.0 % (500.00 $)
+- Bitcoin (BTC) : 30.0 % (301.03 $)
+- Ethereum (ETH) : 25.0 % (250.80 $)
+- Solana (SOL) : 10.0 % (99.85 $)
+- Chainlink (LINK) : 5.0 % (50.13 $)
+- Cash : 30.1 % (301.59 $)
 
 ## Décision de l'IA aujourd'hui
-- **Régime perçu** : risk_off
-- **Commentaire** : Face à l'incertitude macroéconomique (tensions géopolitiques, retards de régulation) et à un momentum à court terme baissier, une approche défensive s'impose avec 50 % de cash. L'exposition restante se concentre sur le Bitcoin pour sa résilience, ainsi que sur Ethereum et Solana qui sont les rares à maintenir un momentum positif sur 30 jours.
+- **Régime perçu** : neutre
+- **Commentaire** : L'apaisement récent de l'inflation américaine et les perspectives de régulation bipartisane offrent un répit macroéconomique à court terme. Cependant, la dynamique mensuelle du Bitcoin reste atone et plusieurs altcoins chutent lourdement. Nous surpondérons les rares actifs en force relative (ETH, LINK) tout en conservant 30 % de cash par prudence face à l'incertitude.
 
 ## Ordres exécutés (rééquilibrage)
-- ACHAT Ethereum (ETH) — 150.00 $ (frais 0.15 $)
-- ACHAT Bitcoin (BTC) — 250.00 $ (frais 0.25 $)
-- ACHAT Solana (SOL) — 100.00 $ (frais 0.10 $)
+- ACHAT Ethereum (ETH) — 100.33 $ (frais 0.10 $)
+- ACHAT Chainlink (LINK) — 50.18 $ (frais 0.05 $)
+- ACHAT Bitcoin (BTC) — 47.89 $ (frais 0.05 $)
 
 ---
 *Marche à blanc, aucun argent réel. Rien ici ne constitue un conseil d'investissement.*
