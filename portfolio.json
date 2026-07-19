@@ -1,9 +1,9 @@
 {
   "capital_initial": 1000.0,
-  "cash": 301.59228668707294,
+  "cash": 302.80248058742137,
   "positions": {
     "ethereum": {
-      "parts": 0.1360538318350638
+      "parts": 0.10842367892930553
     },
     "bitcoin": {
       "parts": 0.004709499367733321
@@ -12,10 +12,10 @@
       "parts": 1.3373493975903614
     },
     "chainlink": {
-      "parts": 6.1059280438254895
+      "parts": 12.137739591882033
     }
   },
-  "frais_cumules": 0.6984,
+  "frais_cumules": 0.8003,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -40,12 +40,12 @@
   "derniere_decision": {
     "allocations": {
       "bitcoin": 0.3,
-      "ethereum": 0.25,
+      "ethereum": 0.2,
       "solana": 0.1,
-      "chainlink": 0.05
+      "chainlink": 0.1
     },
     "cash": 0.3,
     "regime": "neutre",
-    "commentaire": "L'apaisement récent de l'inflation américaine et les perspectives de régulation bipartisane offrent un répit macroéconomique à court terme. Cependant, la dynamique mensuelle du Bitcoin reste atone et plusieurs altcoins chutent lourdement. Nous surpondérons les rares actifs en force relative (ETH, LINK) tout en conservant 30 % de cash par prudence face à l'incertitude."
+    "commentaire": "Le portefeuille se concentre sur les actifs démontrant le meilleur momentum mensuel (ETH, SOL, LINK) avec BTC comme socle stratégique. Face aux incertitudes macroéconomiques et géopolitiques actuelles, une poche de liquidités de 30 % est maintenue pour protéger le capital et saisir d'éventuelles opportunités."
   }
 }
