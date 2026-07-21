@@ -1,9 +1,9 @@
 {
   "capital_initial": 1000.0,
-  "cash": 302.80248058742137,
+  "cash": 101.03756083826853,
   "positions": {
     "ethereum": {
-      "parts": 0.10842367892930553
+      "parts": 0.13341648762062133
     },
     "bitcoin": {
       "parts": 0.004709499367733321
@@ -12,10 +12,13 @@
       "parts": 1.3373493975903614
     },
     "chainlink": {
-      "parts": 12.137739591882033
+      "parts": 17.818212026210972
+    },
+    "cardano": {
+      "parts": 592.3097555301946
     }
   },
-  "frais_cumules": 0.8003,
+  "frais_cumules": 1.0021,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -40,12 +43,13 @@
   "derniere_decision": {
     "allocations": {
       "bitcoin": 0.3,
-      "ethereum": 0.2,
-      "solana": 0.1,
-      "chainlink": 0.1
+      "ethereum": 0.25,
+      "chainlink": 0.15,
+      "cardano": 0.1,
+      "solana": 0.1
     },
-    "cash": 0.3,
-    "regime": "neutre",
-    "commentaire": "Malgré la résilience du Bitcoin et le momentum haussier d'Ethereum et Solana, les incertitudes macroéconomiques liées aux futures décisions de la Fed imposent la prudence. Je surpondère les actifs affichant une bonne force relative à 30 jours et maintiens 30 % de cash pour pallier la volatilité à venir."
+    "cash": 0.1,
+    "regime": "risk_on",
+    "commentaire": "Le momentum global est clairement haussier, tiré par la force d'Ethereum et le retour des flux sur les ETF Bitcoin. Nous privilégions les actifs ayant la meilleure dynamique à 30 jours (ETH, LINK, ADA) tout en ignorant les cryptos en perte de vitesse, et nous conservons 10 % de cash par prudence face aux actuelles tensions géopolitiques."
   }
 }
