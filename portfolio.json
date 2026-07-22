@@ -1,24 +1,24 @@
 {
   "capital_initial": 1000.0,
-  "cash": 101.03756083826853,
+  "cash": 255.02559622852448,
   "positions": {
     "ethereum": {
-      "parts": 0.13341648762062133
+      "parts": 0.10681822940858514
     },
     "bitcoin": {
       "parts": 0.004709499367733321
     },
-    "solana": {
-      "parts": 1.3373493975903614
-    },
     "chainlink": {
-      "parts": 17.818212026210972
+      "parts": 11.928758478473236
     },
     "cardano": {
       "parts": 592.3097555301946
+    },
+    "ripple": {
+      "parts": 45.053979029103004
     }
   },
-  "frais_cumules": 1.0021,
+  "frais_cumules": 1.2591,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -43,13 +43,13 @@
   "derniere_decision": {
     "allocations": {
       "bitcoin": 0.3,
-      "ethereum": 0.25,
-      "chainlink": 0.15,
+      "ethereum": 0.2,
+      "ripple": 0.05,
       "cardano": 0.1,
-      "solana": 0.1
+      "chainlink": 0.1
     },
-    "cash": 0.1,
-    "regime": "risk_on",
-    "commentaire": "Le momentum global est clairement haussier, tiré par la force d'Ethereum et le retour des flux sur les ETF Bitcoin. Nous privilégions les actifs ayant la meilleure dynamique à 30 jours (ETH, LINK, ADA) tout en ignorant les cryptos en perte de vitesse, et nous conservons 10 % de cash par prudence face aux actuelles tensions géopolitiques."
+    "cash": 0.25,
+    "regime": "neutre",
+    "commentaire": "Le momentum mensuel reste positif pour Ethereum et certains altcoins, soutenu par l'optimisme réglementaire du CLARITY Act. Cependant, la semaine macroéconomique chargée (Fed, résultats tech) justifie une approche prudente avec 25% de cash pour pallier la volatilité potentielle."
   }
 }
