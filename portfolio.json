@@ -1,6 +1,6 @@
 {
   "capital_initial": 1000.0,
-  "cash": 255.02559622852448,
+  "cash": 255.1034726677262,
   "positions": {
     "ethereum": {
       "parts": 0.10681822940858514
@@ -9,16 +9,16 @@
       "parts": 0.004709499367733321
     },
     "chainlink": {
-      "parts": 11.928758478473236
+      "parts": 5.950814889632859
     },
     "cardano": {
       "parts": 592.3097555301946
     },
-    "ripple": {
-      "parts": 45.053979029103004
+    "solana": {
+      "parts": 1.3215907784840213
     }
   },
-  "frais_cumules": 1.2591,
+  "frais_cumules": 1.4649,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -44,12 +44,12 @@
     "allocations": {
       "bitcoin": 0.3,
       "ethereum": 0.2,
-      "ripple": 0.05,
+      "solana": 0.1,
       "cardano": 0.1,
-      "chainlink": 0.1
+      "chainlink": 0.05
     },
     "cash": 0.25,
     "regime": "neutre",
-    "commentaire": "Le momentum mensuel reste positif pour Ethereum et certains altcoins, soutenu par l'optimisme réglementaire du CLARITY Act. Cependant, la semaine macroéconomique chargée (Fed, résultats tech) justifie une approche prudente avec 25% de cash pour pallier la volatilité potentielle."
+    "commentaire": "Le marché consolide avec un momentum favorable à 30 jours sur les contrats intelligents (ETH, SOL, ADA). Toutefois, la forte sensibilité actuelle aux indicateurs macroéconomiques et aux futures décisions de la Fed justifie une approche prudente. Je conserve 25 % de liquidités pour amortir la volatilité tout en capitalisant sur les tendances haussières de fond."
   }
 }
