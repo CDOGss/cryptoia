@@ -4,7 +4,7 @@ on:
   schedule:
     # Marché crypto ouvert 24/7 : un passage par jour suffit pour ce style
     # d'allocation quotidienne (créneau + rattrapage best-effort le lendemain).
-    - cron: "5 8 * * *"
+    - cron: "13 8 * * *"
   workflow_dispatch: {}
 
 permissions:
