@@ -1,6 +1,6 @@
 {
   "capital_initial": 1000.0,
-  "cash": 255.1034726677262,
+  "cash": 303.12903367054787,
   "positions": {
     "ethereum": {
       "parts": 0.10681822940858514
@@ -9,16 +9,13 @@
       "parts": 0.004709499367733321
     },
     "chainlink": {
-      "parts": 5.950814889632859
-    },
-    "cardano": {
-      "parts": 592.3097555301946
+      "parts": 11.920766737755695
     },
     "solana": {
       "parts": 1.3215907784840213
     }
   },
-  "frais_cumules": 1.4649,
+  "frais_cumules": 1.6144,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -45,11 +42,10 @@
       "bitcoin": 0.3,
       "ethereum": 0.2,
       "solana": 0.1,
-      "cardano": 0.1,
-      "chainlink": 0.05
+      "chainlink": 0.1
     },
-    "cash": 0.25,
+    "cash": 0.3,
     "regime": "neutre",
-    "commentaire": "Le marché consolide avec un momentum favorable à 30 jours sur les contrats intelligents (ETH, SOL, ADA). Toutefois, la forte sensibilité actuelle aux indicateurs macroéconomiques et aux futures décisions de la Fed justifie une approche prudente. Je conserve 25 % de liquidités pour amortir la volatilité tout en capitalisant sur les tendances haussières de fond."
+    "commentaire": "Le marché affiche un momentum solide sur 30 jours pour les leaders, mais subit une correction à court terme sur 24h alimentée par des incertitudes géopolitiques. Une poche de liquidités de 30 % permet de rester prudent tout en maintenant l'exposition sur les actifs (BTC, ETH, SOL, LINK) montrant la meilleure résilience fondamentale."
   }
 }
