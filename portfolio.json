@@ -1,6 +1,6 @@
 {
   "capital_initial": 1000.0,
-  "cash": 402.1660350561657,
+  "cash": 351.8603393604899,
   "positions": {
     "ethereum": {
       "parts": 0.10681822940858514
@@ -13,9 +13,12 @@
     },
     "solana": {
       "parts": 0.6755989984515001
+    },
+    "avalanche-2": {
+      "parts": 7.48962593144264
     }
   },
-  "frais_cumules": 1.7136,
+  "frais_cumules": 1.7639,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -42,10 +45,11 @@
       "bitcoin": 0.25,
       "ethereum": 0.2,
       "chainlink": 0.1,
-      "solana": 0.05
+      "solana": 0.05,
+      "avalanche-2": 0.05
     },
-    "cash": 0.4,
+    "cash": 0.35,
     "regime": "neutre",
-    "commentaire": "Face au risque de hausse des taux de la Fed et aux pressions inflationnistes de juillet 2026, je privilégie la prudence avec 40 % de liquidités. L'allocation crypto est concentrée sur le Bitcoin pour sa résilience institutionnelle et sur les actifs affichant le meilleur momentum sur 30 jours (Ethereum et Chainlink) malgré la correction générale à très court terme."
+    "commentaire": "Le marché affiche une solide tendance haussière sur 30 jours, notamment pour ETH et LINK, mais la stagnation hebdomadaire du BTC invite à la prudence. Je conserve 35 % de cash pour me prémunir d'un retournement à court terme tout en allouant tactiquement sur l'élan d'AVAX."
   }
 }
