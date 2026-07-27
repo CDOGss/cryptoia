@@ -1,24 +1,21 @@
 {
   "capital_initial": 1000.0,
-  "cash": 351.8603393604899,
+  "cash": 205.14697860507573,
   "positions": {
     "ethereum": {
-      "parts": 0.10681822940858514
+      "parts": 0.15642253381081755
     },
     "bitcoin": {
       "parts": 0.003906280468458336
     },
     "chainlink": {
-      "parts": 11.920766737755695
+      "parts": 17.484395384006056
     },
     "solana": {
-      "parts": 0.6755989984515001
-    },
-    "avalanche-2": {
-      "parts": 7.48962593144264
+      "parts": 1.334173400420915
     }
   },
-  "frais_cumules": 1.7639,
+  "frais_cumules": 2.0101,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -43,13 +40,12 @@
   "derniere_decision": {
     "allocations": {
       "bitcoin": 0.25,
-      "ethereum": 0.2,
-      "chainlink": 0.1,
-      "solana": 0.05,
-      "avalanche-2": 0.05
+      "ethereum": 0.3,
+      "chainlink": 0.15,
+      "solana": 0.1
     },
-    "cash": 0.35,
+    "cash": 0.2,
     "regime": "neutre",
-    "commentaire": "Le marché affiche une solide tendance haussière sur 30 jours, notamment pour ETH et LINK, mais la stagnation hebdomadaire du BTC invite à la prudence. Je conserve 35 % de cash pour me prémunir d'un retournement à court terme tout en allouant tactiquement sur l'élan d'AVAX."
+    "commentaire": "Ethereum mène le marché avec un momentum exceptionnel, stimulé par les afflux vers les ETF et l'anticipation de sa prochaine mise à jour, justifiant notre surpondération sur ETH et LINK. Toutefois, à la veille de la réunion décisive du FOMC (28-29 juillet), conserver 20 % de liquidités est une précaution indispensable face à l'incertitude macroéconomique, le reste assurant la diversification via BTC et SOL."
   }
 }
