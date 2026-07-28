@@ -1,21 +1,18 @@
 {
   "capital_initial": 1000.0,
-  "cash": 205.14697860507573,
+  "cash": 642.5842078054475,
   "positions": {
     "ethereum": {
-      "parts": 0.15642253381081755
+      "parts": 0.052708499458568064
     },
     "bitcoin": {
-      "parts": 0.003906280468458336
+      "parts": 0.0031191838152893076
     },
     "chainlink": {
-      "parts": 17.484395384006056
-    },
-    "solana": {
-      "parts": 1.334173400420915
+      "parts": 5.959426162277593
     }
   },
-  "frais_cumules": 2.0101,
+  "frais_cumules": 2.448,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -39,13 +36,12 @@
   },
   "derniere_decision": {
     "allocations": {
-      "bitcoin": 0.25,
-      "ethereum": 0.3,
-      "chainlink": 0.15,
-      "solana": 0.1
+      "bitcoin": 0.2,
+      "ethereum": 0.1,
+      "chainlink": 0.05
     },
-    "cash": 0.2,
-    "regime": "neutre",
-    "commentaire": "Ethereum mène le marché avec un momentum exceptionnel, stimulé par les afflux vers les ETF et l'anticipation de sa prochaine mise à jour, justifiant notre surpondération sur ETH et LINK. Toutefois, à la veille de la réunion décisive du FOMC (28-29 juillet), conserver 20 % de liquidités est une précaution indispensable face à l'incertitude macroéconomique, le reste assurant la diversification via BTC et SOL."
+    "cash": 0.65,
+    "regime": "risk_off",
+    "commentaire": "Forte aversion au risque suite à la correction des valeurs technologiques et l'incertitude liée au FOMC. Le momentum à 7j étant rouge partout, la prudence dicte une forte levée de cash (65%) tout en gardant une légère exposition sur les actifs les plus résilients à 30 jours (BTC, ETH, LINK)."
   }
 }
