@@ -1,18 +1,21 @@
 {
   "capital_initial": 1000.0,
-  "cash": 642.5842078054475,
+  "cash": 395.77196062278915,
   "positions": {
     "ethereum": {
-      "parts": 0.052708499458568064
+      "parts": 0.12971005820975656
     },
     "bitcoin": {
       "parts": 0.0031191838152893076
     },
     "chainlink": {
-      "parts": 5.959426162277593
+      "parts": 11.800071826429132
+    },
+    "cardano": {
+      "parts": 303.6934228131172
     }
   },
-  "frais_cumules": 2.448,
+  "frais_cumules": 2.6949,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -37,11 +40,12 @@
   "derniere_decision": {
     "allocations": {
       "bitcoin": 0.2,
-      "ethereum": 0.1,
-      "chainlink": 0.05
+      "ethereum": 0.25,
+      "chainlink": 0.1,
+      "cardano": 0.05
     },
-    "cash": 0.65,
-    "regime": "risk_off",
-    "commentaire": "Forte aversion au risque suite à la correction des valeurs technologiques et l'incertitude liée au FOMC. Le momentum à 7j étant rouge partout, la prudence dicte une forte levée de cash (65%) tout en gardant une légère exposition sur les actifs les plus résilients à 30 jours (BTC, ETH, LINK)."
+    "cash": 0.4,
+    "regime": "neutre",
+    "commentaire": "L'incertitude macroéconomique liée au FOMC et à la baisse des marchés actions justifie une forte position en cash (40 %). Le reste du portefeuille est alloué en fonction du momentum à 30 jours, avec une surpondération stratégique sur Ethereum, Chainlink et Cardano qui affichent la meilleure résilience relative."
   }
 }

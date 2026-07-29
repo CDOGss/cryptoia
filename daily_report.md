@@ -1,26 +1,26 @@
-# 🪙 CryptoIA — rapport du 2026-07-28
+# 🪙 CryptoIA — rapport du 2026-07-29
 
 ## Tableau de bord
-- **NAV** : 988.83 $ (-1.12 % depuis le départ)
-- **Cash** : 642.58 $ | **Frais cumulés** : 2.45 $
-- **Buy & hold BTC** : +0.60 % | **Buy & hold panier** : -1.59 %
-- **Verdict** : ❌ BTC en buy & hold fait mieux (-1.72 points d'écart)
+- **NAV** : 994.99 $ (-0.50 % depuis le départ)
+- **Cash** : 395.77 $ | **Frais cumulés** : 2.69 $
+- **Buy & hold BTC** : +2.39 % | **Buy & hold panier** : -0.10 %
+- **Verdict** : ❌ BTC en buy & hold fait mieux (-2.89 points d'écart)
 
 ## Allocation actuelle
-- Bitcoin (BTC) : 20.0 % (197.85 $)
-- Ethereum (ETH) : 10.0 % (98.93 $)
-- Chainlink (LINK) : 5.0 % (49.46 $)
-- Cash : 65.0 % (642.58 $)
+- Ethereum (ETH) : 25.0 % (248.66 $)
+- Bitcoin (BTC) : 20.2 % (201.37 $)
+- Chainlink (LINK) : 10.0 % (99.47 $)
+- Cardano (ADA) : 5.0 % (49.71 $)
+- Cash : 39.8 % (395.77 $)
 
 ## Décision de l'IA aujourd'hui
-- **Régime perçu** : risk_off
-- **Commentaire** : Forte aversion au risque suite à la correction des valeurs technologiques et l'incertitude liée au FOMC. Le momentum à 7j étant rouge partout, la prudence dicte une forte levée de cash (65%) tout en gardant une légère exposition sur les actifs les plus résilients à 30 jours (BTC, ETH, LINK).
+- **Régime perçu** : neutre
+- **Commentaire** : L'incertitude macroéconomique liée au FOMC et à la baisse des marchés actions justifie une forte position en cash (40 %). Le reste du portefeuille est alloué en fonction du momentum à 30 jours, avec une surpondération stratégique sur Ethereum, Chainlink et Cardano qui affichent la meilleure résilience relative.
 
 ## Ordres exécutés (rééquilibrage)
-- VENTE Solana (SOL) — 97.63 $ (frais 0.10 $)
-- VENTE Bitcoin (BTC) — 49.93 $ (frais 0.05 $)
-- VENTE Ethereum (ETH) — 194.66 $ (frais 0.19 $)
-- VENTE Chainlink (LINK) — 95.66 $ (frais 0.10 $)
+- ACHAT Chainlink (LINK) — 49.29 $ (frais 0.05 $)
+- ACHAT Cardano (ADA) — 49.76 $ (frais 0.05 $)
+- ACHAT Ethereum (ETH) — 147.76 $ (frais 0.15 $)
 
 ---
 *Marche à blanc, aucun argent réel. Rien ici ne constitue un conseil d'investissement.*
