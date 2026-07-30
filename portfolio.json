@@ -1,21 +1,21 @@
 {
   "capital_initial": 1000.0,
-  "cash": 395.77196062278915,
+  "cash": 397.5642480037586,
   "positions": {
     "ethereum": {
-      "parts": 0.12971005820975656
+      "parts": 0.1037125947743407
     },
     "bitcoin": {
-      "parts": 0.0031191838152893076
+      "parts": 0.0038513424344750104
     },
     "chainlink": {
-      "parts": 11.800071826429132
+      "parts": 5.946664323218463
     },
-    "cardano": {
-      "parts": 303.6934228131172
+    "binancecoin": {
+      "parts": 0.17040745124591
     }
   },
-  "frais_cumules": 2.6949,
+  "frais_cumules": 2.9902,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -39,13 +39,13 @@
   },
   "derniere_decision": {
     "allocations": {
-      "bitcoin": 0.2,
-      "ethereum": 0.25,
-      "chainlink": 0.1,
-      "cardano": 0.05
+      "bitcoin": 0.25,
+      "ethereum": 0.2,
+      "binancecoin": 0.1,
+      "chainlink": 0.05
     },
     "cash": 0.4,
     "regime": "neutre",
-    "commentaire": "L'incertitude macroéconomique liée au FOMC et à la baisse des marchés actions justifie une forte position en cash (40 %). Le reste du portefeuille est alloué en fonction du momentum à 30 jours, avec une surpondération stratégique sur Ethereum, Chainlink et Cardano qui affichent la meilleure résilience relative."
+    "commentaire": "Face au climat macroéconomique incertain (ton hawkish de la Fed et tensions géopolitiques), une forte position en liquidités (40 %) est privilégiée pour protéger le capital. L'exposition crypto se concentre sur Ethereum pour sa forte dynamique mensuelle face au Bitcoin, complétée par des allocations tactiques sur le BNB (force relative) et Chainlink (narratif RWA)."
   }
 }
