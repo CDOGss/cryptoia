@@ -1,21 +1,21 @@
 {
   "capital_initial": 1000.0,
-  "cash": 397.5642480037586,
+  "cash": 296.5528417867749,
   "positions": {
     "ethereum": {
-      "parts": 0.1037125947743407
+      "parts": 0.13099605603976086
     },
     "bitcoin": {
-      "parts": 0.0038513424344750104
-    },
-    "chainlink": {
-      "parts": 5.946664323218463
+      "parts": 0.0030978488387488783
     },
     "binancecoin": {
-      "parts": 0.17040745124591
+      "parts": 0.25101970048814615
+    },
+    "cardano": {
+      "parts": 582.417718178251
     }
   },
-  "frais_cumules": 2.9902,
+  "frais_cumules": 3.2855,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -39,13 +39,13 @@
   },
   "derniere_decision": {
     "allocations": {
-      "bitcoin": 0.25,
-      "ethereum": 0.2,
-      "binancecoin": 0.1,
-      "chainlink": 0.05
+      "bitcoin": 0.2,
+      "ethereum": 0.25,
+      "binancecoin": 0.15,
+      "cardano": 0.1
     },
-    "cash": 0.4,
+    "cash": 0.3,
     "regime": "neutre",
-    "commentaire": "Face au climat macroéconomique incertain (ton hawkish de la Fed et tensions géopolitiques), une forte position en liquidités (40 %) est privilégiée pour protéger le capital. L'exposition crypto se concentre sur Ethereum pour sa forte dynamique mensuelle face au Bitcoin, complétée par des allocations tactiques sur le BNB (force relative) et Chainlink (narratif RWA)."
+    "commentaire": "Le marché montre des signaux mixtes avec une volatilité macroéconomique justifiant une poche de liquidités protectrice de 30 %. Ethereum conserve une dynamique mensuelle exceptionnelle (+19,2 %) appuyée par de solides catalyseurs. BNB et ADA sont sélectionnés pour leur dynamique positive à court terme, tandis que nous restons à l'écart des actifs en tendance baissière comme Solana."
   }
 }
