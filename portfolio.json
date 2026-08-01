@@ -1,21 +1,21 @@
 {
   "capital_initial": 1000.0,
-  "cash": 296.5528417867749,
+  "cash": 441.17894410680714,
   "positions": {
     "ethereum": {
-      "parts": 0.13099605603976086
+      "parts": 0.07908509334918233
     },
     "bitcoin": {
       "parts": 0.0030978488387488783
     },
     "binancecoin": {
-      "parts": 0.25101970048814615
+      "parts": 0.16852740806635427
     },
     "cardano": {
       "parts": 582.417718178251
     }
   },
-  "frais_cumules": 3.2855,
+  "frais_cumules": 3.4303,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -40,12 +40,12 @@
   "derniere_decision": {
     "allocations": {
       "bitcoin": 0.2,
-      "ethereum": 0.25,
-      "binancecoin": 0.15,
+      "ethereum": 0.15,
+      "binancecoin": 0.1,
       "cardano": 0.1
     },
-    "cash": 0.3,
+    "cash": 0.45,
     "regime": "neutre",
-    "commentaire": "Le marché montre des signaux mixtes avec une volatilité macroéconomique justifiant une poche de liquidités protectrice de 30 %. Ethereum conserve une dynamique mensuelle exceptionnelle (+19,2 %) appuyée par de solides catalyseurs. BNB et ADA sont sélectionnés pour leur dynamique positive à court terme, tandis que nous restons à l'écart des actifs en tendance baissière comme Solana."
+    "commentaire": "Le marché est tiraillé entre la bonne dynamique mensuelle d'ETH ou ADA et le blocage technique du BTC sous les 64 000 $. Le report du vote du CLARITY Act au Sénat américain incite à une pause stratégique. Je sécurise 45 % de liquidités pour amortir la volatilité estivale tout en ne m'exposant qu'aux actifs démontrant la meilleure force relative récente."
   }
 }
