@@ -1,24 +1,21 @@
 {
   "capital_initial": 1000.0,
-  "cash": 387.8260402018164,
+  "cash": 347.85682934745114,
   "positions": {
     "ethereum": {
       "parts": 0.07908509334918233
     },
     "bitcoin": {
-      "parts": 0.003926050932843318
+      "parts": 0.0031505911850589147
     },
     "binancecoin": {
-      "parts": 0.08505592385446012
+      "parts": 0.1683045004338732
     },
     "cardano": {
-      "parts": 582.417718178251
-    },
-    "chainlink": {
-      "parts": 5.951020930458024
+      "parts": 1054.3906134797476
     }
   },
-  "frais_cumules": 3.581,
+  "frais_cumules": 3.8159,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -42,14 +39,13 @@
   },
   "derniere_decision": {
     "allocations": {
-      "bitcoin": 0.25,
+      "bitcoin": 0.2,
+      "cardano": 0.2,
       "ethereum": 0.15,
-      "cardano": 0.1,
-      "binancecoin": 0.05,
-      "chainlink": 0.05
+      "binancecoin": 0.1
     },
-    "cash": 0.4,
+    "cash": 0.35,
     "regime": "neutre",
-    "commentaire": "Le marché est en consolidation avec un momentum hebdomadaire baissier sur les majeurs, justifiant un niveau de cash élevé (40%). L'exposition reste concentrée sur BTC et ETH, avec un pari tactique sur Cardano pour capter sa forte surperformance relative actuelle."
+    "commentaire": "Face à un momentum freiné par l'incertitude macroéconomique et l'attente du CLARITY Act, une forte position en cash (35 %) protège le capital. L'allocation privilégie la force relative évidente de Cardano (+13,3 % sur 7j) tout en conservant une base défensive sur BTC, ETH et BNB."
   }
 }

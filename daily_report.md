@@ -1,27 +1,27 @@
-# 🪙 CryptoIA — rapport du 2026-08-02
+# 🪙 CryptoIA — rapport du 2026-08-03
 
 ## Tableau de bord
-- **NAV** : 992.28 $ (-0.77 % depuis le départ)
-- **Cash** : 387.83 $ | **Frais cumulés** : 3.58 $
-- **Buy & hold BTC** : +0.20 % | **Buy & hold panier** : +1.54 %
-- **Verdict** : ❌ BTC en buy & hold fait mieux (-0.97 points d'écart)
+- **NAV** : 987.44 $ (-1.26 % depuis le départ)
+- **Cash** : 347.86 $ | **Frais cumulés** : 3.82 $
+- **Buy & hold BTC** : -0.56 % | **Buy & hold panier** : +0.71 %
+- **Verdict** : ❌ BTC en buy & hold fait mieux (-0.70 points d'écart)
 
 ## Allocation actuelle
-- Bitcoin (BTC) : 25.0 % (248.06 $)
-- Ethereum (ETH) : 14.9 % (147.75 $)
-- Cardano (ADA) : 11.0 % (109.46 $)
-- BNB : 5.0 % (49.62 $)
-- Chainlink (LINK) : 5.0 % (49.57 $)
-- Cash : 39.1 % (387.83 $)
+- Bitcoin (BTC) : 20.0 % (197.54 $)
+- Cardano (ADA) : 20.0 % (197.45 $)
+- Ethereum (ETH) : 14.8 % (145.89 $)
+- BNB : 10.0 % (98.72 $)
+- Cash : 35.2 % (347.86 $)
 
 ## Décision de l'IA aujourd'hui
 - **Régime perçu** : neutre
-- **Commentaire** : Le marché est en consolidation avec un momentum hebdomadaire baissier sur les majeurs, justifiant un niveau de cash élevé (40%). L'exposition reste concentrée sur BTC et ETH, avec un pari tactique sur Cardano pour capter sa forte surperformance relative actuelle.
+- **Commentaire** : Face à un momentum freiné par l'incertitude macroéconomique et l'attente du CLARITY Act, une forte position en cash (35 %) protège le capital. L'allocation privilégie la force relative évidente de Cardano (+13,3 % sur 7j) tout en conservant une base défensive sur BTC, ETH et BNB.
 
 ## Ordres exécutés (rééquilibrage)
-- ACHAT Bitcoin (BTC) — 52.38 $ (frais 0.05 $)
-- ACHAT Chainlink (LINK) — 49.62 $ (frais 0.05 $)
-- VENTE BNB — 48.70 $ (frais 0.05 $)
+- ACHAT Cardano (ADA) — 88.47 $ (frais 0.09 $)
+- VENTE Bitcoin (BTC) — 48.62 $ (frais 0.05 $)
+- ACHAT BNB — 48.88 $ (frais 0.05 $)
+- VENTE Chainlink (LINK) — 48.86 $ (frais 0.05 $)
 
 ---
 *Marche à blanc, aucun argent réel. Rien ici ne constitue un conseil d'investissement.*
