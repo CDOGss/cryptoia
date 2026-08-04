@@ -1,21 +1,24 @@
 {
   "capital_initial": 1000.0,
-  "cash": 347.85682934745114,
+  "cash": 349.98111358605746,
   "positions": {
     "ethereum": {
-      "parts": 0.07908509334918233
+      "parts": 0.053720221883951154
     },
     "bitcoin": {
       "parts": 0.0031505911850589147
     },
-    "binancecoin": {
-      "parts": 0.1683045004338732
-    },
     "cardano": {
-      "parts": 1054.3906134797476
+      "parts": 767.5231002537355
+    },
+    "avalanche-2": {
+      "parts": 14.6483619895352
+    },
+    "polkadot": {
+      "parts": 119.77372785528433
     }
   },
-  "frais_cumules": 3.8159,
+  "frais_cumules": 4.2187,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -40,12 +43,13 @@
   "derniere_decision": {
     "allocations": {
       "bitcoin": 0.2,
-      "cardano": 0.2,
-      "ethereum": 0.15,
-      "binancecoin": 0.1
+      "ethereum": 0.1,
+      "cardano": 0.15,
+      "avalanche-2": 0.1,
+      "polkadot": 0.1
     },
     "cash": 0.35,
     "regime": "neutre",
-    "commentaire": "Face à un momentum freiné par l'incertitude macroéconomique et l'attente du CLARITY Act, une forte position en cash (35 %) protège le capital. L'allocation privilégie la force relative évidente de Cardano (+13,3 % sur 7j) tout en conservant une base défensive sur BTC, ETH et BNB."
+    "commentaire": "Face à un contexte macroéconomique incertain et une saisonnalité d'août historiquement faible, une forte position en cash (35%) est conservée par prudence. Le reste de l'allocation sécurise une base sur Bitcoin tout en capitalisant tactiquement sur le momentum très puissant de Cardano (lié aux avancées techniques de l'ère Dijkstra), ainsi que sur le rebond marqué d'Avalanche et Polkadot."
   }
 }

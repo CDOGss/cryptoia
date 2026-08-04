@@ -1,27 +1,29 @@
-# 🪙 CryptoIA — rapport du 2026-08-03
+# 🪙 CryptoIA — rapport du 2026-08-04
 
 ## Tableau de bord
-- **NAV** : 987.44 $ (-1.26 % depuis le départ)
-- **Cash** : 347.86 $ | **Frais cumulés** : 3.82 $
-- **Buy & hold BTC** : -0.56 % | **Buy & hold panier** : +0.71 %
-- **Verdict** : ❌ BTC en buy & hold fait mieux (-0.70 points d'écart)
+- **NAV** : 1,001.08 $ (+0.11 % depuis le départ)
+- **Cash** : 349.98 $ | **Frais cumulés** : 4.22 $
+- **Buy & hold BTC** : +1.00 % | **Buy & hold panier** : +2.79 %
+- **Verdict** : ❌ BTC en buy & hold fait mieux (-0.89 points d'écart)
 
 ## Allocation actuelle
-- Bitcoin (BTC) : 20.0 % (197.54 $)
-- Cardano (ADA) : 20.0 % (197.45 $)
-- Ethereum (ETH) : 14.8 % (145.89 $)
-- BNB : 10.0 % (98.72 $)
-- Cash : 35.2 % (347.86 $)
+- Bitcoin (BTC) : 20.0 % (200.63 $)
+- Cardano (ADA) : 15.0 % (150.22 $)
+- Ethereum (ETH) : 10.0 % (100.15 $)
+- Avalanche (AVAX) : 10.0 % (100.05 $)
+- Polkadot (DOT) : 10.0 % (100.05 $)
+- Cash : 35.0 % (349.98 $)
 
 ## Décision de l'IA aujourd'hui
 - **Régime perçu** : neutre
-- **Commentaire** : Face à un momentum freiné par l'incertitude macroéconomique et l'attente du CLARITY Act, une forte position en cash (35 %) protège le capital. L'allocation privilégie la force relative évidente de Cardano (+13,3 % sur 7j) tout en conservant une base défensive sur BTC, ETH et BNB.
+- **Commentaire** : Face à un contexte macroéconomique incertain et une saisonnalité d'août historiquement faible, une forte position en cash (35%) est conservée par prudence. Le reste de l'allocation sécurise une base sur Bitcoin tout en capitalisant tactiquement sur le momentum très puissant de Cardano (lié aux avancées techniques de l'ère Dijkstra), ainsi que sur le rebond marqué d'Avalanche et Polkadot.
 
 ## Ordres exécutés (rééquilibrage)
-- ACHAT Cardano (ADA) — 88.47 $ (frais 0.09 $)
-- VENTE Bitcoin (BTC) — 48.62 $ (frais 0.05 $)
-- ACHAT BNB — 48.88 $ (frais 0.05 $)
-- VENTE Chainlink (LINK) — 48.86 $ (frais 0.05 $)
+- VENTE Cardano (ADA) — 56.15 $ (frais 0.06 $)
+- ACHAT Avalanche (AVAX) — 100.15 $ (frais 0.10 $)
+- ACHAT Polkadot (DOT) — 100.15 $ (frais 0.10 $)
+- VENTE BNB — 99.19 $ (frais 0.10 $)
+- VENTE Ethereum (ETH) — 47.29 $ (frais 0.05 $)
 
 ---
 *Marche à blanc, aucun argent réel. Rien ici ne constitue un conseil d'investissement.*
