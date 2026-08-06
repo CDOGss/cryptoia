@@ -1,24 +1,18 @@
 {
   "capital_initial": 1000.0,
-  "cash": 399.0141904449538,
+  "cash": 298.4371853508771,
   "positions": {
     "ethereum": {
-      "parts": 0.053720221883951154
+      "parts": 0.13077225670110912
     },
     "bitcoin": {
-      "parts": 0.0023442208119871227
-    },
-    "cardano": {
-      "parts": 767.5231002537355
-    },
-    "polkadot": {
-      "parts": 119.77372785528433
+      "parts": 0.005394418047902977
     },
     "binancecoin": {
       "parts": 0.16782258486770238
     }
   },
-  "frais_cumules": 4.4683,
+  "frais_cumules": 5.0556,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -42,14 +36,12 @@
   },
   "derniere_decision": {
     "allocations": {
-      "bitcoin": 0.15,
-      "ethereum": 0.1,
-      "cardano": 0.15,
-      "polkadot": 0.1,
+      "bitcoin": 0.35,
+      "ethereum": 0.25,
       "binancecoin": 0.1
     },
-    "cash": 0.4,
+    "cash": 0.3,
     "regime": "neutre",
-    "commentaire": "Face aux incertitudes macroéconomiques d'août (taux de la Fed, blocage du CLARITY Act), 40 % du portefeuille est sécurisé en cash. La partie investie exploite le momentum en surpondérant Cardano et Polkadot pour leur puissante dynamique à 7 jours, soutenue par un socle défensif BTC/ETH/BNB. Les actifs en tendance négative sur 30 jours sont écartés."
+    "commentaire": "Le marché affiche une forte divergence entre la résilience des actifs majeurs (BTC, ETH) et la correction marquée des altcoins. Dans ce climat de consolidation incertain, une rotation vers la qualité s'impose de manière défensive. Le portefeuille privilégie donc les trois leaders du marché tout en conservant 30 % de cash pour amortir la volatilité estivale."
   }
 }
