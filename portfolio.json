@@ -1,18 +1,21 @@
 {
   "capital_initial": 1000.0,
-  "cash": 298.4371853508771,
+  "cash": 298.4995118086963,
   "positions": {
     "ethereum": {
-      "parts": 0.13077225670110912
+      "parts": 0.10425457438531756
     },
     "bitcoin": {
-      "parts": 0.005394418047902977
+      "parts": 0.0038509670410187273
     },
-    "binancecoin": {
-      "parts": 0.16782258486770238
+    "chainlink": {
+      "parts": 12.087891127606849
+    },
+    "cardano": {
+      "parts": 744.7844678094756
     }
   },
-  "frais_cumules": 5.0556,
+  "frais_cumules": 5.5539,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -36,12 +39,13 @@
   },
   "derniere_decision": {
     "allocations": {
-      "bitcoin": 0.35,
-      "ethereum": 0.25,
-      "binancecoin": 0.1
+      "bitcoin": 0.25,
+      "ethereum": 0.2,
+      "cardano": 0.15,
+      "chainlink": 0.1
     },
     "cash": 0.3,
     "regime": "neutre",
-    "commentaire": "Le marché affiche une forte divergence entre la résilience des actifs majeurs (BTC, ETH) et la correction marquée des altcoins. Dans ce climat de consolidation incertain, une rotation vers la qualité s'impose de manière défensive. Le portefeuille privilégie donc les trois leaders du marché tout en conservant 30 % de cash pour amortir la volatilité estivale."
+    "commentaire": "Face au maintien des taux de la Fed et aux incertitudes réglementaires, une poche de 30 % de cash protège le portefeuille. Bitcoin et Ethereum restent le socle défensif, tandis qu'une allocation tactique cible Cardano, porté par le récent pont Injective, ses mises à jour techniques et un excellent momentum."
   }
 }

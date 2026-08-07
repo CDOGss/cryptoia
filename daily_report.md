@@ -1,26 +1,28 @@
-# 🪙 CryptoIA — rapport du 2026-08-06
+# 🪙 CryptoIA — rapport du 2026-08-07
 
 ## Tableau de bord
-- **NAV** : 995.05 $ (-0.50 % depuis le départ)
-- **Cash** : 298.44 $ | **Frais cumulés** : 5.06 $
-- **Buy & hold BTC** : +2.39 % | **Buy & hold panier** : +1.37 %
-- **Verdict** : ❌ BTC en buy & hold fait mieux (-2.89 points d'écart)
+- **NAV** : 995.33 $ (-0.47 % depuis le départ)
+- **Cash** : 298.50 $ | **Frais cumulés** : 5.55 $
+- **Buy & hold BTC** : +2.53 % | **Buy & hold panier** : +2.10 %
+- **Verdict** : ❌ BTC en buy & hold fait mieux (-3.00 points d'écart)
 
 ## Allocation actuelle
-- Bitcoin (BTC) : 35.0 % (348.27 $)
-- Ethereum (ETH) : 25.0 % (248.76 $)
-- BNB : 10.0 % (99.57 $)
-- Cash : 30.0 % (298.44 $)
+- Bitcoin (BTC) : 25.0 % (248.96 $)
+- Ethereum (ETH) : 20.0 % (199.17 $)
+- Cardano (ADA) : 15.0 % (149.23 $)
+- Chainlink (LINK) : 10.0 % (99.48 $)
+- Cash : 30.0 % (298.50 $)
 
 ## Décision de l'IA aujourd'hui
 - **Régime perçu** : neutre
-- **Commentaire** : Le marché affiche une forte divergence entre la résilience des actifs majeurs (BTC, ETH) et la correction marquée des altcoins. Dans ce climat de consolidation incertain, une rotation vers la qualité s'impose de manière défensive. Le portefeuille privilégie donc les trois leaders du marché tout en conservant 30 % de cash pour amortir la volatilité estivale.
+- **Commentaire** : Face au maintien des taux de la Fed et aux incertitudes réglementaires, une poche de 30 % de cash protège le portefeuille. Bitcoin et Ethereum restent le socle défensif, tandis qu'une allocation tactique cible Cardano, porté par le récent pont Injective, ses mises à jour techniques et un excellent momentum.
 
 ## Ordres exécutés (rééquilibrage)
-- VENTE Polkadot (DOT) — 98.70 $ (frais 0.10 $)
-- ACHAT Ethereum (ETH) — 146.72 $ (frais 0.15 $)
-- VENTE Cardano (ADA) — 144.81 $ (frais 0.14 $)
-- ACHAT Bitcoin (BTC) — 197.12 $ (frais 0.20 $)
+- ACHAT Chainlink (LINK) — 99.58 $ (frais 0.10 $)
+- VENTE Bitcoin (BTC) — 99.78 $ (frais 0.10 $)
+- ACHAT Cardano (ADA) — 149.37 $ (frais 0.15 $)
+- VENTE BNB — 98.83 $ (frais 0.10 $)
+- VENTE Ethereum (ETH) — 50.66 $ (frais 0.05 $)
 
 ---
 *Marche à blanc, aucun argent réel. Rien ici ne constitue un conseil d'investissement.*
