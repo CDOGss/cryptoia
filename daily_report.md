@@ -1,28 +1,26 @@
-# 🪙 CryptoIA — rapport du 2026-08-07
+# 🪙 CryptoIA — rapport du 2026-08-08
 
 ## Tableau de bord
-- **NAV** : 995.33 $ (-0.47 % depuis le départ)
-- **Cash** : 298.50 $ | **Frais cumulés** : 5.55 $
-- **Buy & hold BTC** : +2.53 % | **Buy & hold panier** : +2.10 %
-- **Verdict** : ❌ BTC en buy & hold fait mieux (-3.00 points d'écart)
+- **NAV** : 996.95 $ (-0.30 % depuis le départ)
+- **Cash** : 199.68 $ | **Frais cumulés** : 5.65 $
+- **Buy & hold BTC** : +3.02 % | **Buy & hold panier** : +2.86 %
+- **Verdict** : ❌ BTC en buy & hold fait mieux (-3.32 points d'écart)
 
 ## Allocation actuelle
-- Bitcoin (BTC) : 25.0 % (248.96 $)
-- Ethereum (ETH) : 20.0 % (199.17 $)
-- Cardano (ADA) : 15.0 % (149.23 $)
-- Chainlink (LINK) : 10.0 % (99.48 $)
-- Cash : 30.0 % (298.50 $)
+- Bitcoin (BTC) : 30.0 % (299.07 $)
+- Ethereum (ETH) : 20.0 % (199.79 $)
+- Cardano (ADA) : 14.9 % (148.77 $)
+- Chainlink (LINK) : 10.0 % (99.85 $)
+- Solana (SOL) : 5.0 % (49.80 $)
+- Cash : 20.0 % (199.68 $)
 
 ## Décision de l'IA aujourd'hui
 - **Régime perçu** : neutre
-- **Commentaire** : Face au maintien des taux de la Fed et aux incertitudes réglementaires, une poche de 30 % de cash protège le portefeuille. Bitcoin et Ethereum restent le socle défensif, tandis qu'une allocation tactique cible Cardano, porté par le récent pont Injective, ses mises à jour techniques et un excellent momentum.
+- **Commentaire** : Le marché est soutenu par les flux ETF sur Bitcoin et la forte dynamique de Cardano, mais l'incertitude macroéconomique post-rapport sur l'emploi américain et l'attente du CLARITY Act justifient la prudence. Je sécurise 20 % en liquidités tout en conservant un socle robuste sur BTC/ETH et une poche tactique sur ADA et LINK.
 
 ## Ordres exécutés (rééquilibrage)
-- ACHAT Chainlink (LINK) — 99.58 $ (frais 0.10 $)
-- VENTE Bitcoin (BTC) — 99.78 $ (frais 0.10 $)
-- ACHAT Cardano (ADA) — 149.37 $ (frais 0.15 $)
-- VENTE BNB — 98.83 $ (frais 0.10 $)
-- VENTE Ethereum (ETH) — 50.66 $ (frais 0.05 $)
+- ACHAT Bitcoin (BTC) — 48.97 $ (frais 0.05 $)
+- ACHAT Solana (SOL) — 49.85 $ (frais 0.05 $)
 
 ---
 *Marche à blanc, aucun argent réel. Rien ici ne constitue un conseil d'investissement.*
