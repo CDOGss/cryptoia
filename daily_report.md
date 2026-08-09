@@ -1,26 +1,27 @@
-# 🪙 CryptoIA — rapport du 2026-08-08
+# 🪙 CryptoIA — rapport du 2026-08-09
 
 ## Tableau de bord
-- **NAV** : 996.95 $ (-0.30 % depuis le départ)
-- **Cash** : 199.68 $ | **Frais cumulés** : 5.65 $
-- **Buy & hold BTC** : +3.02 % | **Buy & hold panier** : +2.86 %
-- **Verdict** : ❌ BTC en buy & hold fait mieux (-3.32 points d'écart)
+- **NAV** : 995.41 $ (-0.46 % depuis le départ)
+- **Cash** : 199.51 $ | **Frais cumulés** : 5.95 $
+- **Buy & hold BTC** : +2.72 % | **Buy & hold panier** : +2.80 %
+- **Verdict** : ❌ BTC en buy & hold fait mieux (-3.18 points d'écart)
 
 ## Allocation actuelle
-- Bitcoin (BTC) : 30.0 % (299.07 $)
-- Ethereum (ETH) : 20.0 % (199.79 $)
-- Cardano (ADA) : 14.9 % (148.77 $)
-- Chainlink (LINK) : 10.0 % (99.85 $)
-- Solana (SOL) : 5.0 % (49.80 $)
-- Cash : 20.0 % (199.68 $)
+- Bitcoin (BTC) : 30.0 % (298.20 $)
+- Cardano (ADA) : 25.0 % (248.83 $)
+- Ethereum (ETH) : 15.0 % (149.36 $)
+- Solana (SOL) : 10.0 % (99.52 $)
+- Cash : 20.0 % (199.51 $)
 
 ## Décision de l'IA aujourd'hui
 - **Régime perçu** : neutre
-- **Commentaire** : Le marché est soutenu par les flux ETF sur Bitcoin et la forte dynamique de Cardano, mais l'incertitude macroéconomique post-rapport sur l'emploi américain et l'attente du CLARITY Act justifient la prudence. Je sécurise 20 % en liquidités tout en conservant un socle robuste sur BTC/ETH et une poche tactique sur ADA et LINK.
+- **Commentaire** : L'incertitude macroéconomique liée au ralentissement de l'emploi américain justifie une réserve de prudence de 20 % en cash. Nous surpondérons Cardano (ADA) pour capter son fort momentum technique et fondamental (+19,3 % sur 30j), tout en conservant un socle défensif majeur sur Bitcoin (30 %) et une exposition mesurée sur Ethereum et Solana pour leur résilience relative.
 
 ## Ordres exécutés (rééquilibrage)
-- ACHAT Bitcoin (BTC) — 48.97 $ (frais 0.05 $)
-- ACHAT Solana (SOL) — 49.85 $ (frais 0.05 $)
+- VENTE Ethereum (ETH) — 50.19 $ (frais 0.05 $)
+- ACHAT Solana (SOL) — 48.80 $ (frais 0.05 $)
+- ACHAT Cardano (ADA) — 101.74 $ (frais 0.10 $)
+- VENTE Chainlink (LINK) — 100.33 $ (frais 0.10 $)
 
 ---
 *Marche à blanc, aucun argent réel. Rien ici ne constitue un conseil d'investissement.*

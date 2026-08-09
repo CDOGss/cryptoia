@@ -1,24 +1,21 @@
 {
   "capital_initial": 1000.0,
-  "cash": 199.67826264031342,
+  "cash": 199.50932757666396,
   "positions": {
     "ethereum": {
-      "parts": 0.10425457438531756
+      "parts": 0.07803394589143316
     },
     "bitcoin": {
       "parts": 0.004604075028276049
     },
-    "chainlink": {
-      "parts": 12.087891127606849
-    },
     "cardano": {
-      "parts": 744.7844678094756
+      "parts": 1259.0652608490818
     },
     "solana": {
-      "parts": 0.6659908049069357
+      "parts": 1.305384559043512
     }
   },
-  "frais_cumules": 5.6528,
+  "frais_cumules": 5.9538,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -43,13 +40,12 @@
   "derniere_decision": {
     "allocations": {
       "bitcoin": 0.3,
-      "ethereum": 0.2,
-      "cardano": 0.15,
-      "chainlink": 0.1,
-      "solana": 0.05
+      "cardano": 0.25,
+      "ethereum": 0.15,
+      "solana": 0.1
     },
     "cash": 0.2,
     "regime": "neutre",
-    "commentaire": "Le marché est soutenu par les flux ETF sur Bitcoin et la forte dynamique de Cardano, mais l'incertitude macroéconomique post-rapport sur l'emploi américain et l'attente du CLARITY Act justifient la prudence. Je sécurise 20 % en liquidités tout en conservant un socle robuste sur BTC/ETH et une poche tactique sur ADA et LINK."
+    "commentaire": "L'incertitude macroéconomique liée au ralentissement de l'emploi américain justifie une réserve de prudence de 20 % en cash. Nous surpondérons Cardano (ADA) pour capter son fort momentum technique et fondamental (+19,3 % sur 30j), tout en conservant un socle défensif majeur sur Bitcoin (30 %) et une exposition mesurée sur Ethereum et Solana pour leur résilience relative."
   }
 }
