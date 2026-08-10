@@ -1,21 +1,24 @@
 {
   "capital_initial": 1000.0,
-  "cash": 199.50932757666396,
+  "cash": 298.1358413596166,
   "positions": {
     "ethereum": {
-      "parts": 0.07803394589143316
+      "parts": 0.10374503418323779
     },
     "bitcoin": {
-      "parts": 0.004604075028276049
+      "parts": 0.003824429414167746
     },
     "cardano": {
-      "parts": 1259.0652608490818
+      "parts": 508.9272072187284
     },
     "solana": {
-      "parts": 1.305384559043512
+      "parts": 0.6484624520040275
+    },
+    "binancecoin": {
+      "parts": 0.16452793369567056
     }
   },
-  "frais_cumules": 5.9538,
+  "frais_cumules": 6.3503,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -39,13 +42,14 @@
   },
   "derniere_decision": {
     "allocations": {
-      "bitcoin": 0.3,
-      "cardano": 0.25,
-      "ethereum": 0.15,
-      "solana": 0.1
+      "bitcoin": 0.25,
+      "ethereum": 0.2,
+      "binancecoin": 0.1,
+      "cardano": 0.1,
+      "solana": 0.05
     },
-    "cash": 0.2,
+    "cash": 0.3,
     "regime": "neutre",
-    "commentaire": "L'incertitude macroéconomique liée au ralentissement de l'emploi américain justifie une réserve de prudence de 20 % en cash. Nous surpondérons Cardano (ADA) pour capter son fort momentum technique et fondamental (+19,3 % sur 30j), tout en conservant un socle défensif majeur sur Bitcoin (30 %) et une exposition mesurée sur Ethereum et Solana pour leur résilience relative."
+    "commentaire": "Maintien d'une position prudente avec 30% de liquidités face aux signaux divergents des altcoins. Surpondération sur BTC et ETH qui affichent une croissance stable, et allocation tactique sur ADA pour capitaliser sur son excellent momentum mensuel."
   }
 }

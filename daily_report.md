@@ -1,27 +1,29 @@
-# 🪙 CryptoIA — rapport du 2026-08-09
+# 🪙 CryptoIA — rapport du 2026-08-10
 
 ## Tableau de bord
-- **NAV** : 995.41 $ (-0.46 % depuis le départ)
-- **Cash** : 199.51 $ | **Frais cumulés** : 5.95 $
-- **Buy & hold BTC** : +2.72 % | **Buy & hold panier** : +2.80 %
-- **Verdict** : ❌ BTC en buy & hold fait mieux (-3.18 points d'écart)
+- **NAV** : 994.22 $ (-0.58 % depuis le départ)
+- **Cash** : 298.14 $ | **Frais cumulés** : 6.35 $
+- **Buy & hold BTC** : +3.11 % | **Buy & hold panier** : +2.71 %
+- **Verdict** : ❌ BTC en buy & hold fait mieux (-3.69 points d'écart)
 
 ## Allocation actuelle
-- Bitcoin (BTC) : 30.0 % (298.20 $)
-- Cardano (ADA) : 25.0 % (248.83 $)
-- Ethereum (ETH) : 15.0 % (149.36 $)
-- Solana (SOL) : 10.0 % (99.52 $)
-- Cash : 20.0 % (199.51 $)
+- Bitcoin (BTC) : 25.0 % (248.65 $)
+- Ethereum (ETH) : 20.0 % (198.87 $)
+- Cardano (ADA) : 10.0 % (99.46 $)
+- BNB : 10.0 % (99.36 $)
+- Solana (SOL) : 5.0 % (49.73 $)
+- Cash : 30.0 % (298.14 $)
 
 ## Décision de l'IA aujourd'hui
 - **Régime perçu** : neutre
-- **Commentaire** : L'incertitude macroéconomique liée au ralentissement de l'emploi américain justifie une réserve de prudence de 20 % en cash. Nous surpondérons Cardano (ADA) pour capter son fort momentum technique et fondamental (+19,3 % sur 30j), tout en conservant un socle défensif majeur sur Bitcoin (30 %) et une exposition mesurée sur Ethereum et Solana pour leur résilience relative.
+- **Commentaire** : Maintien d'une position prudente avec 30% de liquidités face aux signaux divergents des altcoins. Surpondération sur BTC et ETH qui affichent une croissance stable, et allocation tactique sur ADA pour capitaliser sur son excellent momentum mensuel.
 
 ## Ordres exécutés (rééquilibrage)
-- VENTE Ethereum (ETH) — 50.19 $ (frais 0.05 $)
-- ACHAT Solana (SOL) — 48.80 $ (frais 0.05 $)
-- ACHAT Cardano (ADA) — 101.74 $ (frais 0.10 $)
-- VENTE Chainlink (LINK) — 100.33 $ (frais 0.10 $)
+- VENTE Cardano (ADA) — 146.60 $ (frais 0.15 $)
+- ACHAT BNB — 99.46 $ (frais 0.10 $)
+- ACHAT Ethereum (ETH) — 49.34 $ (frais 0.05 $)
+- VENTE Bitcoin (BTC) — 50.69 $ (frais 0.05 $)
+- VENTE Solana (SOL) — 50.38 $ (frais 0.05 $)
 
 ---
 *Marche à blanc, aucun argent réel. Rien ici ne constitue un conseil d'investissement.*
