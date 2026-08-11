@@ -1,24 +1,21 @@
 {
   "capital_initial": 1000.0,
-  "cash": 298.1358413596166,
+  "cash": 344.18306548663645,
   "positions": {
     "ethereum": {
-      "parts": 0.10374503418323779
+      "parts": 0.052370796166815656
     },
     "bitcoin": {
       "parts": 0.003824429414167746
     },
-    "cardano": {
-      "parts": 508.9272072187284
-    },
-    "solana": {
-      "parts": 0.6484624520040275
-    },
     "binancecoin": {
-      "parts": 0.16452793369567056
+      "parts": 0.24355704250952104
+    },
+    "chainlink": {
+      "parts": 17.32038402548532
     }
   },
-  "frais_cumules": 6.3503,
+  "frais_cumules": 6.7872,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -43,13 +40,12 @@
   "derniere_decision": {
     "allocations": {
       "bitcoin": 0.25,
-      "ethereum": 0.2,
-      "binancecoin": 0.1,
-      "cardano": 0.1,
-      "solana": 0.05
+      "ethereum": 0.1,
+      "binancecoin": 0.15,
+      "chainlink": 0.15
     },
-    "cash": 0.3,
+    "cash": 0.35,
     "regime": "neutre",
-    "commentaire": "Maintien d'une position prudente avec 30% de liquidités face aux signaux divergents des altcoins. Surpondération sur BTC et ETH qui affichent une croissance stable, et allocation tactique sur ADA pour capitaliser sur son excellent momentum mensuel."
+    "commentaire": "Le marché traverse une phase d'incertitude macroéconomique et réglementaire, maintenant les cours sous pression. Face à ce manque de direction claire, je conserve 35 % de liquidités pour protéger le portefeuille. L'allocation crypto se concentre sur le Bitcoin pour sa résilience, ainsi que sur BNB et Chainlink qui démontrent un momentum positif sur 30 jours à contre-courant du marché."
   }
 }
