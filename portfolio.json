@@ -1,9 +1,9 @@
 {
   "capital_initial": 1000.0,
-  "cash": 445.06927418482553,
+  "cash": 446.4296504591447,
   "positions": {
     "ethereum": {
-      "parts": 0.052370796166815656
+      "parts": 0.026332556570700688
     },
     "bitcoin": {
       "parts": 0.0031381971543317944
@@ -12,10 +12,10 @@
       "parts": 0.16191494393657346
     },
     "chainlink": {
-      "parts": 15.986256357149541
+      "parts": 21.031891638782618
     }
   },
-  "frais_cumules": 7.2739,
+  "frais_cumules": 7.3703,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -40,12 +40,12 @@
   "derniere_decision": {
     "allocations": {
       "bitcoin": 0.2,
-      "ethereum": 0.1,
+      "chainlink": 0.2,
       "binancecoin": 0.1,
-      "chainlink": 0.15
+      "ethereum": 0.05
     },
     "cash": 0.45,
     "regime": "neutre",
-    "commentaire": "Face à une consolidation de Bitcoin et des incertitudes macroéconomiques en ce mois d'août 2026, je privilégie la prudence avec 45 % de liquidités. Je maintiens une base sur BTC, ETH et BNB, et surpondère stratégiquement Chainlink (LINK) qui capte le meilleur momentum actuel suite à d'importantes accumulations de baleines et des innovations liées à l'IA."
+    "commentaire": "Le marché manque de direction avec un BTC stagnant sous pression et des incertitudes macroéconomiques, justifiant de relever le cash à 45 %. L'investissement se concentre de manière tactique sur Chainlink qui affiche un momentum haussier fort, soutenu par la résilience de BNB et un socle minimum en Bitcoin."
   }
 }
