@@ -1,21 +1,24 @@
 {
   "capital_initial": 1000.0,
-  "cash": 446.4296504591447,
+  "cash": 347.6323959373973,
   "positions": {
     "ethereum": {
-      "parts": 0.026332556570700688
+      "parts": 0.052304558630304906
     },
     "bitcoin": {
-      "parts": 0.0031381971543317944
+      "parts": 0.0023455276495937113
     },
     "binancecoin": {
       "parts": 0.16191494393657346
     },
     "chainlink": {
-      "parts": 21.031891638782618
+      "parts": 26.38307979449195
+    },
+    "solana": {
+      "parts": 0.6581740998902389
     }
   },
-  "frais_cumules": 7.3703,
+  "frais_cumules": 7.5694,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -39,13 +42,14 @@
   },
   "derniere_decision": {
     "allocations": {
-      "bitcoin": 0.2,
-      "chainlink": 0.2,
+      "chainlink": 0.25,
+      "bitcoin": 0.15,
+      "ethereum": 0.1,
       "binancecoin": 0.1,
-      "ethereum": 0.05
+      "solana": 0.05
     },
-    "cash": 0.45,
+    "cash": 0.35,
     "regime": "neutre",
-    "commentaire": "Le marché manque de direction avec un BTC stagnant sous pression et des incertitudes macroéconomiques, justifiant de relever le cash à 45 %. L'investissement se concentre de manière tactique sur Chainlink qui affiche un momentum haussier fort, soutenu par la résilience de BNB et un socle minimum en Bitcoin."
+    "commentaire": "Face à la stagnation du Bitcoin et la chute de nombreux altcoins, une forte réserve de cash (35 %) est privilégiée. L'allocation se concentre stratégiquement sur Chainlink (25 %) pour capturer son fort momentum haussier lié aux narratifs d'adoption institutionnelle, tout en maintenant une exposition défensive sur les leaders du marché (BTC, ETH, BNB)."
   }
 }

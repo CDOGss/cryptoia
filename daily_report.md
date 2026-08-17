@@ -1,25 +1,28 @@
-# 🪙 CryptoIA — rapport du 2026-08-16
+# 🪙 CryptoIA — rapport du 2026-08-17
 
 ## Tableau de bord
-- **NAV** : 989.69 $ (-1.03 % depuis le départ)
-- **Cash** : 446.43 $ | **Frais cumulés** : 7.37 $
-- **Buy & hold BTC** : -0.06 % | **Buy & hold panier** : +1.31 %
-- **Verdict** : ❌ BTC en buy & hold fait mieux (-0.97 points d'écart)
+- **NAV** : 989.90 $ (-1.01 % depuis le départ)
+- **Cash** : 347.63 $ | **Frais cumulés** : 7.57 $
+- **Buy & hold BTC** : +0.42 % | **Buy & hold panier** : +1.09 %
+- **Verdict** : ❌ BTC en buy & hold fait mieux (-1.43 points d'écart)
 
 ## Allocation actuelle
-- Bitcoin (BTC) : 20.0 % (197.76 $)
-- Chainlink (LINK) : 20.0 % (197.91 $)
-- BNB : 9.9 % (98.11 $)
-- Ethereum (ETH) : 5.0 % (49.49 $)
-- Cash : 45.1 % (446.43 $)
+- Chainlink (LINK) : 25.0 % (247.47 $)
+- Bitcoin (BTC) : 15.0 % (148.51 $)
+- Ethereum (ETH) : 10.0 % (98.96 $)
+- BNB : 9.9 % (97.86 $)
+- Solana (SOL) : 5.0 % (49.46 $)
+- Cash : 35.1 % (347.63 $)
 
 ## Décision de l'IA aujourd'hui
 - **Régime perçu** : neutre
-- **Commentaire** : Le marché manque de direction avec un BTC stagnant sous pression et des incertitudes macroéconomiques, justifiant de relever le cash à 45 %. L'investissement se concentre de manière tactique sur Chainlink qui affiche un momentum haussier fort, soutenu par la résilience de BNB et un socle minimum en Bitcoin.
+- **Commentaire** : Face à la stagnation du Bitcoin et la chute de nombreux altcoins, une forte réserve de cash (35 %) est privilégiée. L'allocation se concentre stratégiquement sur Chainlink (25 %) pour capturer son fort momentum haussier lié aux narratifs d'adoption institutionnelle, tout en maintenant une exposition défensive sur les leaders du marché (BTC, ETH, BNB).
 
 ## Ordres exécutés (rééquilibrage)
-- ACHAT Chainlink (LINK) — 47.53 $ (frais 0.05 $)
-- VENTE Ethereum (ETH) — 48.94 $ (frais 0.05 $)
+- ACHAT Ethereum (ETH) — 49.19 $ (frais 0.05 $)
+- ACHAT Solana (SOL) — 49.50 $ (frais 0.05 $)
+- VENTE Bitcoin (BTC) — 50.19 $ (frais 0.05 $)
+- ACHAT Chainlink (LINK) — 50.24 $ (frais 0.05 $)
 
 ---
 *Marche à blanc, aucun argent réel. Rien ici ne constitue un conseil d'investissement.*
