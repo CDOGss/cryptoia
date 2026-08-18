@@ -1,28 +1,27 @@
-# 🪙 CryptoIA — rapport du 2026-08-17
+# 🪙 CryptoIA — rapport du 2026-08-18
 
 ## Tableau de bord
-- **NAV** : 989.90 $ (-1.01 % depuis le départ)
-- **Cash** : 347.63 $ | **Frais cumulés** : 7.57 $
-- **Buy & hold BTC** : +0.42 % | **Buy & hold panier** : +1.09 %
-- **Verdict** : ❌ BTC en buy & hold fait mieux (-1.43 points d'écart)
+- **NAV** : 993.64 $ (-0.64 % depuis le départ)
+- **Cash** : 299.92 $ | **Frais cumulés** : 7.92 $
+- **Buy & hold BTC** : +1.82 % | **Buy & hold panier** : +0.99 %
+- **Verdict** : ❌ BTC en buy & hold fait mieux (-2.46 points d'écart)
 
 ## Allocation actuelle
-- Chainlink (LINK) : 25.0 % (247.47 $)
-- Bitcoin (BTC) : 15.0 % (148.51 $)
-- Ethereum (ETH) : 10.0 % (98.96 $)
-- BNB : 9.9 % (97.86 $)
-- Solana (SOL) : 5.0 % (49.46 $)
-- Cash : 35.1 % (347.63 $)
+- Bitcoin (BTC) : 25.0 % (248.40 $)
+- Ethereum (ETH) : 20.0 % (198.70 $)
+- Chainlink (LINK) : 15.0 % (149.10 $)
+- BNB : 9.8 % (97.53 $)
+- Cash : 30.2 % (299.92 $)
 
 ## Décision de l'IA aujourd'hui
 - **Régime perçu** : neutre
-- **Commentaire** : Face à la stagnation du Bitcoin et la chute de nombreux altcoins, une forte réserve de cash (35 %) est privilégiée. L'allocation se concentre stratégiquement sur Chainlink (25 %) pour capturer son fort momentum haussier lié aux narratifs d'adoption institutionnelle, tout en maintenant une exposition défensive sur les leaders du marché (BTC, ETH, BNB).
+- **Commentaire** : Le marché traverse une consolidation étroite face à des signaux macroéconomiques incertains, justifiant une posture prudente avec 30 % de liquidités. Bitcoin et Ethereum restent nos ancrages défensifs, tandis que nous surpondérons tactiquement Chainlink et BNB qui surperforment nettement la moyenne du marché sur 30 jours. Les altcoins souffrant d'une forte dynamique baissière, tels que Polkadot et Cardano, sont rigoureusement exclus.
 
 ## Ordres exécutés (rééquilibrage)
-- ACHAT Ethereum (ETH) — 49.19 $ (frais 0.05 $)
-- ACHAT Solana (SOL) — 49.50 $ (frais 0.05 $)
-- VENTE Bitcoin (BTC) — 50.19 $ (frais 0.05 $)
-- ACHAT Chainlink (LINK) — 50.24 $ (frais 0.05 $)
+- VENTE Chainlink (LINK) — 99.96 $ (frais 0.10 $)
+- ACHAT Ethereum (ETH) — 99.57 $ (frais 0.10 $)
+- ACHAT Bitcoin (BTC) — 97.92 $ (frais 0.10 $)
+- VENTE Solana (SOL) — 49.97 $ (frais 0.05 $)
 
 ---
 *Marche à blanc, aucun argent réel. Rien ici ne constitue un conseil d'investissement.*

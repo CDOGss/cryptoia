@@ -1,24 +1,21 @@
 {
   "capital_initial": 1000.0,
-  "cash": 347.6323959373973,
+  "cash": 299.9185643601296,
   "positions": {
     "ethereum": {
-      "parts": 0.052304558630304906
+      "parts": 0.1047420612963643
     },
     "bitcoin": {
-      "parts": 0.0023455276495937113
+      "parts": 0.003869200196854257
     },
     "binancecoin": {
       "parts": 0.16191494393657346
     },
     "chainlink": {
-      "parts": 26.38307979449195
-    },
-    "solana": {
-      "parts": 0.6581740998902389
+      "parts": 15.794281754738012
     }
   },
-  "frais_cumules": 7.5694,
+  "frais_cumules": 7.9169,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -42,14 +39,13 @@
   },
   "derniere_decision": {
     "allocations": {
-      "chainlink": 0.25,
-      "bitcoin": 0.15,
-      "ethereum": 0.1,
-      "binancecoin": 0.1,
-      "solana": 0.05
+      "bitcoin": 0.25,
+      "ethereum": 0.2,
+      "chainlink": 0.15,
+      "binancecoin": 0.1
     },
-    "cash": 0.35,
+    "cash": 0.3,
     "regime": "neutre",
-    "commentaire": "Face à la stagnation du Bitcoin et la chute de nombreux altcoins, une forte réserve de cash (35 %) est privilégiée. L'allocation se concentre stratégiquement sur Chainlink (25 %) pour capturer son fort momentum haussier lié aux narratifs d'adoption institutionnelle, tout en maintenant une exposition défensive sur les leaders du marché (BTC, ETH, BNB)."
+    "commentaire": "Le marché traverse une consolidation étroite face à des signaux macroéconomiques incertains, justifiant une posture prudente avec 30 % de liquidités. Bitcoin et Ethereum restent nos ancrages défensifs, tandis que nous surpondérons tactiquement Chainlink et BNB qui surperforment nettement la moyenne du marché sur 30 jours. Les altcoins souffrant d'une forte dynamique baissière, tels que Polkadot et Cardano, sont rigoureusement exclus."
   }
 }
