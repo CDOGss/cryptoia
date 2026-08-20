@@ -1,9 +1,9 @@
 {
   "capital_initial": 1000.0,
-  "cash": 297.93059889101767,
+  "cash": 213.81187132065133,
   "positions": {
     "ethereum": {
-      "parts": 0.07822861409993881
+      "parts": 0.11959706443424276
     },
     "bitcoin": {
       "parts": 0.003869200196854257
@@ -12,13 +12,13 @@
       "parts": 0.08322276759009753
     },
     "chainlink": {
-      "parts": 15.794281754738012
+      "parts": 10.18702023272885
     },
     "solana": {
-      "parts": 1.2949529309865675
+      "parts": 1.861807101629827
     }
   },
-  "frais_cumules": 8.1156,
+  "frais_cumules": 8.3195,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -43,13 +43,13 @@
   "derniere_decision": {
     "allocations": {
       "bitcoin": 0.25,
-      "ethereum": 0.15,
-      "chainlink": 0.15,
-      "solana": 0.1,
+      "ethereum": 0.25,
+      "solana": 0.15,
+      "chainlink": 0.1,
       "binancecoin": 0.05
     },
-    "cash": 0.3,
-    "regime": "neutre",
-    "commentaire": "Le marché montre une dynamique globale hésitante avec un Bitcoin stagnant autour des 64 000 $ et des actualités réglementaires mixtes, justifiant une approche prudente avec 30 % de liquidités. Nous récompensons la force relative en allouant 15 % à Chainlink, qui surperforme nettement, tandis que le reste du capital investi est placé sur des valeurs résilientes (BTC, ETH, SOL, BNB) afin de limiter l'exposition au risque."
+    "cash": 0.2,
+    "regime": "risk_on",
+    "commentaire": "Le marché connaît une forte impulsion haussière suite à un short squeeze historique et à l'optimisme réglementaire américain (CLARITY Act). Bien que le momentum technique soit excellent, confirmant un régime risk-on, la violence du mouvement appelle à une prudence disciplinée. Je sécurise 20 % de liquidités pour amortir une éventuelle correction technique post-liquidation, tout en allouant fortement aux actifs affichant la meilleure force relative (ETH, BTC, SOL et LINK)."
   }
 }
