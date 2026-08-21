@@ -1,9 +1,9 @@
 {
   "capital_initial": 1000.0,
-  "cash": 213.81187132065133,
+  "cash": 330.391203356184,
   "positions": {
     "ethereum": {
-      "parts": 0.11959706443424276
+      "parts": 0.07128243490939684
     },
     "bitcoin": {
       "parts": 0.003869200196854257
@@ -15,10 +15,13 @@
       "parts": 10.18702023272885
     },
     "solana": {
-      "parts": 1.861807101629827
+      "parts": 1.2470877233471365
+    },
+    "ripple": {
+      "parts": 41.556403647983444
     }
   },
-  "frais_cumules": 8.3195,
+  "frais_cumules": 8.5519,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -43,13 +46,14 @@
   "derniere_decision": {
     "allocations": {
       "bitcoin": 0.25,
-      "ethereum": 0.25,
-      "solana": 0.15,
+      "ethereum": 0.15,
+      "solana": 0.1,
       "chainlink": 0.1,
+      "ripple": 0.05,
       "binancecoin": 0.05
     },
-    "cash": 0.2,
+    "cash": 0.3,
     "regime": "risk_on",
-    "commentaire": "Le marché connaît une forte impulsion haussière suite à un short squeeze historique et à l'optimisme réglementaire américain (CLARITY Act). Bien que le momentum technique soit excellent, confirmant un régime risk-on, la violence du mouvement appelle à une prudence disciplinée. Je sécurise 20 % de liquidités pour amortir une éventuelle correction technique post-liquidation, tout en allouant fortement aux actifs affichant la meilleure force relative (ETH, BTC, SOL et LINK)."
+    "commentaire": "Le marché affiche un momentum haussier explosif et quasi-parabolique, justifiant une posture 'risk_on'. Toutefois, ces hausses journalières à deux chiffres augmentent le risque de correction brutale par prises de profits. Nous conservons donc stratégiquement 30 % de liquidités pour amortir la volatilité et racheter d'éventuels replis, tout en allouant le reste sur les leaders du mouvement."
   }
 }
