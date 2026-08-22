@@ -1,6 +1,6 @@
 {
   "capital_initial": 1000.0,
-  "cash": 330.391203356184,
+  "cash": 279.2934915834337,
   "positions": {
     "ethereum": {
       "parts": 0.07128243490939684
@@ -9,19 +9,19 @@
       "parts": 0.003869200196854257
     },
     "binancecoin": {
-      "parts": 0.08322276759009753
+      "parts": 0.16564181400603317
     },
     "chainlink": {
-      "parts": 10.18702023272885
+      "parts": 4.9950254884862835
     },
     "solana": {
       "parts": 1.2470877233471365
     },
     "ripple": {
-      "parts": 41.556403647983444
+      "parts": 77.47075392345272
     }
   },
-  "frais_cumules": 8.5519,
+  "frais_cumules": 8.723,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -48,12 +48,12 @@
       "bitcoin": 0.25,
       "ethereum": 0.15,
       "solana": 0.1,
-      "chainlink": 0.1,
-      "ripple": 0.05,
-      "binancecoin": 0.05
+      "ripple": 0.1,
+      "binancecoin": 0.1,
+      "chainlink": 0.05
     },
-    "cash": 0.3,
+    "cash": 0.25,
     "regime": "risk_on",
-    "commentaire": "Le marché affiche un momentum haussier explosif et quasi-parabolique, justifiant une posture 'risk_on'. Toutefois, ces hausses journalières à deux chiffres augmentent le risque de correction brutale par prises de profits. Nous conservons donc stratégiquement 30 % de liquidités pour amortir la volatilité et racheter d'éventuels replis, tout en allouant le reste sur les leaders du mouvement."
+    "commentaire": "Le marché est porté par une puissante dynamique 'risk-on' suite aux avancées réglementaires américaines et à un short squeeze massif. Toutefois, la hausse parabolique de certains actifs comme le XRP (+55% en 7j) indique un risque de surachat, justifiant de maintenir 25 % de liquidités pour amortir la volatilité et racheter d'éventuels replis."
   }
 }
