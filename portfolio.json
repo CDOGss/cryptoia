@@ -1,27 +1,21 @@
 {
   "capital_initial": 1000.0,
-  "cash": 279.2934915834337,
+  "cash": 345.5373201716102,
   "positions": {
     "ethereum": {
       "parts": 0.07128243490939684
     },
     "bitcoin": {
-      "parts": 0.003869200196854257
+      "parts": 0.004507482545581499
     },
     "binancecoin": {
       "parts": 0.16564181400603317
     },
-    "chainlink": {
-      "parts": 4.9950254884862835
-    },
     "solana": {
-      "parts": 1.2470877233471365
-    },
-    "ripple": {
-      "parts": 77.47075392345272
+      "parts": 1.8476996002912143
     }
   },
-  "frais_cumules": 8.723,
+  "frais_cumules": 8.9994,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -45,15 +39,13 @@
   },
   "derniere_decision": {
     "allocations": {
-      "bitcoin": 0.25,
+      "bitcoin": 0.3,
       "ethereum": 0.15,
-      "solana": 0.1,
-      "ripple": 0.1,
-      "binancecoin": 0.1,
-      "chainlink": 0.05
+      "solana": 0.15,
+      "binancecoin": 0.1
     },
-    "cash": 0.25,
-    "regime": "risk_on",
-    "commentaire": "Le marché est porté par une puissante dynamique 'risk-on' suite aux avancées réglementaires américaines et à un short squeeze massif. Toutefois, la hausse parabolique de certains actifs comme le XRP (+55% en 7j) indique un risque de surachat, justifiant de maintenir 25 % de liquidités pour amortir la volatilité et racheter d'éventuels replis."
+    "cash": 0.3,
+    "regime": "neutre",
+    "commentaire": "Le marché a enregistré des gains massifs sur 7 jours, propulsé par les rachats du Trésor américain et le Clarity Act. Toutefois, la correction généralisée sur 24h indique des prises de bénéfices justifiant de la prudence. J'adopte une posture neutre avec 30 % de liquidités pour racheter d'éventuels creux, tout en conservant les leaders au momentum le plus solide (BTC, ETH, SOL)."
   }
 }
