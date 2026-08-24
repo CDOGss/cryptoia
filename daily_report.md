@@ -1,27 +1,29 @@
-# 🪙 CryptoIA — rapport du 2026-08-23
+# 🪙 CryptoIA — rapport du 2026-08-24
 
 ## Tableau de bord
-- **NAV** : 1,149.49 $ (+14.95 % depuis le départ)
-- **Cash** : 345.54 $ | **Frais cumulés** : 9.00 $
-- **Buy & hold BTC** : +21.35 % | **Buy & hold panier** : +26.02 %
-- **Verdict** : ❌ BTC en buy & hold fait mieux (-6.40 points d'écart)
+- **NAV** : 1,155.83 $ (+15.58 % depuis le départ)
+- **Cash** : 231.01 $ | **Frais cumulés** : 9.46 $
+- **Buy & hold BTC** : +22.13 % | **Buy & hold panier** : +26.29 %
+- **Verdict** : ❌ BTC en buy & hold fait mieux (-6.55 points d'écart)
 
 ## Allocation actuelle
-- Bitcoin (BTC) : 30.0 % (344.88 $)
-- Ethereum (ETH) : 15.0 % (172.53 $)
-- Solana (SOL) : 15.0 % (172.41 $)
-- BNB : 9.9 % (114.13 $)
-- Cash : 30.1 % (345.54 $)
+- Bitcoin (BTC) : 25.0 % (289.07 $)
+- Ethereum (ETH) : 20.0 % (231.20 $)
+- Solana (SOL) : 15.0 % (173.52 $)
+- Chainlink (LINK) : 10.0 % (115.51 $)
+- XRP : 10.0 % (115.51 $)
+- Cash : 20.0 % (231.01 $)
 
 ## Décision de l'IA aujourd'hui
-- **Régime perçu** : neutre
-- **Commentaire** : Le marché a enregistré des gains massifs sur 7 jours, propulsé par les rachats du Trésor américain et le Clarity Act. Toutefois, la correction généralisée sur 24h indique des prises de bénéfices justifiant de la prudence. J'adopte une posture neutre avec 30 % de liquidités pour racheter d'éventuels creux, tout en conservant les leaders au momentum le plus solide (BTC, ETH, SOL).
+- **Régime perçu** : risk_on
+- **Commentaire** : Le marché est en régime 'risk_on', porté par un assouplissement obligataire américain et des entrées record sur les ETF. Bien que le momentum hebdomadaire soit impressionnant (notamment sur ETH et XRP), les récentes liquidations sur les leviers longs incitent à sécuriser 20% en cash. Le reste est alloué aux leaders et aux altcoins les plus forts techniquement.
 
 ## Ordres exécutés (rééquilibrage)
-- ACHAT Bitcoin (BTC) — 48.89 $ (frais 0.05 $)
-- VENTE XRP — 114.66 $ (frais 0.11 $)
-- VENTE Chainlink (LINK) — 56.74 $ (frais 0.06 $)
-- ACHAT Solana (SOL) — 56.10 $ (frais 0.06 $)
+- ACHAT Ethereum (ETH) — 56.37 $ (frais 0.06 $)
+- ACHAT Chainlink (LINK) — 115.63 $ (frais 0.12 $)
+- VENTE Bitcoin (BTC) — 58.04 $ (frais 0.06 $)
+- ACHAT XRP — 115.63 $ (frais 0.12 $)
+- VENTE BNB — 115.24 $ (frais 0.12 $)
 
 ---
 *Marche à blanc, aucun argent réel. Rien ici ne constitue un conseil d'investissement.*
