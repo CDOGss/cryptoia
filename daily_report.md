@@ -1,29 +1,27 @@
-# 🪙 CryptoIA — rapport du 2026-08-24
+# 🪙 CryptoIA — rapport du 2026-08-25
 
 ## Tableau de bord
-- **NAV** : 1,155.83 $ (+15.58 % depuis le départ)
-- **Cash** : 231.01 $ | **Frais cumulés** : 9.46 $
-- **Buy & hold BTC** : +22.13 % | **Buy & hold panier** : +26.29 %
-- **Verdict** : ❌ BTC en buy & hold fait mieux (-6.55 points d'écart)
+- **NAV** : 1,184.35 $ (+18.43 % depuis le départ)
+- **Cash** : 406.48 $ | **Frais cumulés** : 9.75 $
+- **Buy & hold BTC** : +26.65 % | **Buy & hold panier** : +28.67 %
+- **Verdict** : ❌ BTC en buy & hold fait mieux (-8.22 points d'écart)
 
 ## Allocation actuelle
-- Bitcoin (BTC) : 25.0 % (289.07 $)
-- Ethereum (ETH) : 20.0 % (231.20 $)
-- Solana (SOL) : 15.0 % (173.52 $)
-- Chainlink (LINK) : 10.0 % (115.51 $)
-- XRP : 10.0 % (115.51 $)
-- Cash : 20.0 % (231.01 $)
+- Bitcoin (BTC) : 30.0 % (355.33 $)
+- Solana (SOL) : 15.7 % (185.60 $)
+- Ethereum (ETH) : 15.0 % (177.70 $)
+- Chainlink (LINK) : 5.0 % (59.23 $)
+- Cash : 34.3 % (406.48 $)
 
 ## Décision de l'IA aujourd'hui
 - **Régime perçu** : risk_on
-- **Commentaire** : Le marché est en régime 'risk_on', porté par un assouplissement obligataire américain et des entrées record sur les ETF. Bien que le momentum hebdomadaire soit impressionnant (notamment sur ETH et XRP), les récentes liquidations sur les leviers longs incitent à sécuriser 20% en cash. Le reste est alloué aux leaders et aux altcoins les plus forts techniquement.
+- **Commentaire** : L'impulsion haussière est extrêmement forte avec un Bitcoin franchissant les 80 000 $ suite à un violent 'short squeeze'. Bien que le momentum justifie un régime actif, la verticalité du mouvement exige de la prudence : je sécurise 35 % de liquidités pour consolider les gains et absorber un potentiel repli technique, tout en misant sur les leaders résilients.
 
 ## Ordres exécutés (rééquilibrage)
-- ACHAT Ethereum (ETH) — 56.37 $ (frais 0.06 $)
-- ACHAT Chainlink (LINK) — 115.63 $ (frais 0.12 $)
-- VENTE Bitcoin (BTC) — 58.04 $ (frais 0.06 $)
-- ACHAT XRP — 115.63 $ (frais 0.12 $)
-- VENTE BNB — 115.24 $ (frais 0.12 $)
+- VENTE Chainlink (LINK) — 57.29 $ (frais 0.06 $)
+- VENTE Ethereum (ETH) — 56.16 $ (frais 0.06 $)
+- VENTE XRP — 117.89 $ (frais 0.12 $)
+- ACHAT Bitcoin (BTC) — 55.63 $ (frais 0.06 $)
 
 ---
 *Marche à blanc, aucun argent réel. Rien ici ne constitue un conseil d'investissement.*

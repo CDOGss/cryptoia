@@ -1,24 +1,21 @@
 {
   "capital_initial": 1000.0,
-  "cash": 231.00984401933312,
+  "cash": 406.48463538982827,
   "positions": {
     "ethereum": {
-      "parts": 0.09423663680489215
+      "parts": 0.07160452421213434
     },
     "bitcoin": {
-      "parts": 0.003753789858592675
+      "parts": 0.0044497502623635455
     },
     "solana": {
       "parts": 1.8476996002912143
     },
     "chainlink": {
-      "parts": 10.053360403170554
-    },
-    "ripple": {
-      "parts": 79.1185692002943
+      "parts": 5.110590145968271
     }
   },
-  "frais_cumules": 9.4602,
+  "frais_cumules": 9.7472,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -42,14 +39,13 @@
   },
   "derniere_decision": {
     "allocations": {
-      "bitcoin": 0.25,
-      "ethereum": 0.2,
+      "bitcoin": 0.3,
+      "ethereum": 0.15,
       "solana": 0.15,
-      "chainlink": 0.1,
-      "ripple": 0.1
+      "chainlink": 0.05
     },
-    "cash": 0.2,
+    "cash": 0.35,
     "regime": "risk_on",
-    "commentaire": "Le marché est en régime 'risk_on', porté par un assouplissement obligataire américain et des entrées record sur les ETF. Bien que le momentum hebdomadaire soit impressionnant (notamment sur ETH et XRP), les récentes liquidations sur les leviers longs incitent à sécuriser 20% en cash. Le reste est alloué aux leaders et aux altcoins les plus forts techniquement."
+    "commentaire": "L'impulsion haussière est extrêmement forte avec un Bitcoin franchissant les 80 000 $ suite à un violent 'short squeeze'. Bien que le momentum justifie un régime actif, la verticalité du mouvement exige de la prudence : je sécurise 35 % de liquidités pour consolider les gains et absorber un potentiel repli technique, tout en misant sur les leaders résilients."
   }
 }
