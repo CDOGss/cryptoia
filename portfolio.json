@@ -1,21 +1,21 @@
 {
   "capital_initial": 1000.0,
-  "cash": 406.48463538982827,
+  "cash": 351.20034000352905,
   "positions": {
     "ethereum": {
-      "parts": 0.07160452421213434
+      "parts": 0.09517501294942987
     },
     "bitcoin": {
       "parts": 0.0044497502623635455
     },
     "solana": {
-      "parts": 1.8476996002912143
+      "parts": 1.2080622572279107
     },
-    "chainlink": {
-      "parts": 5.110590145968271
+    "binancecoin": {
+      "parts": 0.1676682060109138
     }
   },
-  "frais_cumules": 9.7472,
+  "frais_cumules": 10.0418,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -40,12 +40,12 @@
   "derniere_decision": {
     "allocations": {
       "bitcoin": 0.3,
-      "ethereum": 0.15,
-      "solana": 0.15,
-      "chainlink": 0.05
+      "ethereum": 0.2,
+      "binancecoin": 0.1,
+      "solana": 0.1
     },
-    "cash": 0.35,
-    "regime": "risk_on",
-    "commentaire": "L'impulsion haussière est extrêmement forte avec un Bitcoin franchissant les 80 000 $ suite à un violent 'short squeeze'. Bien que le momentum justifie un régime actif, la verticalité du mouvement exige de la prudence : je sécurise 35 % de liquidités pour consolider les gains et absorber un potentiel repli technique, tout en misant sur les leaders résilients."
+    "cash": 0.3,
+    "regime": "neutre",
+    "commentaire": "Après un puissant rallye de 7 jours propulsant le BTC aux portes des 80 000 $, le repli généralisé des dernières 24h indique des prises de profits et une résistance technique. Je lève 30 % de cash par prudence face au risque de surchauffe à court terme, tout en conservant 70 % d'exposition sur les leaders (BTC, ETH, BNB, SOL) pour accompagner la tendance de fond."
   }
 }
