@@ -1,27 +1,24 @@
 {
   "capital_initial": 1000.0,
-  "cash": 241.6106981480291,
+  "cash": 464.7569497244169,
   "positions": {
     "ethereum": {
       "parts": 0.07162605442993536
     },
     "bitcoin": {
-      "parts": 0.0044497502623635455
+      "parts": 0.003741607837976927
     },
     "solana": {
-      "parts": 2.2033647421663547
+      "parts": 1.124527579945723
     },
     "binancecoin": {
       "parts": 0.08417539329486136
-    },
-    "chainlink": {
-      "parts": 5.03131630340349
     },
     "ripple": {
       "parts": 41.2220949547817
     }
   },
-  "frais_cumules": 10.3879,
+  "frais_cumules": 10.6113,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -45,15 +42,14 @@
   },
   "derniere_decision": {
     "allocations": {
-      "bitcoin": 0.3,
-      "solana": 0.2,
+      "bitcoin": 0.25,
       "ethereum": 0.15,
-      "chainlink": 0.05,
-      "ripple": 0.05,
-      "binancecoin": 0.05
+      "solana": 0.1,
+      "binancecoin": 0.05,
+      "ripple": 0.05
     },
-    "cash": 0.2,
-    "regime": "risk_on",
-    "commentaire": "Forte accélération haussière tirée par un BTC à 80 000 $ et l'hyper-momentum de SOL. Le régime est nettement 'risk_on', mais je préserve 20 % de liquidités pour amortir d'éventuelles prises de bénéfices et gérer le risque de surchauffe."
+    "cash": 0.4,
+    "regime": "neutre",
+    "commentaire": "Le marché affiche d'excellents gains sur 30 jours mais subit un coup d'arrêt net à court terme avec une baisse généralisée sur 24h. Dans le doute, je prends mes profits pour monter le cash à 40 %, tout en concentrant le risque sur les piliers (BTC, ETH) et sur l'actif le plus fort de la semaine (SOL)."
   }
 }

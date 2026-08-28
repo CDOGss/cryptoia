@@ -1,30 +1,27 @@
-# 🪙 CryptoIA — rapport du 2026-08-27
+# 🪙 CryptoIA — rapport du 2026-08-28
 
 ## Tableau de bord
-- **NAV** : 1,196.29 $ (+19.63 % depuis le départ)
-- **Cash** : 241.61 $ | **Frais cumulés** : 10.39 $
-- **Buy & hold BTC** : +27.09 % | **Buy & hold panier** : +29.09 %
-- **Verdict** : ❌ BTC en buy & hold fait mieux (-7.46 points d'écart)
+- **NAV** : 1,160.06 $ (+16.01 % depuis le départ)
+- **Cash** : 464.76 $ | **Frais cumulés** : 10.61 $
+- **Buy & hold BTC** : +22.95 % | **Buy & hold panier** : +23.70 %
+- **Verdict** : ❌ BTC en buy & hold fait mieux (-6.94 points d'écart)
 
 ## Allocation actuelle
-- Bitcoin (BTC) : 29.8 % (356.59 $)
-- Solana (SOL) : 20.0 % (239.22 $)
-- Ethereum (ETH) : 15.0 % (179.50 $)
-- BNB : 5.0 % (59.83 $)
-- Chainlink (LINK) : 5.0 % (59.77 $)
-- XRP : 5.0 % (59.77 $)
-- Cash : 20.2 % (241.61 $)
+- Bitcoin (BTC) : 25.0 % (290.07 $)
+- Ethereum (ETH) : 15.0 % (174.34 $)
+- Solana (SOL) : 10.0 % (116.03 $)
+- BNB : 5.0 % (57.98 $)
+- XRP : 4.9 % (56.89 $)
+- Cash : 40.1 % (464.76 $)
 
 ## Décision de l'IA aujourd'hui
-- **Régime perçu** : risk_on
-- **Commentaire** : Forte accélération haussière tirée par un BTC à 80 000 $ et l'hyper-momentum de SOL. Le régime est nettement 'risk_on', mais je préserve 20 % de liquidités pour amortir d'éventuelles prises de bénéfices et gérer le risque de surchauffe.
+- **Régime perçu** : neutre
+- **Commentaire** : Le marché affiche d'excellents gains sur 30 jours mais subit un coup d'arrêt net à court terme avec une baisse généralisée sur 24h. Dans le doute, je prends mes profits pour monter le cash à 40 %, tout en concentrant le risque sur les piliers (BTC, ETH) et sur l'actif le plus fort de la semaine (SOL).
 
 ## Ordres exécutés (rééquilibrage)
-- ACHAT Chainlink (LINK) — 59.83 $ (frais 0.06 $)
-- VENTE Ethereum (ETH) — 59.01 $ (frais 0.06 $)
-- ACHAT Solana (SOL) — 108.17 $ (frais 0.11 $)
-- ACHAT XRP — 59.83 $ (frais 0.06 $)
-- VENTE BNB — 59.35 $ (frais 0.06 $)
+- VENTE Solana (SOL) — 111.31 $ (frais 0.11 $)
+- VENTE Bitcoin (BTC) — 54.90 $ (frais 0.05 $)
+- VENTE Chainlink (LINK) — 57.16 $ (frais 0.06 $)
 
 ---
 *Marche à blanc, aucun argent réel. Rien ici ne constitue un conseil d'investissement.*
