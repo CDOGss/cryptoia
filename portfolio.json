@@ -1,24 +1,21 @@
 {
   "capital_initial": 1000.0,
-  "cash": 464.7569497244169,
+  "cash": 232.11583555161013,
   "positions": {
     "ethereum": {
       "parts": 0.07162605442993536
     },
     "bitcoin": {
-      "parts": 0.003741607837976927
+      "parts": 0.004486459767182212
     },
     "solana": {
-      "parts": 1.124527579945723
-    },
-    "binancecoin": {
-      "parts": 0.08417539329486136
+      "parts": 2.7976380467370747
     },
     "ripple": {
-      "parts": 41.2220949547817
+      "parts": 83.52620410282833
     }
   },
-  "frais_cumules": 10.6113,
+  "frais_cumules": 10.9597,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -42,14 +39,13 @@
   },
   "derniere_decision": {
     "allocations": {
-      "bitcoin": 0.25,
+      "bitcoin": 0.3,
+      "solana": 0.25,
       "ethereum": 0.15,
-      "solana": 0.1,
-      "binancecoin": 0.05,
-      "ripple": 0.05
+      "ripple": 0.1
     },
-    "cash": 0.4,
-    "regime": "neutre",
-    "commentaire": "Le marché affiche d'excellents gains sur 30 jours mais subit un coup d'arrêt net à court terme avec une baisse généralisée sur 24h. Dans le doute, je prends mes profits pour monter le cash à 40 %, tout en concentrant le risque sur les piliers (BTC, ETH) et sur l'actif le plus fort de la semaine (SOL)."
+    "cash": 0.2,
+    "regime": "risk_on",
+    "commentaire": "Le marché affiche une puissante dynamique mensuelle stimulée par les rachats obligataires du Trésor américain et les afflux records sur les ETF, en particulier sur Bitcoin et Solana. Cependant, un léger repli journalier sur l'ensemble des actifs et un sentiment de marché en extrême avidité justifient une prise de recul. Je surpondère les actifs affichant le meilleur momentum (BTC et SOL), tout en conservant 20 % de liquidités par prudence pour amortir la volatilité et racheter d'éventuels creux."
   }
 }
