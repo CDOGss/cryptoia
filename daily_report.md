@@ -1,25 +1,25 @@
-# 🪙 CryptoIA — rapport du 2026-08-30
+# 🪙 CryptoIA — rapport du 2026-08-31
 
 ## Tableau de bord
-- **NAV** : 1,178.63 $ (+17.86 % depuis le départ)
-- **Cash** : 231.05 $ | **Frais cumulés** : 11.19 $
-- **Buy & hold BTC** : +24.94 % | **Buy & hold panier** : +25.88 %
-- **Verdict** : ❌ BTC en buy & hold fait mieux (-7.08 points d'écart)
+- **NAV** : 1,164.20 $ (+16.42 % depuis le départ)
+- **Cash** : 401.98 $ | **Frais cumulés** : 11.37 $
+- **Buy & hold BTC** : +24.61 % | **Buy & hold panier** : +23.00 %
+- **Verdict** : ❌ BTC en buy & hold fait mieux (-8.19 points d'écart)
 
 ## Allocation actuelle
-- Bitcoin (BTC) : 30.0 % (353.45 $)
-- Solana (SOL) : 25.4 % (299.46 $)
-- Ethereum (ETH) : 15.0 % (176.91 $)
-- Chainlink (LINK) : 10.0 % (117.77 $)
-- Cash : 19.6 % (231.05 $)
+- Bitcoin (BTC) : 30.3 % (352.51 $)
+- Ethereum (ETH) : 15.2 % (176.84 $)
+- Solana (SOL) : 15.0 % (174.66 $)
+- Chainlink (LINK) : 5.0 % (58.22 $)
+- Cash : 34.5 % (401.98 $)
 
 ## Décision de l'IA aujourd'hui
-- **Régime perçu** : risk_on
-- **Commentaire** : Le marché affiche un puissant momentum mensuel porté par la macroéconomie américaine, mais le récent discours restrictif de Jackson Hole justifie 20 % de cash par prudence. Nous surpondérons Solana pour sa force relative exceptionnelle et ciblons la qualité (BTC, ETH, LINK) en écartant les altcoins affaiblis à court terme.
+- **Régime perçu** : neutre
+- **Commentaire** : Après un mois d'août très haussier, les récentes incertitudes macroéconomiques poussent à la consolidation. Je sécurise 35 % en cash par prudence, tout en privilégiant BTC, ETH, et Solana qui affiche une force relative unique (+7 % sur 7 jours).
 
 ## Ordres exécutés (rééquilibrage)
-- VENTE XRP — 116.94 $ (frais 0.12 $)
-- ACHAT Chainlink (LINK) — 117.89 $ (frais 0.12 $)
+- VENTE Chainlink (LINK) — 58.02 $ (frais 0.06 $)
+- VENTE Solana (SOL) — 113.08 $ (frais 0.11 $)
 
 ---
 *Marche à blanc, aucun argent réel. Rien ici ne constitue un conseil d'investissement.*
