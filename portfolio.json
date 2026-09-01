@@ -1,21 +1,24 @@
 {
   "capital_initial": 1000.0,
-  "cash": 401.9773409374973,
+  "cash": 460.9833771417938,
   "positions": {
     "ethereum": {
       "parts": 0.07162605442993536
     },
     "bitcoin": {
-      "parts": 0.004486459767182212
+      "parts": 0.0037186397476667832
     },
     "solana": {
-      "parts": 1.6981590414393386
+      "parts": 1.1360108495444898
     },
     "chainlink": {
       "parts": 5.115865770709899
+    },
+    "binancecoin": {
+      "parts": 0.08429165043153378
     }
   },
-  "frais_cumules": 11.3656,
+  "frais_cumules": 11.5403,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -39,13 +42,14 @@
   },
   "derniere_decision": {
     "allocations": {
-      "bitcoin": 0.3,
+      "bitcoin": 0.25,
       "ethereum": 0.15,
-      "solana": 0.15,
+      "solana": 0.1,
+      "binancecoin": 0.05,
       "chainlink": 0.05
     },
-    "cash": 0.35,
-    "regime": "neutre",
-    "commentaire": "Après un mois d'août très haussier, les récentes incertitudes macroéconomiques poussent à la consolidation. Je sécurise 35 % en cash par prudence, tout en privilégiant BTC, ETH, et Solana qui affiche une force relative unique (+7 % sur 7 jours)."
+    "cash": 0.4,
+    "regime": "risk_off",
+    "commentaire": "Malgré un excellent momentum à 30 jours, les signaux à court terme s'essoufflent au moment où de forts vents macroéconomiques contraires apparaissent (craintes sur les taux de la Fed, tensions géopolitiques). Septembre étant historiquement volatil, il est impératif de faire preuve de prudence et de cristalliser les gains récents. Nous adoptons une posture fortement défensive avec 40 % de cash, tout en conservant une exposition mesurée sur nos leaders (BTC, ETH, SOL)."
   }
 }

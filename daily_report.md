@@ -1,25 +1,27 @@
-# 🪙 CryptoIA — rapport du 2026-08-31
+# 🪙 CryptoIA — rapport du 2026-09-01
 
 ## Tableau de bord
-- **NAV** : 1,164.20 $ (+16.42 % depuis le départ)
-- **Cash** : 401.98 $ | **Frais cumulés** : 11.37 $
-- **Buy & hold BTC** : +24.61 % | **Buy & hold panier** : +23.00 %
-- **Verdict** : ❌ BTC en buy & hold fait mieux (-8.19 points d'écart)
+- **NAV** : 1,156.74 $ (+15.67 % depuis le départ)
+- **Cash** : 460.98 $ | **Frais cumulés** : 11.54 $
+- **Buy & hold BTC** : +23.35 % | **Buy & hold panier** : +23.06 %
+- **Verdict** : ❌ BTC en buy & hold fait mieux (-7.68 points d'écart)
 
 ## Allocation actuelle
-- Bitcoin (BTC) : 30.3 % (352.51 $)
-- Ethereum (ETH) : 15.2 % (176.84 $)
-- Solana (SOL) : 15.0 % (174.66 $)
+- Bitcoin (BTC) : 25.0 % (289.23 $)
+- Ethereum (ETH) : 15.1 % (174.83 $)
+- Solana (SOL) : 10.0 % (115.69 $)
 - Chainlink (LINK) : 5.0 % (58.22 $)
-- Cash : 34.5 % (401.98 $)
+- BNB : 5.0 % (57.79 $)
+- Cash : 39.9 % (460.98 $)
 
 ## Décision de l'IA aujourd'hui
-- **Régime perçu** : neutre
-- **Commentaire** : Après un mois d'août très haussier, les récentes incertitudes macroéconomiques poussent à la consolidation. Je sécurise 35 % en cash par prudence, tout en privilégiant BTC, ETH, et Solana qui affiche une force relative unique (+7 % sur 7 jours).
+- **Régime perçu** : risk_off
+- **Commentaire** : Malgré un excellent momentum à 30 jours, les signaux à court terme s'essoufflent au moment où de forts vents macroéconomiques contraires apparaissent (craintes sur les taux de la Fed, tensions géopolitiques). Septembre étant historiquement volatil, il est impératif de faire preuve de prudence et de cristalliser les gains récents. Nous adoptons une posture fortement défensive avec 40 % de cash, tout en conservant une exposition mesurée sur nos leaders (BTC, ETH, SOL).
 
 ## Ordres exécutés (rééquilibrage)
-- VENTE Chainlink (LINK) — 58.02 $ (frais 0.06 $)
-- VENTE Solana (SOL) — 113.08 $ (frais 0.11 $)
+- VENTE Solana (SOL) — 57.25 $ (frais 0.06 $)
+- ACHAT BNB — 57.85 $ (frais 0.06 $)
+- VENTE Bitcoin (BTC) — 59.72 $ (frais 0.06 $)
 
 ---
 *Marche à blanc, aucun argent réel. Rien ici ne constitue un conseil d'investissement.*
