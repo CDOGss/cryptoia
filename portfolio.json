@@ -1,24 +1,21 @@
 {
   "capital_initial": 1000.0,
-  "cash": 460.9833771417938,
+  "cash": 456.3387649871719,
   "positions": {
     "ethereum": {
-      "parts": 0.07162605442993536
+      "parts": 0.04797835832223567
     },
     "bitcoin": {
-      "parts": 0.0037186397476667832
+      "parts": 0.004461938601489597
     },
     "solana": {
-      "parts": 1.1360108495444898
-    },
-    "chainlink": {
-      "parts": 5.115865770709899
+      "parts": 1.7494347998702677
     },
     "binancecoin": {
       "parts": 0.08429165043153378
     }
   },
-  "frais_cumules": 11.5403,
+  "frais_cumules": 11.7702,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -42,14 +39,13 @@
   },
   "derniere_decision": {
     "allocations": {
-      "bitcoin": 0.25,
-      "ethereum": 0.15,
-      "solana": 0.1,
-      "binancecoin": 0.05,
-      "chainlink": 0.05
+      "bitcoin": 0.3,
+      "solana": 0.15,
+      "ethereum": 0.1,
+      "binancecoin": 0.05
     },
     "cash": 0.4,
-    "regime": "risk_off",
-    "commentaire": "Malgré un excellent momentum à 30 jours, les signaux à court terme s'essoufflent au moment où de forts vents macroéconomiques contraires apparaissent (craintes sur les taux de la Fed, tensions géopolitiques). Septembre étant historiquement volatil, il est impératif de faire preuve de prudence et de cristalliser les gains récents. Nous adoptons une posture fortement défensive avec 40 % de cash, tout en conservant une exposition mesurée sur nos leaders (BTC, ETH, SOL)."
+    "regime": "neutre",
+    "commentaire": "Le marché affiche d'excellentes performances sur 30 jours, mais la dynamique s'essouffle à court terme face à un contexte macroéconomique tendu pour ce début septembre 2026. J'adopte une posture neutre en sécurisant 40 % en cash pour parer à la volatilité, tout en privilégiant le Bitcoin comme pilier et Solana qui affiche la meilleure résilience hebdomadaire."
   }
 }
