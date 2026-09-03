@@ -1,21 +1,24 @@
 {
   "capital_initial": 1000.0,
-  "cash": 456.3387649871719,
+  "cash": 460.92321163804706,
   "positions": {
     "ethereum": {
-      "parts": 0.04797835832223567
+      "parts": 0.07196687356977638
     },
     "bitcoin": {
-      "parts": 0.004461938601489597
+      "parts": 0.0036993170157712417
     },
     "solana": {
-      "parts": 1.7494347998702677
+      "parts": 1.1467406552027746
     },
     "binancecoin": {
       "parts": 0.08429165043153378
+    },
+    "ripple": {
+      "parts": 41.91794544570988
     }
   },
-  "frais_cumules": 11.7702,
+  "frais_cumules": 12.0066,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -39,13 +42,14 @@
   },
   "derniere_decision": {
     "allocations": {
-      "bitcoin": 0.3,
-      "solana": 0.15,
-      "ethereum": 0.1,
-      "binancecoin": 0.05
+      "bitcoin": 0.25,
+      "ethereum": 0.15,
+      "solana": 0.1,
+      "binancecoin": 0.05,
+      "ripple": 0.05
     },
     "cash": 0.4,
     "regime": "neutre",
-    "commentaire": "Le marché affiche d'excellentes performances sur 30 jours, mais la dynamique s'essouffle à court terme face à un contexte macroéconomique tendu pour ce début septembre 2026. J'adopte une posture neutre en sécurisant 40 % en cash pour parer à la volatilité, tout en privilégiant le Bitcoin comme pilier et Solana qui affiche la meilleure résilience hebdomadaire."
+    "commentaire": "Le momentum mensuel reste très puissant, mais les craintes d'une hausse des taux de la Fed et la mauvaise saisonnalité de septembre imposent la prudence. Nous conservons 40 % de cash pour amortir la volatilité et ciblons les cryptomonnaies les plus résilientes structurellement."
   }
 }
