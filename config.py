@@ -44,7 +44,7 @@ ACTIF_BENCHMARK = "bitcoin"  # référence « buy & hold BTC »
 
 # --- IA : Gemini (le DÉCIDEUR — il choisit l'allocation) -----------------------
 GEMINI_API_KEY = (os.getenv("GEMINI_API_KEY") or "").strip() or None
-GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.1-pro-preview")
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
 # Grounding Google Search : Gemini peut chercher l'actu crypto fraîche avant de
 # décider. C'est l'avantage structurel de l'IA sur un momentum purement mécanique.
 UTILISER_RECHERCHE = os.getenv("UTILISER_RECHERCHE", "1") == "1"

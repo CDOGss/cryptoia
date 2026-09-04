@@ -3,3 +3,8 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
+# Secrets — toutes les variantes (.env, .env.txt créé par le Bloc-notes…)
+.env
+.env.*
+!.env.example
