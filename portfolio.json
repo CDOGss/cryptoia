@@ -1,24 +1,24 @@
 {
   "capital_initial": 1000.0,
-  "cash": 460.92321163804706,
+  "cash": 290.85409437330753,
   "positions": {
     "ethereum": {
       "parts": 0.07196687356977638
     },
     "bitcoin": {
-      "parts": 0.0036993170157712417
-    },
-    "solana": {
-      "parts": 1.1467406552027746
+      "parts": 0.004391792287148628
     },
     "binancecoin": {
-      "parts": 0.08429165043153378
+      "parts": 0.1628245649002646
     },
     "ripple": {
-      "parts": 41.91794544570988
+      "parts": 82.87210028427032
+    },
+    "chainlink": {
+      "parts": 9.999191532340983
     }
   },
-  "frais_cumules": 12.0066,
+  "frais_cumules": 12.4095,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -42,14 +42,14 @@
   },
   "derniere_decision": {
     "allocations": {
-      "bitcoin": 0.25,
+      "bitcoin": 0.3,
       "ethereum": 0.15,
-      "solana": 0.1,
-      "binancecoin": 0.05,
-      "ripple": 0.05
+      "chainlink": 0.1,
+      "ripple": 0.1,
+      "binancecoin": 0.1
     },
-    "cash": 0.4,
-    "regime": "neutre",
-    "commentaire": "Le momentum mensuel reste très puissant, mais les craintes d'une hausse des taux de la Fed et la mauvaise saisonnalité de septembre imposent la prudence. Nous conservons 40 % de cash pour amortir la volatilité et ciblons les cryptomonnaies les plus résilientes structurellement."
+    "cash": 0.25,
+    "regime": "risk_on",
+    "commentaire": "La tendance de fond est nettement haussière avec un Bitcoin solide et une forte impulsion sur les altcoins leaders comme LINK et XRP. Nous maintenons toutefois 25 % de cash par prudence après l'ampleur du rallye mensuel afin de parer à une respiration technique. Les actifs à la traîne (DOT, AVAX) restent pour l'instant écartés de l'allocation."
   }
 }
