@@ -1,29 +1,29 @@
-# 🪙 CryptoIA — rapport du 2026-09-04
+# 🪙 CryptoIA — rapport du 2026-09-05
 
 ## Tableau de bord
-- **NAV** : 1,168.67 $ (+16.87 % depuis le départ)
-- **Cash** : 290.85 $ | **Frais cumulés** : 12.41 $
-- **Buy & hold BTC** : +26.63 % | **Buy & hold panier** : +26.45 %
-- **Verdict** : ❌ BTC en buy & hold fait mieux (-9.76 points d'écart)
+- **NAV** : 1,171.54 $ (+17.15 % depuis le départ)
+- **Cash** : 409.93 $ | **Frais cumulés** : 12.75 $
+- **Buy & hold BTC** : +26.27 % | **Buy & hold panier** : +27.60 %
+- **Verdict** : ❌ BTC en buy & hold fait mieux (-9.12 points d'écart)
 
 ## Allocation actuelle
-- Bitcoin (BTC) : 30.0 % (350.67 $)
-- Ethereum (ETH) : 15.1 % (176.66 $)
-- BNB : 10.0 % (116.85 $)
-- XRP : 10.0 % (116.85 $)
-- Chainlink (LINK) : 10.0 % (116.79 $)
-- Cash : 24.9 % (290.85 $)
+- Bitcoin (BTC) : 25.0 % (292.97 $)
+- BNB : 15.0 % (175.73 $)
+- Ethereum (ETH) : 10.0 % (117.19 $)
+- Chainlink (LINK) : 10.0 % (117.19 $)
+- Solana (SOL) : 5.0 % (58.54 $)
+- Cash : 35.0 % (409.93 $)
 
 ## Décision de l'IA aujourd'hui
-- **Régime perçu** : risk_on
-- **Commentaire** : La tendance de fond est nettement haussière avec un Bitcoin solide et une forte impulsion sur les altcoins leaders comme LINK et XRP. Nous maintenons toutefois 25 % de cash par prudence après l'ampleur du rallye mensuel afin de parer à une respiration technique. Les actifs à la traîne (DOT, AVAX) restent pour l'instant écartés de l'allocation.
+- **Régime perçu** : neutre
+- **Commentaire** : Le marché entame un repli correctif sur 24h après une dynamique mensuelle très haussière. Nous adoptons une posture prudente avec 35 % de cash pour amortir la volatilité, tout en surpondérant BNB qui affiche une remarquable force relative et en maintenant une exposition coeur sur Bitcoin, Ethereum et Chainlink.
 
 ## Ordres exécutés (rééquilibrage)
-- ACHAT Chainlink (LINK) — 116.91 $ (frais 0.12 $)
-- ACHAT XRP — 57.80 $ (frais 0.06 $)
-- ACHAT BNB — 56.42 $ (frais 0.06 $)
-- ACHAT Bitcoin (BTC) — 55.35 $ (frais 0.06 $)
-- VENTE Solana (SOL) — 116.52 $ (frais 0.12 $)
+- ACHAT Solana (SOL) — 58.59 $ (frais 0.06 $)
+- VENTE Ethereum (ETH) — 59.39 $ (frais 0.06 $)
+- ACHAT BNB — 54.19 $ (frais 0.05 $)
+- VENTE XRP — 116.02 $ (frais 0.12 $)
+- VENTE Bitcoin (BTC) — 56.68 $ (frais 0.06 $)
 
 ---
 *Marche à blanc, aucun argent réel. Rien ici ne constitue un conseil d'investissement.*

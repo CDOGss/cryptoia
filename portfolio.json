@@ -1,24 +1,24 @@
 {
   "capital_initial": 1000.0,
-  "cash": 290.85409437330753,
+  "cash": 409.9255704581087,
   "positions": {
     "ethereum": {
-      "parts": 0.07196687356977638
+      "parts": 0.04776165941895749
     },
     "bitcoin": {
-      "parts": 0.004391792287148628
+      "parts": 0.003679895658017066
     },
     "binancecoin": {
-      "parts": 0.1628245649002646
-    },
-    "ripple": {
-      "parts": 82.87210028427032
+      "parts": 0.2353181535452717
     },
     "chainlink": {
       "parts": 9.999191532340983
+    },
+    "solana": {
+      "parts": 0.5722519145653598
     }
   },
-  "frais_cumules": 12.4095,
+  "frais_cumules": 12.7544,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -42,14 +42,14 @@
   },
   "derniere_decision": {
     "allocations": {
-      "bitcoin": 0.3,
-      "ethereum": 0.15,
+      "bitcoin": 0.25,
+      "binancecoin": 0.15,
+      "ethereum": 0.1,
       "chainlink": 0.1,
-      "ripple": 0.1,
-      "binancecoin": 0.1
+      "solana": 0.05
     },
-    "cash": 0.25,
-    "regime": "risk_on",
-    "commentaire": "La tendance de fond est nettement haussière avec un Bitcoin solide et une forte impulsion sur les altcoins leaders comme LINK et XRP. Nous maintenons toutefois 25 % de cash par prudence après l'ampleur du rallye mensuel afin de parer à une respiration technique. Les actifs à la traîne (DOT, AVAX) restent pour l'instant écartés de l'allocation."
+    "cash": 0.35,
+    "regime": "neutre",
+    "commentaire": "Le marché entame un repli correctif sur 24h après une dynamique mensuelle très haussière. Nous adoptons une posture prudente avec 35 % de cash pour amortir la volatilité, tout en surpondérant BNB qui affiche une remarquable force relative et en maintenant une exposition coeur sur Bitcoin, Ethereum et Chainlink."
   }
 }
