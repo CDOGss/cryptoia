@@ -1,24 +1,27 @@
 {
   "capital_initial": 1000.0,
-  "cash": 409.9255704581087,
+  "cash": 294.36872391325346,
   "positions": {
     "ethereum": {
-      "parts": 0.04776165941895749
+      "parts": 0.07108675763908284
     },
     "bitcoin": {
       "parts": 0.003679895658017066
     },
     "binancecoin": {
-      "parts": 0.2353181535452717
+      "parts": 0.15643741569436914
     },
     "chainlink": {
       "parts": 9.999191532340983
     },
     "solana": {
-      "parts": 0.5722519145653598
+      "parts": 1.1130537854730875
+    },
+    "polkadot": {
+      "parts": 59.878099492288015
     }
   },
-  "frais_cumules": 12.7544,
+  "frais_cumules": 12.9895,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -43,13 +46,14 @@
   "derniere_decision": {
     "allocations": {
       "bitcoin": 0.25,
-      "binancecoin": 0.15,
-      "ethereum": 0.1,
+      "ethereum": 0.15,
       "chainlink": 0.1,
-      "solana": 0.05
+      "solana": 0.1,
+      "binancecoin": 0.1,
+      "polkadot": 0.05
     },
-    "cash": 0.35,
-    "regime": "neutre",
-    "commentaire": "Le marché entame un repli correctif sur 24h après une dynamique mensuelle très haussière. Nous adoptons une posture prudente avec 35 % de cash pour amortir la volatilité, tout en surpondérant BNB qui affiche une remarquable force relative et en maintenant une exposition coeur sur Bitcoin, Ethereum et Chainlink."
+    "cash": 0.25,
+    "regime": "risk_on",
+    "commentaire": "La configuration globale est nettement favorable avec l'ensemble de l'univers dans le vert sur 24h, 7j et 30j. Nous augmentons notre exposition au risque en privilégiant les leaders de momentum (LINK, SOL, BNB) ainsi qu'un rebond tactique sur DOT, tout en maintenant BTC et ETH comme ancrages. Une réserve de cash de 25 % est conservée par prudence face aux extensions de court terme."
   }
 }
