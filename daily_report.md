@@ -1,29 +1,28 @@
-# 🪙 CryptoIA — rapport du 2026-09-06
+# 🪙 CryptoIA — rapport du 2026-09-07
 
 ## Tableau de bord
-- **NAV** : 1,185.08 $ (+18.51 % depuis le départ)
-- **Cash** : 294.37 $ | **Frais cumulés** : 12.99 $
-- **Buy & hold BTC** : +26.74 % | **Buy & hold panier** : +31.84 %
-- **Verdict** : ❌ BTC en buy & hold fait mieux (-8.23 points d'écart)
+- **NAV** : 1,189.11 $ (+18.91 % depuis le départ)
+- **Cash** : 302.72 $ | **Frais cumulés** : 13.21 $
+- **Buy & hold BTC** : +25.58 % | **Buy & hold panier** : +33.42 %
+- **Verdict** : ❌ BTC en buy & hold fait mieux (-6.67 points d'écart)
 
 ## Allocation actuelle
-- Bitcoin (BTC) : 24.8 % (294.07 $)
-- Ethereum (ETH) : 15.0 % (177.74 $)
-- Chainlink (LINK) : 10.4 % (122.69 $)
-- BNB : 10.0 % (118.53 $)
-- Solana (SOL) : 10.0 % (118.47 $)
-- Polkadot (DOT) : 5.0 % (59.21 $)
-- Cash : 24.8 % (294.37 $)
+- Bitcoin (BTC) : 24.5 % (291.37 $)
+- Chainlink (LINK) : 15.0 % (178.35 $)
+- Ethereum (ETH) : 14.9 % (176.87 $)
+- BNB : 9.8 % (116.43 $)
+- Polkadot (DOT) : 5.4 % (63.95 $)
+- Avalanche (AVAX) : 5.0 % (59.41 $)
+- Cash : 25.5 % (302.72 $)
 
 ## Décision de l'IA aujourd'hui
 - **Régime perçu** : risk_on
-- **Commentaire** : La configuration globale est nettement favorable avec l'ensemble de l'univers dans le vert sur 24h, 7j et 30j. Nous augmentons notre exposition au risque en privilégiant les leaders de momentum (LINK, SOL, BNB) ainsi qu'un rebond tactique sur DOT, tout en maintenant BTC et ETH comme ancrages. Une réserve de cash de 25 % est conservée par prudence face aux extensions de court terme.
+- **Commentaire** : Le marché conserve une tendance de fond haussière soutenue, marquée par une consolidation saine de BTC et ETH et une rotation favorable vers les altcoins, notamment LINK et BNB. Nous capturons cette force relative tout en plafonnant les expositions sur les actifs en surchauffe récente comme DOT. Une poche de 25 % de cash est conservée pour préserver le capital en cas de prise de bénéfices générale.
 
 ## Ordres exécutés (rééquilibrage)
-- ACHAT Solana (SOL) — 57.62 $ (frais 0.06 $)
-- ACHAT Polkadot (DOT) — 59.27 $ (frais 0.06 $)
-- VENTE BNB — 59.77 $ (frais 0.06 $)
-- ACHAT Ethereum (ETH) — 58.38 $ (frais 0.06 $)
+- ACHAT Chainlink (LINK) — 48.51 $ (frais 0.05 $)
+- VENTE Solana (SOL) — 116.45 $ (frais 0.12 $)
+- ACHAT Avalanche (AVAX) — 59.47 $ (frais 0.06 $)
 
 ---
 *Marche à blanc, aucun argent réel. Rien ici ne constitue un conseil d'investissement.*

@@ -1,6 +1,6 @@
 {
   "capital_initial": 1000.0,
-  "cash": 294.36872391325346,
+  "cash": 302.7223366229058,
   "positions": {
     "ethereum": {
       "parts": 0.07108675763908284
@@ -12,16 +12,16 @@
       "parts": 0.15643741569436914
     },
     "chainlink": {
-      "parts": 9.999191532340983
-    },
-    "solana": {
-      "parts": 1.1130537854730875
+      "parts": 13.729933228482146
     },
     "polkadot": {
       "parts": 59.878099492288015
+    },
+    "avalanche-2": {
+      "parts": 7.379790606210268
     }
   },
-  "frais_cumules": 12.9895,
+  "frais_cumules": 13.2139,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -47,13 +47,13 @@
     "allocations": {
       "bitcoin": 0.25,
       "ethereum": 0.15,
-      "chainlink": 0.1,
-      "solana": 0.1,
+      "chainlink": 0.15,
       "binancecoin": 0.1,
+      "avalanche-2": 0.05,
       "polkadot": 0.05
     },
     "cash": 0.25,
     "regime": "risk_on",
-    "commentaire": "La configuration globale est nettement favorable avec l'ensemble de l'univers dans le vert sur 24h, 7j et 30j. Nous augmentons notre exposition au risque en privilégiant les leaders de momentum (LINK, SOL, BNB) ainsi qu'un rebond tactique sur DOT, tout en maintenant BTC et ETH comme ancrages. Une réserve de cash de 25 % est conservée par prudence face aux extensions de court terme."
+    "commentaire": "Le marché conserve une tendance de fond haussière soutenue, marquée par une consolidation saine de BTC et ETH et une rotation favorable vers les altcoins, notamment LINK et BNB. Nous capturons cette force relative tout en plafonnant les expositions sur les actifs en surchauffe récente comme DOT. Une poche de 25 % de cash est conservée pour préserver le capital en cas de prise de bénéfices générale."
   }
 }
