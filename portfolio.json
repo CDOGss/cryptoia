@@ -1,6 +1,6 @@
 {
   "capital_initial": 1000.0,
-  "cash": 302.7223366229058,
+  "cash": 415.30685757168743,
   "positions": {
     "ethereum": {
       "parts": 0.07108675763908284
@@ -11,17 +11,17 @@
     "binancecoin": {
       "parts": 0.15643741569436914
     },
-    "chainlink": {
-      "parts": 13.729933228482146
-    },
     "polkadot": {
       "parts": 59.878099492288015
     },
     "avalanche-2": {
       "parts": 7.379790606210268
+    },
+    "solana": {
+      "parts": 0.5720708180567435
     }
   },
-  "frais_cumules": 13.2139,
+  "frais_cumules": 13.4447,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -47,13 +47,13 @@
     "allocations": {
       "bitcoin": 0.25,
       "ethereum": 0.15,
-      "chainlink": 0.15,
       "binancecoin": 0.1,
+      "polkadot": 0.05,
       "avalanche-2": 0.05,
-      "polkadot": 0.05
+      "solana": 0.05
     },
-    "cash": 0.25,
-    "regime": "risk_on",
-    "commentaire": "Le marché conserve une tendance de fond haussière soutenue, marquée par une consolidation saine de BTC et ETH et une rotation favorable vers les altcoins, notamment LINK et BNB. Nous capturons cette force relative tout en plafonnant les expositions sur les actifs en surchauffe récente comme DOT. Une poche de 25 % de cash est conservée pour préserver le capital en cas de prise de bénéfices générale."
+    "cash": 0.35,
+    "regime": "neutre",
+    "commentaire": "Après un rallye mensuel soutenu, les grandes capitalisations consolident sur 24 heures sans rompre leur tendance de fond. Nous maintenons un volant de sécurité de 35 % de cash face aux prises de bénéfices court terme. L'allocation reste concentrée sur un socle défensif BTC/ETH tout en captant la force relative de BNB, DOT et AVAX."
   }
 }
