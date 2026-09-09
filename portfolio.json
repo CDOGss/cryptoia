@@ -1,6 +1,6 @@
 {
   "capital_initial": 1000.0,
-  "cash": 415.30685757168743,
+  "cash": 329.2396723323219,
   "positions": {
     "ethereum": {
       "parts": 0.07108675763908284
@@ -9,19 +9,19 @@
       "parts": 0.003679895658017066
     },
     "binancecoin": {
-      "parts": 0.15643741569436914
+      "parts": 0.07948676707878156
     },
     "polkadot": {
       "parts": 59.878099492288015
     },
-    "avalanche-2": {
-      "parts": 7.379790606210268
-    },
     "solana": {
-      "parts": 0.5720708180567435
+      "parts": 1.3669141045011308
+    },
+    "ripple": {
+      "parts": 82.81076457617382
     }
   },
-  "frais_cumules": 13.4447,
+  "frais_cumules": 13.7642,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -47,13 +47,13 @@
     "allocations": {
       "bitcoin": 0.25,
       "ethereum": 0.15,
-      "binancecoin": 0.1,
-      "polkadot": 0.05,
-      "avalanche-2": 0.05,
-      "solana": 0.05
+      "solana": 0.12,
+      "ripple": 0.1,
+      "polkadot": 0.08,
+      "binancecoin": 0.05
     },
-    "cash": 0.35,
-    "regime": "neutre",
-    "commentaire": "Après un rallye mensuel soutenu, les grandes capitalisations consolident sur 24 heures sans rompre leur tendance de fond. Nous maintenons un volant de sécurité de 35 % de cash face aux prises de bénéfices court terme. L'allocation reste concentrée sur un socle défensif BTC/ETH tout en captant la force relative de BNB, DOT et AVAX."
+    "cash": 0.25,
+    "regime": "risk_on",
+    "commentaire": "La tendance haussière est nette et soutenue par un fort momentum mensuel sur les majeures et des flux de capitaux actifs vers les altcoins comme SOL et DOT. Une pondération structurée autour de BTC et ETH offre de la stabilité, complétée par les actifs leaders en momentum relatif. Une réserve de cash de 25 % est prudemment maintenue pour faire face aux consolidations post-rallye."
   }
 }

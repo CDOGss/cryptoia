@@ -1,27 +1,29 @@
-# 🪙 CryptoIA — rapport du 2026-09-08
+# 🪙 CryptoIA — rapport du 2026-09-09
 
 ## Tableau de bord
-- **NAV** : 1,179.87 $ (+17.99 % depuis le départ)
-- **Cash** : 415.31 $ | **Frais cumulés** : 13.44 $
-- **Buy & hold BTC** : +24.17 % | **Buy & hold panier** : +32.35 %
-- **Verdict** : ❌ BTC en buy & hold fait mieux (-6.18 points d'écart)
+- **NAV** : 1,193.35 $ (+19.33 % depuis le départ)
+- **Cash** : 329.24 $ | **Frais cumulés** : 13.76 $
+- **Buy & hold BTC** : +26.24 % | **Buy & hold panier** : +34.54 %
+- **Verdict** : ❌ BTC en buy & hold fait mieux (-6.91 points d'écart)
 
 ## Allocation actuelle
-- Bitcoin (BTC) : 24.4 % (288.12 $)
-- Ethereum (ETH) : 14.9 % (175.70 $)
-- BNB : 10.0 % (117.50 $)
-- Polkadot (DOT) : 5.5 % (64.97 $)
-- Avalanche (AVAX) : 5.0 % (59.33 $)
-- Solana (SOL) : 5.0 % (58.95 $)
-- Cash : 35.2 % (415.31 $)
+- Bitcoin (BTC) : 24.5 % (292.91 $)
+- Ethereum (ETH) : 15.0 % (178.46 $)
+- Solana (SOL) : 12.0 % (143.16 $)
+- XRP : 10.0 % (119.25 $)
+- Polkadot (DOT) : 5.9 % (70.66 $)
+- BNB : 5.0 % (59.68 $)
+- Cash : 27.6 % (329.24 $)
 
 ## Décision de l'IA aujourd'hui
-- **Régime perçu** : neutre
-- **Commentaire** : Après un rallye mensuel soutenu, les grandes capitalisations consolident sur 24 heures sans rompre leur tendance de fond. Nous maintenons un volant de sécurité de 35 % de cash face aux prises de bénéfices court terme. L'allocation reste concentrée sur un socle défensif BTC/ETH tout en captant la force relative de BNB, DOT et AVAX.
+- **Régime perçu** : risk_on
+- **Commentaire** : La tendance haussière est nette et soutenue par un fort momentum mensuel sur les majeures et des flux de capitaux actifs vers les altcoins comme SOL et DOT. Une pondération structurée autour de BTC et ETH offre de la stabilité, complétée par les actifs leaders en momentum relatif. Une réserve de cash de 25 % est prudemment maintenue pour faire face aux consolidations post-rallye.
 
 ## Ordres exécutés (rééquilibrage)
-- ACHAT Solana (SOL) — 59.01 $ (frais 0.06 $)
-- VENTE Chainlink (LINK) — 171.76 $ (frais 0.17 $)
+- VENTE BNB — 57.78 $ (frais 0.06 $)
+- VENTE Avalanche (AVAX) — 58.96 $ (frais 0.06 $)
+- ACHAT Solana (SOL) — 83.33 $ (frais 0.08 $)
+- ACHAT XRP — 119.37 $ (frais 0.12 $)
 
 ---
 *Marche à blanc, aucun argent réel. Rien ici ne constitue un conseil d'investissement.*
