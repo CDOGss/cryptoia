@@ -1,6 +1,6 @@
 {
   "capital_initial": 1000.0,
-  "cash": 329.2396723323219,
+  "cash": 526.2122486427511,
   "positions": {
     "ethereum": {
       "parts": 0.07108675763908284
@@ -8,20 +8,14 @@
     "bitcoin": {
       "parts": 0.003679895658017066
     },
-    "binancecoin": {
-      "parts": 0.07948676707878156
-    },
-    "polkadot": {
-      "parts": 59.878099492288015
-    },
     "solana": {
-      "parts": 1.3669141045011308
+      "parts": 0.8130594825712031
     },
-    "ripple": {
-      "parts": 82.81076457617382
+    "chainlink": {
+      "parts": 7.907083819284538
     }
   },
-  "frais_cumules": 13.7642,
+  "frais_cumules": 14.1462,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -47,13 +41,11 @@
     "allocations": {
       "bitcoin": 0.25,
       "ethereum": 0.15,
-      "solana": 0.12,
-      "ripple": 0.1,
-      "polkadot": 0.08,
-      "binancecoin": 0.05
+      "chainlink": 0.08,
+      "solana": 0.07
     },
-    "cash": 0.25,
-    "regime": "risk_on",
-    "commentaire": "La tendance haussière est nette et soutenue par un fort momentum mensuel sur les majeures et des flux de capitaux actifs vers les altcoins comme SOL et DOT. Une pondération structurée autour de BTC et ETH offre de la stabilité, complétée par les actifs leaders en momentum relatif. Une réserve de cash de 25 % est prudemment maintenue pour faire face aux consolidations post-rallye."
+    "cash": 0.45,
+    "regime": "neutre",
+    "commentaire": "Un repli généralisé sur 24h incite à la prudence malgré une tendance de fond mensuelle toujours constructive. Nous conservons 45 % de cash pour amortir la volatilité et concentrons l'exposition sur BTC et ETH, complétés par LINK et SOL qui affichent une force relative appréciable. Le portefeuille reste défensif en attendant des signaux de rebond stabilisés."
   }
 }
