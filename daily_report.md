@@ -1,28 +1,27 @@
-# 🪙 CryptoIA — rapport du 2026-09-10
+# 🪙 CryptoIA — rapport du 2026-09-11
 
 ## Tableau de bord
-- **NAV** : 1,155.21 $ (+15.52 % depuis le départ)
-- **Cash** : 526.21 $ | **Frais cumulés** : 14.15 $
-- **Buy & hold BTC** : +22.11 % | **Buy & hold panier** : +27.52 %
-- **Verdict** : ❌ BTC en buy & hold fait mieux (-6.59 points d'écart)
+- **NAV** : 1,162.34 $ (+16.23 % depuis le départ)
+- **Cash** : 501.11 $ | **Frais cumulés** : 14.35 $
+- **Buy & hold BTC** : +23.07 % | **Buy & hold panier** : +28.09 %
+- **Verdict** : ❌ BTC en buy & hold fait mieux (-6.84 points d'écart)
 
 ## Allocation actuelle
-- Bitcoin (BTC) : 24.5 % (283.33 $)
-- Ethereum (ETH) : 14.9 % (172.42 $)
-- Chainlink (LINK) : 8.0 % (92.35 $)
-- Solana (SOL) : 7.0 % (80.89 $)
-- Cash : 45.6 % (526.21 $)
+- Bitcoin (BTC) : 24.6 % (285.55 $)
+- Ethereum (ETH) : 15.3 % (177.41 $)
+- Solana (SOL) : 7.1 % (82.12 $)
+- Polkadot (DOT) : 5.0 % (58.07 $)
+- BNB : 5.0 % (58.07 $)
+- Cash : 43.1 % (501.11 $)
 
 ## Décision de l'IA aujourd'hui
 - **Régime perçu** : neutre
-- **Commentaire** : Un repli généralisé sur 24h incite à la prudence malgré une tendance de fond mensuelle toujours constructive. Nous conservons 45 % de cash pour amortir la volatilité et concentrons l'exposition sur BTC et ETH, complétés par LINK et SOL qui affichent une force relative appréciable. Le portefeuille reste défensif en attendant des signaux de rebond stabilisés.
+- **Commentaire** : Après une phase de consolidation hebdomadaire marquée, le marché esquisse un rebond technique sur 24 heures mené par Ethereum et BNB. La tendance de fond à 30 jours reste porteuse, mais la prudence impose de conserver 40 % de liquidités face aux signaux encore mitigés à court terme. Le portefeuille reste équilibré autour de Bitcoin et d'Ethereum, complété par des positions satellites sur les actifs montrant la meilleure force relative.
 
 ## Ordres exécutés (rééquilibrage)
-- VENTE BNB — 56.24 $ (frais 0.06 $)
-- VENTE XRP — 112.62 $ (frais 0.11 $)
-- ACHAT Chainlink (LINK) — 92.45 $ (frais 0.09 $)
-- VENTE Solana (SOL) — 55.10 $ (frais 0.06 $)
-- VENTE Polkadot (DOT) — 65.75 $ (frais 0.07 $)
+- VENTE Chainlink (LINK) — 91.25 $ (frais 0.09 $)
+- ACHAT Polkadot (DOT) — 58.13 $ (frais 0.06 $)
+- ACHAT BNB — 58.13 $ (frais 0.06 $)
 
 ---
 *Marche à blanc, aucun argent réel. Rien ici ne constitue un conseil d'investissement.*

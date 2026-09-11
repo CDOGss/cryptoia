@@ -1,6 +1,6 @@
 {
   "capital_initial": 1000.0,
-  "cash": 526.2122486427511,
+  "cash": 501.1141870262243,
   "positions": {
     "ethereum": {
       "parts": 0.07108675763908284
@@ -11,11 +11,14 @@
     "solana": {
       "parts": 0.8130594825712031
     },
-    "chainlink": {
-      "parts": 7.907083819284538
+    "polkadot": {
+      "parts": 52.98280409792523
+    },
+    "binancecoin": {
+      "parts": 0.08044824650373508
     }
   },
-  "frais_cumules": 14.1462,
+  "frais_cumules": 14.3536,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -41,11 +44,12 @@
     "allocations": {
       "bitcoin": 0.25,
       "ethereum": 0.15,
-      "chainlink": 0.08,
-      "solana": 0.07
+      "solana": 0.1,
+      "binancecoin": 0.05,
+      "polkadot": 0.05
     },
-    "cash": 0.45,
+    "cash": 0.4,
     "regime": "neutre",
-    "commentaire": "Un repli généralisé sur 24h incite à la prudence malgré une tendance de fond mensuelle toujours constructive. Nous conservons 45 % de cash pour amortir la volatilité et concentrons l'exposition sur BTC et ETH, complétés par LINK et SOL qui affichent une force relative appréciable. Le portefeuille reste défensif en attendant des signaux de rebond stabilisés."
+    "commentaire": "Après une phase de consolidation hebdomadaire marquée, le marché esquisse un rebond technique sur 24 heures mené par Ethereum et BNB. La tendance de fond à 30 jours reste porteuse, mais la prudence impose de conserver 40 % de liquidités face aux signaux encore mitigés à court terme. Le portefeuille reste équilibré autour de Bitcoin et d'Ethereum, complété par des positions satellites sur les actifs montrant la meilleure force relative."
   }
 }
