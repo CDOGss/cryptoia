@@ -1,27 +1,26 @@
-# 🪙 CryptoIA — rapport du 2026-09-11
+# 🪙 CryptoIA — rapport du 2026-09-12
 
 ## Tableau de bord
-- **NAV** : 1,162.34 $ (+16.23 % depuis le départ)
-- **Cash** : 501.11 $ | **Frais cumulés** : 14.35 $
-- **Buy & hold BTC** : +23.07 % | **Buy & hold panier** : +28.09 %
-- **Verdict** : ❌ BTC en buy & hold fait mieux (-6.84 points d'écart)
+- **NAV** : 1,163.28 $ (+16.33 % depuis le départ)
+- **Cash** : 355.29 $ | **Frais cumulés** : 14.73 $
+- **Buy & hold BTC** : +22.66 % | **Buy & hold panier** : +28.24 %
+- **Verdict** : ❌ BTC en buy & hold fait mieux (-6.33 points d'écart)
 
 ## Allocation actuelle
-- Bitcoin (BTC) : 24.6 % (285.55 $)
-- Ethereum (ETH) : 15.3 % (177.41 $)
-- Solana (SOL) : 7.1 % (82.12 $)
-- Polkadot (DOT) : 5.0 % (58.07 $)
-- BNB : 5.0 % (58.07 $)
-- Cash : 43.1 % (501.11 $)
+- Ethereum (ETH) : 30.0 % (348.93 $)
+- Bitcoin (BTC) : 24.5 % (284.61 $)
+- Solana (SOL) : 15.0 % (174.46 $)
+- Cash : 30.5 % (355.29 $)
 
 ## Décision de l'IA aujourd'hui
 - **Régime perçu** : neutre
-- **Commentaire** : Après une phase de consolidation hebdomadaire marquée, le marché esquisse un rebond technique sur 24 heures mené par Ethereum et BNB. La tendance de fond à 30 jours reste porteuse, mais la prudence impose de conserver 40 % de liquidités face aux signaux encore mitigés à court terme. Le portefeuille reste équilibré autour de Bitcoin et d'Ethereum, complété par des positions satellites sur les actifs montrant la meilleure force relative.
+- **Commentaire** : La tendance mensuelle demeure solidement haussière mais le repli hebdomadaire sur la majorité des actifs appelle à la tempérance. Ethereum et Solana affichent la meilleure force relative sur les horizons récents et constituent le cœur de l'exposition. Une poche de liquidités de 30 % est conservée pour préserver la flexibilité du portefeuille face à d'éventuels soubresauts de volatilité.
 
 ## Ordres exécutés (rééquilibrage)
-- VENTE Chainlink (LINK) — 91.25 $ (frais 0.09 $)
-- ACHAT Polkadot (DOT) — 58.13 $ (frais 0.06 $)
-- ACHAT BNB — 58.13 $ (frais 0.06 $)
+- ACHAT Ethereum (ETH) — 168.92 $ (frais 0.17 $)
+- ACHAT Solana (SOL) — 91.48 $ (frais 0.09 $)
+- VENTE BNB — 59.26 $ (frais 0.06 $)
+- VENTE Polkadot (DOT) — 55.42 $ (frais 0.06 $)
 
 ---
 *Marche à blanc, aucun argent réel. Rien ici ne constitue un conseil d'investissement.*

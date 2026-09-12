@@ -1,24 +1,18 @@
 {
   "capital_initial": 1000.0,
-  "cash": 501.1141870262243,
+  "cash": 355.2877204871718,
   "positions": {
     "ethereum": {
-      "parts": 0.07108675763908284
+      "parts": 0.13766497285006413
     },
     "bitcoin": {
       "parts": 0.003679895658017066
     },
     "solana": {
-      "parts": 0.8130594825712031
-    },
-    "polkadot": {
-      "parts": 52.98280409792523
-    },
-    "binancecoin": {
-      "parts": 0.08044824650373508
+      "parts": 1.7075118929401492
     }
   },
-  "frais_cumules": 14.3536,
+  "frais_cumules": 14.7287,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -42,14 +36,12 @@
   },
   "derniere_decision": {
     "allocations": {
+      "ethereum": 0.3,
       "bitcoin": 0.25,
-      "ethereum": 0.15,
-      "solana": 0.1,
-      "binancecoin": 0.05,
-      "polkadot": 0.05
+      "solana": 0.15
     },
-    "cash": 0.4,
+    "cash": 0.3,
     "regime": "neutre",
-    "commentaire": "Après une phase de consolidation hebdomadaire marquée, le marché esquisse un rebond technique sur 24 heures mené par Ethereum et BNB. La tendance de fond à 30 jours reste porteuse, mais la prudence impose de conserver 40 % de liquidités face aux signaux encore mitigés à court terme. Le portefeuille reste équilibré autour de Bitcoin et d'Ethereum, complété par des positions satellites sur les actifs montrant la meilleure force relative."
+    "commentaire": "La tendance mensuelle demeure solidement haussière mais le repli hebdomadaire sur la majorité des actifs appelle à la tempérance. Ethereum et Solana affichent la meilleure force relative sur les horizons récents et constituent le cœur de l'exposition. Une poche de liquidités de 30 % est conservée pour préserver la flexibilité du portefeuille face à d'éventuels soubresauts de volatilité."
   }
 }
