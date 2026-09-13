@@ -1,18 +1,18 @@
 {
   "capital_initial": 1000.0,
-  "cash": 355.2877204871718,
+  "cash": 579.149338531328,
   "positions": {
     "ethereum": {
-      "parts": 0.13766497285006413
+      "parts": 0.0927788484473125
     },
     "bitcoin": {
       "parts": 0.003679895658017066
     },
     "solana": {
-      "parts": 1.7075118929401492
+      "parts": 0.5758319182386085
     }
   },
-  "frais_cumules": 14.7287,
+  "frais_cumules": 14.9528,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -36,12 +36,12 @@
   },
   "derniere_decision": {
     "allocations": {
-      "ethereum": 0.3,
       "bitcoin": 0.25,
-      "solana": 0.15
+      "ethereum": 0.2,
+      "solana": 0.05
     },
-    "cash": 0.3,
+    "cash": 0.5,
     "regime": "neutre",
-    "commentaire": "La tendance mensuelle demeure solidement haussière mais le repli hebdomadaire sur la majorité des actifs appelle à la tempérance. Ethereum et Solana affichent la meilleure force relative sur les horizons récents et constituent le cœur de l'exposition. Une poche de liquidités de 30 % est conservée pour préserver la flexibilité du portefeuille face à d'éventuels soubresauts de volatilité."
+    "commentaire": "Phase de respiration normale après un fort mois de hausse, marquée par un repli hebdomadaire quasi généralisé. Une posture prudente avec 50 % de cash est privilégiée pour naviguer la consolidation, tout en conservant une exposition stratégique sur BTC et ETH qui conservent la meilleure tenue relative."
   }
 }
