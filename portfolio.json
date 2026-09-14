@@ -1,6 +1,6 @@
 {
   "capital_initial": 1000.0,
-  "cash": 579.149338531328,
+  "cash": 463.3335448844182,
   "positions": {
     "ethereum": {
       "parts": 0.0927788484473125
@@ -10,9 +10,12 @@
     },
     "solana": {
       "parts": 0.5758319182386085
+    },
+    "ripple": {
+      "parts": 82.6428413237592
     }
   },
-  "frais_cumules": 14.9528,
+  "frais_cumules": 15.0686,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -38,10 +41,11 @@
     "allocations": {
       "bitcoin": 0.25,
       "ethereum": 0.2,
+      "ripple": 0.1,
       "solana": 0.05
     },
-    "cash": 0.5,
+    "cash": 0.4,
     "regime": "neutre",
-    "commentaire": "Phase de respiration normale après un fort mois de hausse, marquée par un repli hebdomadaire quasi généralisé. Une posture prudente avec 50 % de cash est privilégiée pour naviguer la consolidation, tout en conservant une exposition stratégique sur BTC et ETH qui conservent la meilleure tenue relative."
+    "commentaire": "Après une phase de respiration hebdomadaire sur un marché haussier à 30 jours, un rebond technique s'amorce sur 24 heures via BTC et XRP. Nous adoptons une posture neutre et prudente en maintenant 40 % de cash pour amortir d'éventuelles rechutes. L'exposition résiduelle privilégie les grandes capitalisations affichant la meilleure résilience relative (BTC, ETH, XRP, SOL)."
   }
 }
