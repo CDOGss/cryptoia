@@ -1,24 +1,24 @@
-# 🪙 CryptoIA — rapport du 2026-09-14
+# 🪙 CryptoIA — rapport du 2026-09-15
 
 ## Tableau de bord
-- **NAV** : 1,158.04 $ (+15.80 % depuis le départ)
-- **Cash** : 463.33 $ | **Frais cumulés** : 15.07 $
-- **Buy & hold BTC** : +24.39 % | **Buy & hold panier** : +27.24 %
-- **Verdict** : ❌ BTC en buy & hold fait mieux (-8.59 points d'écart)
+- **NAV** : 1,152.46 $ (+15.25 % depuis le départ)
+- **Cash** : 406.22 $ | **Frais cumulés** : 15.13 $
+- **Buy & hold BTC** : +21.96 % | **Buy & hold panier** : +26.99 %
+- **Verdict** : ❌ BTC en buy & hold fait mieux (-6.71 points d'écart)
 
 ## Allocation actuelle
-- Bitcoin (BTC) : 24.9 % (288.62 $)
-- Ethereum (ETH) : 20.0 % (231.93 $)
-- XRP : 10.0 % (115.70 $)
-- Solana (SOL) : 5.0 % (58.46 $)
-- Cash : 40.0 % (463.33 $)
+- Bitcoin (BTC) : 24.6 % (282.99 $)
+- Ethereum (ETH) : 19.9 % (229.88 $)
+- XRP : 10.3 % (118.18 $)
+- Solana (SOL) : 10.0 % (115.19 $)
+- Cash : 35.2 % (406.22 $)
 
 ## Décision de l'IA aujourd'hui
 - **Régime perçu** : neutre
-- **Commentaire** : Après une phase de respiration hebdomadaire sur un marché haussier à 30 jours, un rebond technique s'amorce sur 24 heures via BTC et XRP. Nous adoptons une posture neutre et prudente en maintenant 40 % de cash pour amortir d'éventuelles rechutes. L'exposition résiduelle privilégie les grandes capitalisations affichant la meilleure résilience relative (BTC, ETH, XRP, SOL).
+- **Commentaire** : Le marché temporise après un mois très haussier, marqué par une consolidation modérée sur 7 jours. Une part de liquidité de 35 % est conservée par prudence, tout en surpondérant les actifs résilients comme ETH et XRP aux côtés du socle Bitcoin.
 
 ## Ordres exécutés (rééquilibrage)
-- ACHAT XRP — 115.82 $ (frais 0.12 $)
+- ACHAT Solana (SOL) — 57.12 $ (frais 0.06 $)
 
 ---
 *Marche à blanc, aucun argent réel. Rien ici ne constitue un conseil d'investissement.*
