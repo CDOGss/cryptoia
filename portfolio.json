@@ -1,21 +1,18 @@
 {
   "capital_initial": 1000.0,
-  "cash": 406.2176138575898,
+  "cash": 505.5714410734478,
   "positions": {
     "ethereum": {
-      "parts": 0.0927788484473125
+      "parts": 0.07028278715414996
     },
     "bitcoin": {
-      "parts": 0.003679895658017066
+      "parts": 0.0044532569822025286
     },
-    "solana": {
-      "parts": 1.14099450833173
-    },
-    "ripple": {
-      "parts": 82.6428413237592
+    "binancecoin": {
+      "parts": 0.15782460798258427
     }
   },
-  "frais_cumules": 15.1257,
+  "frais_cumules": 15.5674,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -39,13 +36,12 @@
   },
   "derniere_decision": {
     "allocations": {
-      "bitcoin": 0.25,
-      "ethereum": 0.2,
-      "ripple": 0.1,
-      "solana": 0.1
+      "bitcoin": 0.3,
+      "ethereum": 0.15,
+      "binancecoin": 0.1
     },
-    "cash": 0.35,
+    "cash": 0.45,
     "regime": "neutre",
-    "commentaire": "Le marché temporise après un mois très haussier, marqué par une consolidation modérée sur 7 jours. Une part de liquidité de 35 % est conservée par prudence, tout en surpondérant les actifs résilients comme ETH et XRP aux côtés du socle Bitcoin."
+    "commentaire": "Le marché traverse une phase de correction nette sur les horizons 24h et 7 jours, bien que la tendance mensuelle reste constructive. Face à ce repli généralisé et à la volatilité accrue sur les altcoins, nous adoptons une position défensive avec 45 % de cash. L'exposition restante est concentrée sur les grandes capitalisations les plus résilientes, à savoir BTC, ETH et BNB."
   }
 }
