@@ -1,9 +1,9 @@
 {
   "capital_initial": 1000.0,
-  "cash": 338.7511779752844,
+  "cash": 223.16513745174166,
   "positions": {
     "ethereum": {
-      "parts": 0.0923786989484855
+      "parts": 0.069295570841208
     },
     "bitcoin": {
       "parts": 0.0037008814695073237
@@ -13,9 +13,15 @@
     },
     "solana": {
       "parts": 1.6915981284559805
+    },
+    "avalanche-2": {
+      "parts": 14.40378981268421
+    },
+    "polkadot": {
+      "parts": 50.60278789456164
     }
   },
-  "frais_cumules": 15.8494,
+  "frais_cumules": 16.0803,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -40,12 +46,14 @@
   "derniere_decision": {
     "allocations": {
       "bitcoin": 0.25,
-      "ethereum": 0.2,
+      "ethereum": 0.15,
       "solana": 0.15,
-      "binancecoin": 0.1
+      "binancecoin": 0.1,
+      "avalanche-2": 0.1,
+      "polkadot": 0.05
     },
-    "cash": 0.3,
-    "regime": "neutre",
-    "commentaire": "Le marché affiche un rebond technique prometteur sur 24 heures après une phase de consolidation hebdomadaire saine au sein d'un cycle mensuel très haussier. Nous maintenons 30 % de cash par prudence pour absorber d'éventuels retours de volatilité tout en concentrant l'exposition sur les piliers les plus solides (BTC, ETH, SOL, BNB)."
+    "cash": 0.2,
+    "regime": "risk_on",
+    "commentaire": "La dynamique globale est nettement haussière avec une surperformance marquée des altcoins à fort bêta (SOL, AVAX, DOT) par rapport à BTC et ETH. Nous adoptons une posture résolument 'risk-on' diversifiée pour capter cette rotation de flux, tout en maintenant 20 % de cash par prudence après l'extension haussière des 30 derniers jours."
   }
 }
