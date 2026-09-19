@@ -1,6 +1,6 @@
 {
   "capital_initial": 1000.0,
-  "cash": 223.16513745174166,
+  "cash": 160.43752738957286,
   "positions": {
     "ethereum": {
       "parts": 0.069295570841208
@@ -9,7 +9,7 @@
       "parts": 0.0037008814695073237
     },
     "binancecoin": {
-      "parts": 0.15782460798258427
+      "parts": 0.07848507748441239
     },
     "solana": {
       "parts": 1.6915981284559805
@@ -17,11 +17,14 @@
     "avalanche-2": {
       "parts": 14.40378981268421
     },
-    "polkadot": {
-      "parts": 50.60278789456164
+    "ripple": {
+      "parts": 84.14398109885872
+    },
+    "chainlink": {
+      "parts": 4.820748917122113
     }
   },
-  "frais_cumules": 16.0803,
+  "frais_cumules": 16.379,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -48,12 +51,13 @@
       "bitcoin": 0.25,
       "ethereum": 0.15,
       "solana": 0.15,
-      "binancecoin": 0.1,
       "avalanche-2": 0.1,
-      "polkadot": 0.05
+      "ripple": 0.1,
+      "chainlink": 0.05,
+      "binancecoin": 0.05
     },
-    "cash": 0.2,
+    "cash": 0.15,
     "regime": "risk_on",
-    "commentaire": "La dynamique globale est nettement haussière avec une surperformance marquée des altcoins à fort bêta (SOL, AVAX, DOT) par rapport à BTC et ETH. Nous adoptons une posture résolument 'risk-on' diversifiée pour capter cette rotation de flux, tout en maintenant 20 % de cash par prudence après l'extension haussière des 30 derniers jours."
+    "commentaire": "L'ensemble de l'univers affiche une progression positive synchronisée sur 24h, 7j et 30j, justifiant une exposition offensive orientée vers les leaders de momentum comme SOL et AVAX, tout en gardant BTC et ETH comme piliers. Une réserve de cash de 15 % est maintenue par prudence face à de possibles prises de bénéfices après les fortes hausses récentes."
   }
 }
