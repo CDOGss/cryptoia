@@ -1,15 +1,15 @@
 {
   "capital_initial": 1000.0,
-  "cash": 160.43752738957286,
+  "cash": 331.7019964526286,
   "positions": {
     "ethereum": {
-      "parts": 0.069295570841208
+      "parts": 0.023315681420787417
     },
     "bitcoin": {
       "parts": 0.0037008814695073237
     },
     "binancecoin": {
-      "parts": 0.07848507748441239
+      "parts": 0.1597330373727512
     },
     "solana": {
       "parts": 1.6915981284559805
@@ -17,14 +17,11 @@
     "avalanche-2": {
       "parts": 14.40378981268421
     },
-    "ripple": {
-      "parts": 84.14398109885872
-    },
-    "chainlink": {
-      "parts": 4.820748917122113
+    "polkadot": {
+      "parts": 54.611590147041106
     }
   },
-  "frais_cumules": 16.379,
+  "frais_cumules": 16.793,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -49,15 +46,14 @@
   "derniere_decision": {
     "allocations": {
       "bitcoin": 0.25,
-      "ethereum": 0.15,
+      "avalanche-2": 0.15,
       "solana": 0.15,
-      "avalanche-2": 0.1,
-      "ripple": 0.1,
-      "chainlink": 0.05,
-      "binancecoin": 0.05
+      "binancecoin": 0.1,
+      "ethereum": 0.05,
+      "polkadot": 0.05
     },
-    "cash": 0.15,
-    "regime": "risk_on",
-    "commentaire": "L'ensemble de l'univers affiche une progression positive synchronisée sur 24h, 7j et 30j, justifiant une exposition offensive orientée vers les leaders de momentum comme SOL et AVAX, tout en gardant BTC et ETH comme piliers. Une réserve de cash de 15 % est maintenue par prudence face à de possibles prises de bénéfices après les fortes hausses récentes."
+    "cash": 0.25,
+    "regime": "neutre",
+    "commentaire": "Malgré un repli généralisé sur 24h justifiant un coussin de cash de 25 %, la dynamique hebdomadaire et mensuelle demeure porteuse. L'allocation privilégie la stabilité du Bitcoin comme ancre, tout en captant la surperformance remarquable d'Avalanche et la solidité de Solana et BNB."
   }
 }
