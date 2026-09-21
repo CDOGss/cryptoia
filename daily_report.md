@@ -1,30 +1,29 @@
-# 🪙 CryptoIA — rapport du 2026-09-20
+# 🪙 CryptoIA — rapport du 2026-09-21
 
 ## Tableau de bord
-- **NAV** : 1,201.15 $ (+20.12 % depuis le départ)
-- **Cash** : 331.70 $ | **Frais cumulés** : 16.79 $
-- **Buy & hold BTC** : +27.54 % | **Buy & hold panier** : +36.57 %
-- **Verdict** : ❌ BTC en buy & hold fait mieux (-7.42 points d'écart)
+- **NAV** : 1,267.12 $ (+26.71 % depuis le départ)
+- **Cash** : 144.84 $ | **Frais cumulés** : 17.11 $
+- **Buy & hold BTC** : +36.31 % | **Buy & hold panier** : +48.07 %
+- **Verdict** : ❌ BTC en buy & hold fait mieux (-9.60 points d'écart)
 
 ## Allocation actuelle
-- Bitcoin (BTC) : 24.8 % (297.62 $)
-- Solana (SOL) : 15.2 % (183.13 $)
-- Avalanche (AVAX) : 12.4 % (148.50 $)
-- BNB : 10.0 % (120.10 $)
-- Ethereum (ETH) : 5.0 % (60.08 $)
-- Polkadot (DOT) : 5.0 % (60.02 $)
-- Cash : 27.6 % (331.70 $)
+- Bitcoin (BTC) : 30.0 % (380.17 $)
+- Solana (SOL) : 15.8 % (200.12 $)
+- Ethereum (ETH) : 15.0 % (189.99 $)
+- Avalanche (AVAX) : 12.7 % (161.03 $)
+- BNB : 10.1 % (127.66 $)
+- Chainlink (LINK) : 5.0 % (63.31 $)
+- Cash : 11.4 % (144.84 $)
 
 ## Décision de l'IA aujourd'hui
-- **Régime perçu** : neutre
-- **Commentaire** : Malgré un repli généralisé sur 24h justifiant un coussin de cash de 25 %, la dynamique hebdomadaire et mensuelle demeure porteuse. L'allocation privilégie la stabilité du Bitcoin comme ancre, tout en captant la surperformance remarquable d'Avalanche et la solidité de Solana et BNB.
+- **Régime perçu** : risk_on
+- **Commentaire** : La configuration de marché est nettement favorable avec une poussée haussière généralisée menée par le Bitcoin et relayée par les altcoins majeurs. Nous exploitons le momentum haussier fort de Solana, Avalanche et BNB tout en ancrant le portefeuille sur BTC et ETH. Une réserve de cash de 15 % est conservée pour parer au risque d'essoufflement à court terme après ces gains rapides.
 
 ## Ordres exécutés (rééquilibrage)
-- VENTE XRP — 116.12 $ (frais 0.12 $)
-- VENTE Ethereum (ETH) — 118.48 $ (frais 0.12 $)
-- ACHAT Polkadot (DOT) — 60.08 $ (frais 0.06 $)
-- VENTE Chainlink (LINK) — 58.19 $ (frais 0.06 $)
-- ACHAT BNB — 61.15 $ (frais 0.06 $)
+- ACHAT Chainlink (LINK) — 63.37 $ (frais 0.06 $)
+- ACHAT Ethereum (ETH) — 126.25 $ (frais 0.13 $)
+- ACHAT Bitcoin (BTC) — 62.16 $ (frais 0.06 $)
+- VENTE Polkadot (DOT) — 64.99 $ (frais 0.07 $)
 
 ---
 *Marche à blanc, aucun argent réel. Rien ici ne constitue un conseil d'investissement.*

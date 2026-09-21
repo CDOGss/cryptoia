@@ -1,12 +1,12 @@
 {
   "capital_initial": 1000.0,
-  "cash": 331.7019964526286,
+  "cash": 144.84395723817283,
   "positions": {
     "ethereum": {
-      "parts": 0.023315681420787417
+      "parts": 0.06936087774656183
     },
     "bitcoin": {
-      "parts": 0.0037008814695073237
+      "parts": 0.004423394633406453
     },
     "binancecoin": {
       "parts": 0.1597330373727512
@@ -17,11 +17,11 @@
     "avalanche-2": {
       "parts": 14.40378981268421
     },
-    "polkadot": {
-      "parts": 54.611590147041106
+    "chainlink": {
+      "parts": 4.866136042918535
     }
   },
-  "frais_cumules": 16.793,
+  "frais_cumules": 17.1099,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -45,15 +45,15 @@
   },
   "derniere_decision": {
     "allocations": {
-      "bitcoin": 0.25,
-      "avalanche-2": 0.15,
+      "bitcoin": 0.3,
+      "ethereum": 0.15,
       "solana": 0.15,
+      "avalanche-2": 0.1,
       "binancecoin": 0.1,
-      "ethereum": 0.05,
-      "polkadot": 0.05
+      "chainlink": 0.05
     },
-    "cash": 0.25,
-    "regime": "neutre",
-    "commentaire": "Malgré un repli généralisé sur 24h justifiant un coussin de cash de 25 %, la dynamique hebdomadaire et mensuelle demeure porteuse. L'allocation privilégie la stabilité du Bitcoin comme ancre, tout en captant la surperformance remarquable d'Avalanche et la solidité de Solana et BNB."
+    "cash": 0.15,
+    "regime": "risk_on",
+    "commentaire": "La configuration de marché est nettement favorable avec une poussée haussière généralisée menée par le Bitcoin et relayée par les altcoins majeurs. Nous exploitons le momentum haussier fort de Solana, Avalanche et BNB tout en ancrant le portefeuille sur BTC et ETH. Une réserve de cash de 15 % est conservée pour parer au risque d'essoufflement à court terme après ces gains rapides."
   }
 }
