@@ -1,9 +1,9 @@
 {
   "capital_initial": 1000.0,
-  "cash": 144.84395723817283,
+  "cash": 240.63393672243902,
   "positions": {
     "ethereum": {
-      "parts": 0.06936087774656183
+      "parts": 0.09168270105882043
     },
     "bitcoin": {
       "parts": 0.004423394633406453
@@ -14,14 +14,11 @@
     "solana": {
       "parts": 1.6915981284559805
     },
-    "avalanche-2": {
-      "parts": 14.40378981268421
-    },
     "chainlink": {
       "parts": 4.866136042918535
     }
   },
-  "frais_cumules": 17.1099,
+  "frais_cumules": 17.3288,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -46,14 +43,13 @@
   "derniere_decision": {
     "allocations": {
       "bitcoin": 0.3,
-      "ethereum": 0.15,
+      "ethereum": 0.2,
       "solana": 0.15,
-      "avalanche-2": 0.1,
       "binancecoin": 0.1,
       "chainlink": 0.05
     },
-    "cash": 0.15,
+    "cash": 0.2,
     "regime": "risk_on",
-    "commentaire": "La configuration de marché est nettement favorable avec une poussée haussière généralisée menée par le Bitcoin et relayée par les altcoins majeurs. Nous exploitons le momentum haussier fort de Solana, Avalanche et BNB tout en ancrant le portefeuille sur BTC et ETH. Une réserve de cash de 15 % est conservée pour parer au risque d'essoufflement à court terme après ces gains rapides."
+    "commentaire": "La tendance de fond est nettement haussière avec une impulsion hebdomadaire supérieure à 10 % sur l'ensemble du panier. Nous surpondérons les valeurs maîtresses BTC et ETH tout en intégrant SOL et LINK pour capter le momentum des altcoins majeurs. Une poche de 20 % en cash est préservée afin de gérer le risque d'essoufflement à très court terme après une extension rapide des cours."
   }
 }
