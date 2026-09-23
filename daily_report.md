@@ -1,26 +1,30 @@
-# 🪙 CryptoIA — rapport du 2026-09-22
+# 🪙 CryptoIA — rapport du 2026-09-23
 
 ## Tableau de bord
-- **NAV** : 1,261.54 $ (+26.15 % depuis le départ)
-- **Cash** : 240.63 $ | **Frais cumulés** : 17.33 $
-- **Buy & hold BTC** : +36.38 % | **Buy & hold panier** : +48.94 %
-- **Verdict** : ❌ BTC en buy & hold fait mieux (-10.23 points d'écart)
+- **NAV** : 1,252.41 $ (+25.24 % depuis le départ)
+- **Cash** : 303.11 $ | **Frais cumulés** : 17.89 $
+- **Buy & hold BTC** : +35.81 % | **Buy & hold panier** : +47.35 %
+- **Verdict** : ❌ BTC en buy & hold fait mieux (-10.57 points d'écart)
 
 ## Allocation actuelle
-- Bitcoin (BTC) : 30.2 % (380.37 $)
-- Ethereum (ETH) : 20.0 % (252.29 $)
-- Solana (SOL) : 15.7 % (198.61 $)
-- BNB : 10.0 % (126.18 $)
-- Chainlink (LINK) : 5.0 % (63.45 $)
-- Cash : 19.1 % (240.63 $)
+- Bitcoin (BTC) : 25.0 % (313.24 $)
+- Solana (SOL) : 15.8 % (197.76 $)
+- Ethereum (ETH) : 15.0 % (187.95 $)
+- Avalanche (AVAX) : 10.0 % (125.17 $)
+- XRP : 10.0 % (125.17 $)
+- Cash : 24.2 % (303.11 $)
 
 ## Décision de l'IA aujourd'hui
 - **Régime perçu** : risk_on
-- **Commentaire** : La tendance de fond est nettement haussière avec une impulsion hebdomadaire supérieure à 10 % sur l'ensemble du panier. Nous surpondérons les valeurs maîtresses BTC et ETH tout en intégrant SOL et LINK pour capter le momentum des altcoins majeurs. Une poche de 20 % en cash est préservée afin de gérer le risque d'essoufflement à très court terme après une extension rapide des cours.
+- **Commentaire** : Le marché bénéficie d'une solide impulsion haussière hebdomadaire et mensuelle, actuellement tempérée par une légère consolidation sur 24 heures. Nous accompagnons cette dynamique en nous exposant aux actifs moteurs (BTC, ETH, SOL, XRP, AVAX) sans dépasser le plafond de concentration. Une poche de liquidité de 25 % est préservée par prudence pour gérer la volatilité post-extension.
 
 ## Ordres exécutés (rééquilibrage)
-- VENTE Avalanche (AVAX) — 157.43 $ (frais 0.16 $)
-- ACHAT Ethereum (ETH) — 61.49 $ (frais 0.06 $)
+- VENTE Chainlink (LINK) — 61.85 $ (frais 0.06 $)
+- VENTE Bitcoin (BTC) — 65.55 $ (frais 0.07 $)
+- VENTE BNB — 124.79 $ (frais 0.12 $)
+- VENTE Ethereum (ETH) — 61.20 $ (frais 0.06 $)
+- ACHAT Avalanche (AVAX) — 125.30 $ (frais 0.13 $)
+- ACHAT XRP — 125.30 $ (frais 0.13 $)
 
 ---
 *Marche à blanc, aucun argent réel. Rien ici ne constitue un conseil d'investissement.*

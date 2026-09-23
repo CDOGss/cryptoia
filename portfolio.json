@@ -1,24 +1,24 @@
 {
   "capital_initial": 1000.0,
-  "cash": 240.63393672243902,
+  "cash": 303.1095286769098,
   "positions": {
     "ethereum": {
-      "parts": 0.09168270105882043
+      "parts": 0.06916265612218515
     },
     "bitcoin": {
-      "parts": 0.004423394633406453
-    },
-    "binancecoin": {
-      "parts": 0.1597330373727512
+      "parts": 0.0036579195228661284
     },
     "solana": {
       "parts": 1.6915981284559805
     },
-    "chainlink": {
-      "parts": 4.866136042918535
+    "avalanche-2": {
+      "parts": 11.753203310448711
+    },
+    "ripple": {
+      "parts": 79.22254130144226
     }
   },
-  "frais_cumules": 17.3288,
+  "frais_cumules": 17.8928,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -42,14 +42,14 @@
   },
   "derniere_decision": {
     "allocations": {
-      "bitcoin": 0.3,
-      "ethereum": 0.2,
+      "bitcoin": 0.25,
+      "ethereum": 0.15,
       "solana": 0.15,
-      "binancecoin": 0.1,
-      "chainlink": 0.05
+      "ripple": 0.1,
+      "avalanche-2": 0.1
     },
-    "cash": 0.2,
+    "cash": 0.25,
     "regime": "risk_on",
-    "commentaire": "La tendance de fond est nettement haussière avec une impulsion hebdomadaire supérieure à 10 % sur l'ensemble du panier. Nous surpondérons les valeurs maîtresses BTC et ETH tout en intégrant SOL et LINK pour capter le momentum des altcoins majeurs. Une poche de 20 % en cash est préservée afin de gérer le risque d'essoufflement à très court terme après une extension rapide des cours."
+    "commentaire": "Le marché bénéficie d'une solide impulsion haussière hebdomadaire et mensuelle, actuellement tempérée par une légère consolidation sur 24 heures. Nous accompagnons cette dynamique en nous exposant aux actifs moteurs (BTC, ETH, SOL, XRP, AVAX) sans dépasser le plafond de concentration. Une poche de liquidité de 25 % est préservée par prudence pour gérer la volatilité post-extension."
   }
 }
