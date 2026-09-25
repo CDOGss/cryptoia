@@ -61,24 +61,53 @@ def valeur_benchmark(pf: dict, marche: dict[str, dict], nom: str) -> float:
                if actif_id in marche)
 
 
-# --- Rééquilibrage vers la cible décidée par l'IA -------------------------------
+# --- Cible : socle buy & hold + satellite piloté par l'IA -----------------------
 
-def rééquilibrer(pf: dict, marche: dict[str, dict], decision: dict) -> list[dict]:
-    """Ajuste les positions vers l'allocation cible. Renvoie la liste des ordres
-    exécutés (pour le rapport). Applique des frais simulés sur chaque ordre."""
+def cible_finale(decision: dict | None, poids_socle: float) -> dict[str, float]:
+    """Poids cibles par actif : `poids_socle` réparti à parts égales sur l'univers,
+    le reste selon l'allocation de l'IA (sa part de cash reste en cash). Sans
+    décision IA, le satellite reste en cash."""
+    socle = poids_socle / len(config.UNIVERS)
+    cible = {actif_id: socle for actif_id in config.UNIVERS} if poids_socle > 0 else {}
+    for actif_id, poids in (decision or {}).get("allocations", {}).items():
+        cible[actif_id] = cible.get(actif_id, 0.0) + (1 - poids_socle) * poids
+    return {k: v for k, v in cible.items() if v > 0}
+
+
+def ecart_total(pf: dict, marche: dict[str, dict], cible: dict[str, float]) -> float:
+    """Part du portefeuille à échanger pour atteindre la cible (0 → 1)."""
     valeur_totale = nav(pf, marche)
-    cibles_usd = {actif_id: poids * valeur_totale
-                  for actif_id, poids in decision["allocations"].items()}
+    if not valeur_totale:
+        return 0.0
+    ids = set(pf["positions"]) | set(cible)
+    somme = sum(abs(cible.get(a, 0.0) * valeur_totale
+                    - pf["positions"].get(a, {}).get("parts", 0.0) * marche[a]["prix"])
+                for a in ids if a in marche)
+    return somme / valeur_totale / 2
+
+
+# --- Rééquilibrage vers la cible ---------------------------------------------------
+
+def rééquilibrer(pf: dict, marche: dict[str, dict], cible: dict[str, float]) -> list[dict]:
+    """Ajuste les positions vers les poids cibles. Renvoie la liste des ordres
+    exécutés (pour le rapport). Applique des frais simulés sur chaque ordre.
+    Les ventes passent avant les achats pour ne jamais rendre le cash négatif."""
+    valeur_totale = nav(pf, marche)
+    cibles_usd = {actif_id: poids * valeur_totale for actif_id, poids in cible.items()}
+
+    def delta(a):
+        prix = marche.get(a, {}).get("prix")
+        return (cibles_usd.get(a, 0.0) - pf["positions"].get(a, {}).get("parts", 0.0) * prix) if prix else 0.0
 
     ordres = []
-    for actif_id in set(pf["positions"]) | set(cibles_usd):
+    for actif_id in sorted(set(pf["positions"]) | set(cibles_usd), key=delta):
         prix = marche.get(actif_id, {}).get("prix")
         if prix is None:
             continue
         valeur_actuelle = pf["positions"].get(actif_id, {}).get("parts", 0.0) * prix
         valeur_cible = cibles_usd.get(actif_id, 0.0)
         ecart_pts = abs(valeur_cible - valeur_actuelle) / valeur_totale if valeur_totale else 0
-        if ecart_pts < config.SEUIL_REEQUILIBRAGE_PTS:
+        if ecart_pts < config.SEUIL_ORDRE_PTS and valeur_cible > 0:
             continue
         delta_usd = valeur_cible - valeur_actuelle
         if abs(delta_usd) < config.SEUIL_ORDRE_USD:
@@ -88,6 +117,8 @@ def rééquilibrer(pf: dict, marche: dict[str, dict], decision: dict) -> list[di
         sens = "achat" if delta_usd > 0 else "vente"
 
         if sens == "achat":
+            delta_usd = min(delta_usd, pf["cash"])  # jamais de découvert (frais des ventes)
+            frais = delta_usd * config.FRAIS_PCT / 100
             montant_net = delta_usd - frais  # les frais réduisent ce qu'on achète réellement
             if montant_net <= 0:
                 continue
@@ -100,7 +131,7 @@ def rééquilibrer(pf: dict, marche: dict[str, dict], decision: dict) -> list[di
 
         pf["positions"].setdefault(actif_id, {"parts": 0.0})
         pf["positions"][actif_id]["parts"] += parts_delta
-        if abs(pf["positions"][actif_id]["parts"]) < 1e-12:
+        if abs(pf["positions"][actif_id]["parts"]) * prix < 0.01:
             del pf["positions"][actif_id]
         pf["frais_cumules"] = round(pf["frais_cumules"] + frais, 4)
 

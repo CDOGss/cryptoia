@@ -37,3 +37,26 @@ def snapshot_marche() -> dict[str, dict]:
     if manquants:
         raise RuntimeError(f"Actifs absents de la réponse CoinGecko : {manquants}")
     return data
+
+
+def tendance_btc(prix_actuel: float) -> dict | None:
+    """Filtre de tendance : BTC au-dessus (haussier) ou sous (baissier) sa moyenne
+    mobile 200 jours. None si l'historique est indisponible."""
+    try:
+        r = requests.get(
+            f"{config.COINGECKO_API}/coins/{config.ACTIF_BENCHMARK}/market_chart",
+            params={"vs_currency": "usd", "days": config.JOURS_MOYENNE_TENDANCE,
+                    "interval": "daily"},
+            timeout=_TIMEOUT,
+            headers={"Accept": "application/json"},
+        )
+        r.raise_for_status()
+        closes = [p[1] for p in r.json()["prices"]][-config.JOURS_MOYENNE_TENDANCE:]
+    except Exception as e:  # noqa: BLE001 — pas de filtre plutôt qu'un plantage
+        print(f"⚠️ Historique BTC indisponible : {e}")
+        return None
+    if len(closes) < config.JOURS_MOYENNE_TENDANCE * 0.9:
+        return None
+    mm = sum(closes) / len(closes)
+    return {"haussiere": prix_actuel >= mm, "mm200": round(mm, 2),
+            "ecart_pct": round(100 * (prix_actuel / mm - 1), 2)}

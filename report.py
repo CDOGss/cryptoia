@@ -61,7 +61,8 @@ def tracer_graphique(hist: list[dict]) -> None:
     plt.close(fig)
 
 
-def ecrire_rapport(m: dict, decision: dict | None, ordres: list[dict]) -> None:
+def ecrire_rapport(m: dict, decision: dict | None, ordres: list[dict],
+                   contexte: list[str] | None = None) -> None:
     lignes = [f"# 🪙 CryptoIA — rapport du {m['date']}", ""]
 
     alpha = m.get("alpha_vs_btc_pts")
@@ -79,6 +80,7 @@ def ecrire_rapport(m: dict, decision: dict | None, ordres: list[dict]) -> None:
             f"- **Buy & hold BTC** : {m['buy_hold_btc']['perf_pct']:+.2f} % "
             f"| **Buy & hold panier** : {m['buy_hold_panier']['perf_pct']:+.2f} %")
         lignes.append(f"- **Verdict** : {verdict} ({alpha:+.2f} points d'écart)")
+    lignes += [f"- {c}" for c in (contexte or [])]
     lignes.append("")
 
     if m["positions"]:
@@ -90,7 +92,7 @@ def ecrire_rapport(m: dict, decision: dict | None, ordres: list[dict]) -> None:
         lignes.append("")
 
     if decision:
-        lignes += ["## Décision de l'IA aujourd'hui",
+        lignes += ["## Décision de l'IA (sa part du portefeuille)",
                    f"- **Régime perçu** : {decision['regime']}",
                    f"- **Commentaire** : {decision['commentaire']}", ""]
 
@@ -102,7 +104,7 @@ def ecrire_rapport(m: dict, decision: dict | None, ordres: list[dict]) -> None:
                           f"(frais {o['frais_usd']:.2f} $)")
         lignes.append("")
     else:
-        lignes.append("*Aucun rééquilibrage aujourd'hui (écarts sous le seuil).*\n")
+        lignes.append("*Aucun ordre aujourd'hui.*\n")
 
     lignes += ["---", "*Marche à blanc, aucun argent réel. Rien ici ne constitue un "
                "conseil d'investissement.*"]

@@ -37,6 +37,15 @@ en France par l'ANJ.
 3. **Rééquilibrage** — le portefeuille virtuel est ajusté vers cette cible, avec
    des frais simulés (0,10 % par ordre, comparable à une plateforme régulée), et
    un seuil pour éviter de repayer des frais sur des écarts négligeables.
+   **Règles depuis le 25/09/2026** (bilan juil.→sept. : +25 % contre +47 % pour le
+   panier, à cause d'un rééquilibrage quotidien trop coûteux et de 25–30 % de cash
+   en marché haussier) :
+   - **Socle 70 %** investi à parts égales sur l'univers ; l'IA ne pilote que les
+     30 % restants (cash compris) tant que BTC est au-dessus de sa moyenne 200 j.
+   - **Tendance baissière** (BTC sous sa moyenne 200 j) : le socle est libéré et
+     l'IA gère 100 % du portefeuille, cash autorisé.
+   - **Rééquilibrage hebdomadaire** (ou immédiat si la tendance change), seulement
+     si l'écart total à la cible dépasse **10 points**.
 4. **Comparaison** — chaque jour, on mesure la performance du portefeuille IA
    contre les deux benchmarks buy & hold.
 

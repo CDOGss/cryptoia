@@ -14,8 +14,8 @@ import re
 import config
 
 _SYSTEME = """Tu es un gérant de portefeuille crypto discipliné et prudent. Chaque
-jour, tu répartis un portefeuille virtuel entre un panier de cryptos majeures et le
-cash (USD), pour la journée à venir.
+semaine, tu répartis un portefeuille virtuel entre un panier de cryptos majeures et le
+cash (USD), pour la semaine à venir.
 
 Règles :
 - Tu peux allouer de 0 % à 100 % du portefeuille par actif, le reste en cash.
@@ -58,9 +58,11 @@ def _extraire_json(texte: str) -> dict | None:
     return None
 
 
-def decider_allocation(marche: dict[str, dict]) -> dict | None:
+def decider_allocation(marche: dict[str, dict], part_ia: float = 1.0,
+                       tendance: dict | None = None) -> dict | None:
     """Renvoie {allocations: {id: poids}, cash, regime, commentaire} ou None si
-    l'IA est indisponible."""
+    l'IA est indisponible. Les poids portent sur la part pilotée par l'IA
+    (`part_ia` du portefeuille), pas sur le portefeuille entier."""
     if not config.GEMINI_API_KEY:
         print("⚠️ GEMINI_API_KEY absente : impossible de décider.")
         return None
@@ -76,7 +78,25 @@ def decider_allocation(marche: dict[str, dict]) -> dict | None:
         f"| 24h {infos['var_24h']:+.1f}% | 7j {infos['var_7j']:+.1f}% | 30j {infos['var_30j']:+.1f}%"
         for actif_id, infos in marche.items()
     )
+    if tendance:
+        txt_tendance = (f"Bitcoin est {'AU-DESSUS' if tendance['haussiere'] else 'SOUS'} sa "
+                        f"moyenne mobile 200 jours ({tendance['ecart_pct']:+.1f} %) : tendance "
+                        f"de fond {'HAUSSIÈRE' if tendance['haussiere'] else 'BAISSIÈRE'}.")
+    else:
+        txt_tendance = "Tendance de fond indisponible aujourd'hui."
+    if part_ia < 1.0:
+        txt_part = (f"Tu pilotes {part_ia:.0%} du portefeuille ; le reste est un socle investi "
+                    "à parts égales sur tout l'univers, que tu ne contrôles pas. Tes poids "
+                    "portent sur TA part uniquement (100 % = toute ta part). En tendance "
+                    "haussière, rester en cash coûte cher : ne le fais que sur un signal net.")
+    else:
+        txt_part = ("Tendance baissière : tu pilotes 100 % du portefeuille et le cash est "
+                    "ta protection principale.")
     prompt = f"""DATE DU JOUR : {datetime.date.today().isoformat()}
+
+TENDANCE DE FOND : {txt_tendance}
+TON PÉRIMÈTRE : {txt_part}
+Le portefeuille n'est rééquilibré qu'une fois par semaine : raisonne à cet horizon.
 
 UNIVERS ET MOMENTUM DU JOUR :
 {lignes}
