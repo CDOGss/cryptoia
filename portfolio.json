@@ -1,24 +1,39 @@
 {
   "capital_initial": 1000.0,
-  "cash": 303.1095286769098,
+  "cash": 18.50693886053685,
   "positions": {
     "ethereum": {
-      "parts": 0.06916265612218515
+      "parts": 0.053202424206070645
     },
     "bitcoin": {
-      "parts": 0.0036579195228661284
+      "parts": 0.0021548987254626875
     },
     "solana": {
-      "parts": 1.6915981284559805
+      "parts": 1.3568518121209507
     },
     "avalanche-2": {
-      "parts": 11.753203310448711
+      "parts": 15.506819638901842
     },
     "ripple": {
-      "parts": 79.22254130144226
+      "parts": 54.70461200214563
+    },
+    "polkadot": {
+      "parts": 73.47886707918452
+    },
+    "dogecoin": {
+      "parts": 891.2430111530891
+    },
+    "cardano": {
+      "parts": 341.1501423056919
+    },
+    "binancecoin": {
+      "parts": 0.1127965064812043
+    },
+    "chainlink": {
+      "parts": 10.217011745363138
     }
   },
-  "frais_cumules": 17.8928,
+  "frais_cumules": 18.6749,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -43,13 +58,21 @@
   "derniere_decision": {
     "allocations": {
       "bitcoin": 0.25,
+      "solana": 0.2,
+      "avalanche-2": 0.2,
       "ethereum": 0.15,
-      "solana": 0.15,
-      "ripple": 0.1,
-      "avalanche-2": 0.1
+      "chainlink": 0.15
     },
-    "cash": 0.25,
+    "cash": 0.05,
     "regime": "risk_on",
-    "commentaire": "Le marché bénéficie d'une solide impulsion haussière hebdomadaire et mensuelle, actuellement tempérée par une légère consolidation sur 24 heures. Nous accompagnons cette dynamique en nous exposant aux actifs moteurs (BTC, ETH, SOL, XRP, AVAX) sans dépasser le plafond de concentration. Une poche de liquidité de 25 % est préservée par prudence pour gérer la volatilité post-extension."
-  }
+    "commentaire": "Avec un Bitcoin solidement ancré au-dessus de sa MM200 et un momentum généralisé, l'environnement justifie un déploiement offensif du capital. L'allocation surpondère les leaders relatifs à forte dynamique (AVAX, SOL, LINK) tout en conservant un socle défensif via BTC et ETH. Une part résiduelle de 5 % en cash est maintenue pour absorber d'éventuels à-coups de volatilité hebdomadaire."
+  },
+  "tendance_haussiere": true,
+  "tendance": {
+    "haussiere": true,
+    "mm200": 70918.28,
+    "ecart_pct": 18.64
+  },
+  "dernier_reequilibrage": "2026-09-25",
+  "regles": "socle-v1"
 }
