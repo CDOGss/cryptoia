@@ -57,22 +57,23 @@
   },
   "derniere_decision": {
     "allocations": {
-      "bitcoin": 0.25,
-      "solana": 0.2,
-      "avalanche-2": 0.2,
+      "bitcoin": 0.3,
       "ethereum": 0.15,
-      "chainlink": 0.15
+      "solana": 0.15,
+      "avalanche-2": 0.15,
+      "chainlink": 0.1,
+      "polkadot": 0.1
     },
     "cash": 0.05,
     "regime": "risk_on",
-    "commentaire": "Avec un Bitcoin solidement ancré au-dessus de sa MM200 et un momentum généralisé, l'environnement justifie un déploiement offensif du capital. L'allocation surpondère les leaders relatifs à forte dynamique (AVAX, SOL, LINK) tout en conservant un socle défensif via BTC et ETH. Une part résiduelle de 5 % en cash est maintenue pour absorber d'éventuels à-coups de volatilité hebdomadaire."
+    "commentaire": "La tendance de fond reste résolument haussière avec un Bitcoin installé plus de 20 % au-dessus de sa MM200. Le portefeuille exploite le fort momentum relatif des L1 et de l'infrastructure (AVAX, SOL, DOT, LINK) tout en maintenant BTC en ancre principale à 30 %. Une réserve minime de 5 % en cash est conservée par prudence tactique face à la volatilité hebdomadaire."
   },
   "tendance_haussiere": true,
   "tendance": {
     "haussiere": true,
-    "mm200": 71310.72,
-    "ecart_pct": 18.06
+    "mm200": 71370.3,
+    "ecart_pct": 20.43
   },
-  "dernier_reequilibrage": "2026-09-25",
+  "dernier_reequilibrage": "2026-10-02",
   "regles": "socle-v1"
 }
