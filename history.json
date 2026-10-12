@@ -593,5 +593,12 @@
     "perf_totale_pct": 19.09,
     "perf_btc_pct": 31.76,
     "perf_panier_pct": 42.02
+  },
+  {
+    "date": "2026-10-12",
+    "nav": 1174.2,
+    "perf_totale_pct": 17.42,
+    "perf_btc_pct": 30.68,
+    "perf_panier_pct": 39.8
   }
 ]
