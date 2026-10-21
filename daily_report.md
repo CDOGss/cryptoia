@@ -1,25 +1,25 @@
-# 🪙 CryptoIA — rapport du 2026-10-20
+# 🪙 CryptoIA — rapport du 2026-10-21
 
 ## Tableau de bord
-- **NAV** : 1,112.79 $ (+11.28 % depuis le départ)
+- **NAV** : 1,144.37 $ (+14.44 % depuis le départ)
 - **Cash** : 18.51 $ | **Frais cumulés** : 18.67 $
-- **Buy & hold BTC** : +29.02 % | **Buy & hold panier** : +31.91 %
-- **Verdict** : ❌ BTC en buy & hold fait mieux (-17.74 points d'écart)
-- **Tendance de fond** : haussière (BTC +12.0 % vs moyenne 200 j) — socle 70% / IA 30%
+- **Buy & hold BTC** : +32.39 % | **Buy & hold panier** : +35.84 %
+- **Verdict** : ❌ BTC en buy & hold fait mieux (-17.95 points d'écart)
+- **Tendance de fond** : haussière (BTC +14.8 % vs moyenne 200 j) — socle 70% / IA 30%
 - **Prochain rééquilibrage** : 2026-10-23 (hebdomadaire)
 
 ## Allocation actuelle
-- Bitcoin (BTC) : 15.8 % (175.31 $)
-- Avalanche (AVAX) : 13.2 % (146.54 $)
-- Solana (SOL) : 12.7 % (141.51 $)
-- Ethereum (ETH) : 11.4 % (127.18 $)
-- Chainlink (LINK) : 11.0 % (121.99 $)
-- Polkadot (DOT) : 7.5 % (83.77 $)
-- BNB : 7.4 % (82.40 $)
-- Cardano (ADA) : 6.6 % (73.84 $)
-- XRP : 6.4 % (71.12 $)
-- Dogecoin (DOGE) : 6.3 % (70.63 $)
-- Cash : 1.7 % (18.51 $)
+- Bitcoin (BTC) : 15.7 % (179.89 $)
+- Avalanche (AVAX) : 13.1 % (149.95 $)
+- Solana (SOL) : 12.6 % (144.69 $)
+- Ethereum (ETH) : 11.5 % (131.17 $)
+- Chainlink (LINK) : 11.1 % (126.59 $)
+- Polkadot (DOT) : 7.4 % (85.24 $)
+- BNB : 7.3 % (83.97 $)
+- Cardano (ADA) : 6.7 % (76.86 $)
+- XRP : 6.5 % (74.40 $)
+- Dogecoin (DOGE) : 6.4 % (73.11 $)
+- Cash : 1.6 % (18.51 $)
 
 *Aucun ordre aujourd'hui.*
 
