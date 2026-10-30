@@ -1,18 +1,18 @@
 {
   "capital_initial": 1000.0,
-  "cash": 18.50693886053685,
+  "cash": 106.60235564354083,
   "positions": {
     "ethereum": {
       "parts": 0.053202424206070645
     },
     "bitcoin": {
-      "parts": 0.0021548987254626875
+      "parts": 0.002322657157619918
     },
     "solana": {
-      "parts": 1.3568518121209507
+      "parts": 0.758489363615303
     },
     "avalanche-2": {
-      "parts": 15.506819638901842
+      "parts": 8.62758805047238
     },
     "ripple": {
       "parts": 54.70461200214563
@@ -27,13 +27,13 @@
       "parts": 341.1501423056919
     },
     "binancecoin": {
-      "parts": 0.1127965064812043
+      "parts": 0.1905505917961095
     },
     "chainlink": {
-      "parts": 10.217011745363138
+      "parts": 6.445452818984766
     }
   },
-  "frais_cumules": 18.6749,
+  "frais_cumules": 18.8976,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -58,21 +58,19 @@
   "derniere_decision": {
     "allocations": {
       "bitcoin": 0.35,
-      "solana": 0.2,
-      "avalanche-2": 0.15,
-      "cardano": 0.1,
-      "chainlink": 0.1
+      "binancecoin": 0.2,
+      "ethereum": 0.15
     },
-    "cash": 0.1,
-    "regime": "risk_on",
-    "commentaire": "La tendance de fond reste résolument haussière avec un Bitcoin à +15,3 % au-dessus de sa MM200, rendant l'exposition actions prioritaire. La purge hebdomadaire offre un point d'entrée intéressant sur les actifs conservant un solide momentum mensuel (BTC, SOL, AVAX, ADA, LINK). Une poche de cash réduite de 10 % est conservée pour parer à la volatilité à court terme."
+    "cash": 0.3,
+    "regime": "neutre",
+    "commentaire": "Bien que le Bitcoin demeure au-dessus de sa moyenne mobile 200 jours (+5,4 %), le momentum à court et moyen terme s'est nettement dégradé sur l'ensemble de l'univers. Nous adoptons une posture neutre en maintenant 30 % de cash pour se prémunir d'une cassure de support majeur. L'exposition résiduelle est concentrée sur les actifs affichant la meilleure force relative, en premier lieu BTC et BNB, complétés par ETH."
   },
   "tendance_haussiere": true,
   "tendance": {
     "haussiere": true,
-    "mm200": 73123.8,
-    "ecart_pct": 11.13
+    "mm200": 73119.42,
+    "ecart_pct": 5.4
   },
-  "dernier_reequilibrage": "2026-10-23",
+  "dernier_reequilibrage": "2026-10-30",
   "regles": "socle-v1"
 }
