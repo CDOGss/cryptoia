@@ -57,20 +57,22 @@
   },
   "derniere_decision": {
     "allocations": {
-      "bitcoin": 0.35,
+      "bitcoin": 0.3,
       "binancecoin": 0.2,
-      "ethereum": 0.15
+      "ethereum": 0.15,
+      "avalanche-2": 0.1,
+      "chainlink": 0.05
     },
-    "cash": 0.3,
+    "cash": 0.2,
     "regime": "neutre",
-    "commentaire": "Bien que le Bitcoin demeure au-dessus de sa moyenne mobile 200 jours (+5,4 %), le momentum à court et moyen terme s'est nettement dégradé sur l'ensemble de l'univers. Nous adoptons une posture neutre en maintenant 30 % de cash pour se prémunir d'une cassure de support majeur. L'exposition résiduelle est concentrée sur les actifs affichant la meilleure force relative, en premier lieu BTC et BNB, complétés par ETH."
+    "commentaire": "Le Bitcoin préservant sa MM200 (+3,4 %), nous maintenons une exposition constructive tout en restant vigilants face à la faiblesse du momentum mensuel. Le portefeuille surpondère les actifs faisant preuve de la meilleure force relative récente (BTC, BNB, ETH et AVAX). Une réserve de cash de 20 % est conservée pour amortir une éventuelle cassure du support macro."
   },
   "tendance_haussiere": true,
   "tendance": {
     "haussiere": true,
-    "mm200": 73201.32,
-    "ecart_pct": 4.89
+    "mm200": 73196.89,
+    "ecart_pct": 3.44
   },
-  "dernier_reequilibrage": "2026-10-30",
+  "dernier_reequilibrage": "2026-11-06",
   "regles": "socle-v1"
 }
