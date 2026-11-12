@@ -1,39 +1,15 @@
 {
   "capital_initial": 1000.0,
-  "cash": 106.60235564354083,
+  "cash": 793.1855432557606,
   "positions": {
-    "ethereum": {
-      "parts": 0.053202424206070645
-    },
     "bitcoin": {
-      "parts": 0.002322657157619918
-    },
-    "solana": {
-      "parts": 0.758489363615303
-    },
-    "avalanche-2": {
-      "parts": 8.62758805047238
-    },
-    "ripple": {
-      "parts": 54.70461200214563
-    },
-    "polkadot": {
-      "parts": 73.47886707918452
-    },
-    "dogecoin": {
-      "parts": 891.2430111530891
-    },
-    "cardano": {
-      "parts": 341.1501423056919
+      "parts": 0.0013069069967171147
     },
     "binancecoin": {
-      "parts": 0.1905505917961095
-    },
-    "chainlink": {
-      "parts": 6.445452818984766
+      "parts": 0.07132793769160829
     }
   },
-  "frais_cumules": 18.8976,
+  "frais_cumules": 19.585,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -57,22 +33,19 @@
   },
   "derniere_decision": {
     "allocations": {
-      "bitcoin": 0.3,
-      "binancecoin": 0.2,
-      "ethereum": 0.15,
-      "avalanche-2": 0.1,
-      "chainlink": 0.05
+      "bitcoin": 0.1,
+      "binancecoin": 0.05
     },
-    "cash": 0.2,
-    "regime": "neutre",
-    "commentaire": "Le Bitcoin préservant sa MM200 (+3,4 %), nous maintenons une exposition constructive tout en restant vigilants face à la faiblesse du momentum mensuel. Le portefeuille surpondère les actifs faisant preuve de la meilleure force relative récente (BTC, BNB, ETH et AVAX). Une réserve de cash de 20 % est conservée pour amortir une éventuelle cassure du support macro."
+    "cash": 0.85,
+    "regime": "risk_off",
+    "commentaire": "Face à la rupture de la moyenne mobile 200 jours par le Bitcoin et à un momentum négatif généralisé sur l'ensemble du marché, la préservation du capital devient la priorité absolue. Nous coupons massivement l'exposition au risque pour porter le cash à 85 %. L'allocation résiduelle de 15 % est cantonnée aux actifs les plus résilients, Bitcoin et BNB, dans l'attente d'une stabilisation technique."
   },
-  "tendance_haussiere": true,
+  "tendance_haussiere": false,
   "tendance": {
-    "haussiere": true,
-    "mm200": 73125.14,
-    "ecart_pct": 1.23
+    "haussiere": false,
+    "mm200": 73089.18,
+    "ecart_pct": -2.22
   },
-  "dernier_reequilibrage": "2026-11-06",
+  "dernier_reequilibrage": "2026-11-12",
   "regles": "socle-v1"
 }
