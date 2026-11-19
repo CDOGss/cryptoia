@@ -33,19 +33,21 @@
   },
   "derniere_decision": {
     "allocations": {
-      "bitcoin": 0.1,
-      "binancecoin": 0.05
+      "bitcoin": 0.08,
+      "binancecoin": 0.04,
+      "ripple": 0.04,
+      "chainlink": 0.04
     },
-    "cash": 0.85,
+    "cash": 0.8,
     "regime": "risk_off",
-    "commentaire": "Face à la rupture de la moyenne mobile 200 jours par le Bitcoin et à un momentum négatif généralisé sur l'ensemble du marché, la préservation du capital devient la priorité absolue. Nous coupons massivement l'exposition au risque pour porter le cash à 85 %. L'allocation résiduelle de 15 % est cantonnée aux actifs les plus résilients, Bitcoin et BNB, dans l'attente d'une stabilisation technique."
+    "commentaire": "Le marché reste en tendance baissière nette avec un Bitcoin à -14,2 % sous sa MM200, des sorties sur les ETF et des craintes de hausse des taux de la Fed en décembre, imposant une posture très défensive à 80 % en cash. Les 20 % investis ciblent uniquement les actifs démontrant la meilleure résistance relative sur 7 et 30 jours (BTC, BNB, XRP, LINK) afin de limiter le risque tout en restant exposé à un éventuel rebond technique depuis la zone de survente."
   },
   "tendance_haussiere": false,
   "tendance": {
     "haussiere": false,
-    "mm200": 72726.28,
-    "ecart_pct": -13.75
+    "mm200": 72646.54,
+    "ecart_pct": -14.23
   },
-  "dernier_reequilibrage": "2026-11-12",
+  "dernier_reequilibrage": "2026-11-19",
   "regles": "socle-v1"
 }
