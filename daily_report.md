@@ -1,16 +1,16 @@
-# 🪙 CryptoIA — rapport du 2026-11-22
+# 🪙 CryptoIA — rapport du 2026-11-23
 
 ## Tableau de bord
-- **NAV** : 912.62 $ (-8.74 % depuis le départ)
+- **NAV** : 913.11 $ (-8.69 % depuis le départ)
 - **Cash** : 793.19 $ | **Frais cumulés** : 19.59 $
-- **Buy & hold BTC** : -3.33 % | **Buy & hold panier** : -7.51 %
-- **Verdict** : ❌ BTC en buy & hold fait mieux (-5.41 points d'écart)
-- **Tendance de fond** : baissière (BTC -15.7 % vs moyenne 200 j) — socle 0% / IA 100%
+- **Buy & hold BTC** : -2.87 % | **Buy & hold panier** : -5.69 %
+- **Verdict** : ❌ BTC en buy & hold fait mieux (-5.82 points d'écart)
+- **Tendance de fond** : baissière (BTC -15.2 % vs moyenne 200 j) — socle 0% / IA 100%
 - **Prochain rééquilibrage** : 2026-11-26 (hebdomadaire)
 
 ## Allocation actuelle
-- Bitcoin (BTC) : 8.7 % (79.66 $)
-- BNB : 4.4 % (39.78 $)
+- Bitcoin (BTC) : 8.8 % (80.04 $)
+- BNB : 4.4 % (39.88 $)
 - Cash : 86.9 % (793.19 $)
 
 *Aucun ordre aujourd'hui.*

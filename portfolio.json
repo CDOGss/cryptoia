@@ -45,8 +45,8 @@
   "tendance_haussiere": false,
   "tendance": {
     "haussiere": false,
-    "mm200": 72333.3,
-    "ecart_pct": -15.73
+    "mm200": 72240.53,
+    "ecart_pct": -15.22
   },
   "dernier_reequilibrage": "2026-11-19",
   "regles": "socle-v1"
