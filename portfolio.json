@@ -1,15 +1,18 @@
 {
   "capital_initial": 1000.0,
-  "cash": 793.1855432557606,
+  "cash": 683.6487365836222,
   "positions": {
     "bitcoin": {
-      "parts": 0.0013069069967171147
+      "parts": 0.0015072477629192243
     },
-    "binancecoin": {
-      "parts": 0.07132793769160829
+    "ripple": {
+      "parts": 47.80839916011013
+    },
+    "chainlink": {
+      "parts": 9.866441542724361
     }
   },
-  "frais_cumules": 19.585,
+  "frais_cumules": 19.7733,
   "benchmarks": {
     "buy_hold_btc": {
       "parts": {
@@ -33,21 +36,20 @@
   },
   "derniere_decision": {
     "allocations": {
-      "bitcoin": 0.08,
-      "binancecoin": 0.04,
-      "ripple": 0.04,
-      "chainlink": 0.04
+      "bitcoin": 0.1,
+      "chainlink": 0.1,
+      "ripple": 0.05
     },
-    "cash": 0.8,
+    "cash": 0.75,
     "regime": "risk_off",
-    "commentaire": "Le marché reste en tendance baissière nette avec un Bitcoin à -14,2 % sous sa MM200, des sorties sur les ETF et des craintes de hausse des taux de la Fed en décembre, imposant une posture très défensive à 80 % en cash. Les 20 % investis ciblent uniquement les actifs démontrant la meilleure résistance relative sur 7 et 30 jours (BTC, BNB, XRP, LINK) afin de limiter le risque tout en restant exposé à un éventuel rebond technique depuis la zone de survente."
+    "commentaire": "Tendance de fond baissière confirmée avec un Bitcoin à -15,9 % sous sa MM200, des sorties record sur les ETF et un momentum 30 jours fortement négatif sur tout le panier. Je conserve 75 % en cash pour protéger le capital et limite l'exposition à 25 % sur les trois actifs présentant la meilleure résilience relative à 7 et 30 jours (LINK, seul positif sur 7j, BTC comme socle et XRP en complément tactique)."
   },
   "tendance_haussiere": false,
   "tendance": {
     "haussiere": false,
-    "mm200": 72032.3,
-    "ecart_pct": -17.42
+    "mm200": 71927.96,
+    "ecart_pct": -15.93
   },
-  "dernier_reequilibrage": "2026-11-19",
+  "dernier_reequilibrage": "2026-11-26",
   "regles": "socle-v1"
 }
